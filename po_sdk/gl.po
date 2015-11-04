@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Fondo da pantalla de inicio e de bloqueo cambiado."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Fondo de pantalla de bloqueo cambiado"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Cargando..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Fondo de pantalla de inicio cambiado"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d seleccionadas"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "Aceptar"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Activar"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Desactivar"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Non volver mostrar"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "O fondo de pantalla cambiará cada vez que desbloquees o dispositivo."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Non hai conexión de rede. Conéctate a unha rede Wi-Fi ou activa os datos móbiles e téntao de novo."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Define o teu dispositivo para amosar imaxes de alta calidade baseadas nos teus intereses na pantalla de bloqueo. Selecciona as túas categorías preferidas."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Descartaranse todos os cambios"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Intervalo de transición"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Activar Só Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Activar Servizo mellorado"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Desactivar Só Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Desactivar Servizo mellorado"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fondos de pantalla"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Imposible conectar"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Servizo mellorado"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Descartar cambios"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Pant.bloqu."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Pant.inicio"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Descartar"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Presentaci. diaposit."
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Os meus intereses"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galería"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Axustes"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "A conexión a través dunha rede móbil pode implicar a aplicación de tarifas adicionais en función do teu plan de pago"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Cada %d horas"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Cada 1 hora"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Seleccionar todo"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Tema da cor"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Fondos pant.prede."
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "O tema de cor cambiarase para adaptalo ao teu fondo de pantalla seleccionado. Para definir o tema de cor manualmente, vai a Axustes > Tema de cor."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Fondo pant. viaxe"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "FEITO"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "CANCELAR"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Houbo un erro de rede. Inténtao máis tarde."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Se desactivas este servizo, eliminaranse as túas preferencias  e isto pode afectar á calidade do servizo prestado."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Paleta de cores"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Editar"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Superouse o número máximo de imaxes (%d)"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "O fondo de pantalla cambiará cada %d horas mentres esteas conectado a través de rede Wi-Fi ou móbil."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "O fondo de pantalla cambiará cada %d horas mentres esteas conectado só a través de Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "O fondo de pantalla cambiará cada hora mentres esteas conectado a través de rede Wi-Fi ou móbil."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "O fondo de pantalla cambiará cada hora mentres esteas conectado só a través de Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "É posible que a recepción de imaxes de fondo de pantalla e información adicional a través de redes móbiles supoña a aplicación de tarifas adicionais. É recomendable usar redes Wi-Fi no seu lugar."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Descargaranse novas imaxes de fondo de pantalla para a categoría que acabas de seleccionar. Isto pode carrexar custos adicionais."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Tocar para previsualizar"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Hai %d imaxes seleccionadas"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Hai %d categorías seleccionadas"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Hai 1 categoría seleccionada"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Actualizar Os meus intereses"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Cambiar selección de categoría"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Non activar"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Descargar"
+

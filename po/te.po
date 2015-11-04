@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "ఎనేబుల్ చేయి"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "చిత్రాల గరిష్ట సంఖ్యను (%d) మించిపోయారు."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "హోమ్ మరియు  లాక్ స్క్రీన్ వాల్ పేపర్ మార్చబడింది"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "లాక్ స్క్రీన్ వాల్‌పేపర్ మారింది."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "లోడ్ అవుతోంది..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "హోమ్ స్క్రీన్ వాల్‌పేపర్ మారింది."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ఎంచుకోబడింది"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "సరే"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "నిలిపివేయి"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "మళ్లీ చూపవద్దు."
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "గేలరీ"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "డిఫాల్ట్ వాల్‌పేపర్‌లు"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "ప్రయాణ వాల్‌పేపర్"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "కలర్ థీమ్"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "మీ ఎంచుకున్న వాల్‌పేపర్‌ని సరిపోల్చడానికి రంగు థీమ్ మార్చబడుతుంది. రంగు థీమ్‌ని మాన్యువల్‌గా సెట్ చేయడానికి, సెట్టింగ్‌లు > రంగు థీమ్‌కు వెళ్లండి."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "సెట్టింగులు"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "స్లయిడ్ ప్రదర్శన"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "నా ఆసక్తులు"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "రంగు పాలెట్"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "మీరు పరికరాన్ని అన్‌లాక్ చేసిన ప్రతిసారి వాల్‌పేపర్ మారుతుంది."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "అన్నింటినీ ఎంచుకోండి"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "వాల్‌పేపర్‌లు"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "మార్పులను విస్మరించండి"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "అన్ని మార్పులు వదిలివెయబడుతాయి."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "రద్దు"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "విస్మరించు"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ప్రతి %d గంటలు"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "నెట్‌వర్క్ కనెక్షన్ లేదు. Wi-Fi నెట్‌వర్క్‌కి కనెక్ట్ చేసి లేదా మొబైల్ డేటాని ఆన్ చేసి, మళ్లీ ప్రయత్నించండి."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "మెరుగుపరచిన సేవ"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "అనుసంధానించడం సాధ్యం కాలేదు"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "మొబైల్ నెట్‌వర్క్ ద్వారా కనెక్ట్ చేస్తే మీ చెల్లింపు ప్రణాళిక పై ఆధారపడి అదనపు ఛార్జీలు వర్తించవచ్చు."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "మీకు మరింత మెరుగైన అనుభవాన్ని అందించడానికి, మేము మీ పరికర ఐడెంటిఫైయర్ మరియు ఎంచుకోబడిన వర్గాలు లేదా బట్వాడా చేయబడిన చిత్రాలకు ప్రాప్యతను కోరుతాము. మీరు మెరుగుపరచబడిన సేవను నిలిపివేయవచ్చు మరియు సెట్టింగ్‌ల మెను ద్వారా మీ ప్రాధాన్యతలను తొలగించవచ్చు."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "మీరు మెరుగుపరచబడిన సేవను నిలిపివేస్తే, మీ ప్రాధాన్యతలు తొలగించబడతాయి మరియు దీని వల్ల మీకు అందించే సేవ యొక్క నాణ్యత ప్రభావితం అవుతుంది."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "సవరించు"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "పూర్తయింది"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "రద్దు చేయి"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "లాక్ స్క్రీన్‌లో మీ ఆసక్తుల ఆధారంగా అధిక నాణ్యత గల చిత్రాలను చూపేలా మీ పరికరాన్ని సెట్ చేయండి. మీ ప్రాధాన్యత వర్గాలను ఎంచుకోండి."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "బదిలీ విరామం"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi మాత్రమే నిలిపివేయి"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi మాత్రమే ప్రారంభించు"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "మెరుగుపరచిన సేవను నిలిపివేయండి"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "మెరుగుపరచిన సేవను ప్రారంభించు"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "లాక్ స్క్రీన్"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "హోమ్ స్క్రీన్"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "నెట్‌వర్క్‌ లోపం ఏర్పడింది. తర్వాత ప్రయత్నించండి."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ప్రతి 1 గంట"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "ప్రారంభించవద్దు"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "మొబైల్ నెట్‌వర్క్‌ల ద్వారా వాల్‌పేపర్ ఇమేజ్‌లు మరియు అదనపు సమాచారాన్ని స్వీకరించడం వలన అదనపు ఛార్జీలు చెల్లించాల్సి ఉండవచ్చు. మీరు బదులుగా Wi-Fi నెట్‌వర్క్‌లను ఉపయోగించాలని సిఫార్సు చేస్తున్నాము."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "నా ఆసక్తలను అప్‌డేట్ చేయండి"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "వర్గం ఎంపికను మార్చండి"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "మీరు ఇప్పుడు ఎంచుకున్న వర్గానికి కొత్త వాల్‌పేపర్ ఇమేజ్‌లు డౌన్‌లోడ్ చేయబడతాయి. దీని వల్ల అదనపు ఛార్జీలు చెల్లించాల్సి ఉండవచ్చు."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "డౌన్‌లోడ్ చేయి"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi మాత్రమే ద్వారా కనెక్ట్ చేయబడినప్పుడు ప్రతి గంటకు వాల్‌పేపర్ మారుతుంది."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi లేదా మొబైల్ నెట్‌వర్క్ ద్వారా కనెక్ట్ చేయబడినప్పుడు ప్రతి గంటకు వాల్‌పేపర్ మారుతుంది."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi మాత్రమే ద్వారా కనెక్ట్ చేయబడినప్పుడు ప్రతి %d గంటలకు వాల్‌పేపర్ మారుతుంది."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi లేదా మొబైల్ నెట్‌వర్క్ ద్వారా కనెక్ట్ చేయబడినప్పుడు ప్రతి %d గంటలకు వాల్‌పేపర్ మారుతుంది."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "పరిదృశ్యం కోసం ట్యాప్ చేయండి"
+

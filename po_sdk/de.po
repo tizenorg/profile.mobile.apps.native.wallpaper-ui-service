@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Das Hintergrundbild für den Start- und Sperrbildschirm wurde geändert."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Sperrbildschirmhintergrund geändert"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Lädt..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Hintergrund für Startbildschirm geändert"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ausgewählt"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Aktivieren"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Deaktivieren"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Nicht mehr anzeigen"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Der Hintergrund ändert sich jedes Mal, wenn Sie das Gerät entsperren."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Es besteht keine Netzwerkverbindung. Stellen Sie eine Verbindung mit einem WLAN-Netzwerk her oder schalten Sie mobile Daten ein und versuchen Sie es erneut."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Stellen Sie das Gerät so ein, dass Bilder hoher Qualität entsprechend Ihren Interessen auf dem Sperrbildschirm angezeigt werden. Wählen Sie Ihre bevorzugten Kategorien aus."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Alle Änderungen werden verworfen."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Übergangsintervall"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Nur WLAN aktivieren"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Erweiterten Dienst aktivieren"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Nur WLAN deaktivieren"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Erweiterten Dienst deaktivieren"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Hintergrund"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Verb. nicht mögl."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Erweiterter Dienst"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Änderungen verwerfen"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Sperrbilds."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Startbilds."
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Verwerfen"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Abbruch"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Diashow"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Meine Interessen"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Einstellungen"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Eine Verbindung über ein mobiles Netzwerk kann je nach Vertrag zusätzliche Kosten verursachen."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Alle %d Stunden"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Jede Stunde"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Alle auswählen"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Farben"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Standard-\nhintergr."
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Die Farben werden geändert, damit sie zum ausgewählten Hintergrundbild passen. Sie können die Farben auch unter „Einstellungen > Farben“ manuell festlegen."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Travel Wallpaper"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "FERTIG"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ABBRECHEN"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Netzfehler aufgetreten. Versuchen Sie es später."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Sollten Sie den optimierten Dienst deaktivieren, werden Ihre Einstellungen gelöscht. Dies kann die Qualität des angebotenen Dienstes beeinträchtigen."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Damit wir Ihnen eine noch bessere Benutzererfahrung bieten können, benötigen wir Zugriff auf Ihre Gerätekennung, die Kategorien der ausgewählten oder angezeigten Bilder und Ihre Einstellungen zum Bildwechselintervall des Sperrbildschirms. Sie können den optimierten Dienst deaktivieren und Ihre Einstellungen über das Einstellungsmenü löschen."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Farbpalette"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Bearbeiten"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Maximale Anzahl von Bildern (%d) überschritten"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Der Hintergrund ändert sich alle %d h, solange eine Verbindung über WLAN oder das mobile Netz besteht."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Der Hintergrund ändert sich alle %d h, solange eine Verbindung nur über WLAN besteht."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Der Hintergrund ändert sich jede Stunde, solange eine Verbindung über WLAN oder das mobile Netz besteht."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Der Hintergrund ändert sich jede Stunde, solange eine Verbindung nur über WLAN besteht."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Das Abrufen von Hintergrundbildern und zusätzlichen Informationen über mobile Netze kann zusätzliche Gebühren verursachen. Es wird die Verwendung von WLAN-Netzwerken empfohlen."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Neue Hintergrundbilder für die gerade ausgewählte Kategorie werden heruntergeladen. Dabei können zusätzliche Kosten anfallen."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Tippen, um Vorschau anzusehen."
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d Bilder ausgewählt"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d Kategorien ausgewählt"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 Kategorie ausgewählt"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Aktualisieren meiner Interessen"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Ändern der Kategorieauswahl"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Nicht aktivieren"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Download"
+

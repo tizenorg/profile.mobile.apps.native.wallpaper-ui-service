@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Anasayfa ve kilit ekranı duvar kağıdı değişti"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Kilit ekranı duvar kağıdı değişti."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Yükleniyor..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Ana ekran duvar kağıdı değişti."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d seçildi"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "Tamam"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Etkinleştir"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Devre dışı"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Bir daha gösterme"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Duvar kağıdı, cihazın kilidini her açtığınızda değişir."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Ağ bağlantısı yok. Bir Wi-Fi ağına bağlanın veya Mobil verisini etkinleştirip tekrar deneyin."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Cihazı, kilit ekranında ilgi alanlarınızla ilgili yüksek kalitede resimler gösterecek şekilde ayarlayın. Tercih ettiğiniz kategorileri seçin."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Tüm değişiklikler iptal edilecek."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Geçiş aralığı"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Yalnızca Wi-Fi'ı etkinleştir"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Gelişmiş servisi etkinleştir"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Yalnızca Wi-Fi'ı devre dşı brk"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Gelişmiş servisi dvre dşı bırk"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "DuvarKağıtları"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Bağlanamıyor"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Gelişmiş servis"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Değişiklikleri iptal et"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Kilt ekranı"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Ana ekran"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Vazgeç"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "İptal"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Slayt gösterisi"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "İlgi alanlarım"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galeri"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Ayarlar"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Ödeme planınıza bağlı olarak mobil ağa bağlanmak ek ücrete tabi olabilir."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Her %d saat"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "1 saatte bir"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Tümünü seç"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Renk teması"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Vrsyln duvar kağıtları"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Renk teması, duvar kağıdınızla eşleşmesi için değiştirilecek. Renk temasını manuel olarak ayarlamak için Ayarlar > Renk teması bölümüne gidin."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Seyahat duvar kağd"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "BİTTİ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "İPTAL"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Ağ hatası oluştu. Sonra dene."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Geliştirilmiş hizmeti devre dışı bırakırsanız, tercihleriniz silinir, bu durum da sağlanan hizmet kalitesini etkileyebilir."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Size daha gelişmiş bir deneyim sunabilmek için cihaz tanımlayıcınıza ve seçilen kategori veya kullanılan resim türlerine erişim talep etmekteyiz. Geliştirilmiş hizmeti devre dışı bırakabilir ve Ayarlar menüsünden tercihlerinizi silebilirsiniz."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Renk paleti"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Düzenle"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Maksimum resim sayısı (%d) aşıldı."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi veya mobil ağ yoluyla bağlıyken, duvar kağıdı %d saatte bir değişir."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Yalnızca Wi-Fi yoluyla bağlıyken, duvar kağıdı %d saatte bir değişir."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi veya mobil ağ yoluyla bağlıyken, duvar kağıdı saatte bir değişir."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Yalnızca Wi-Fi yoluyla bağlıyken, duvar kağıdı saatte bir değişir."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Duvar kağıdı resimlerinin ve ek bilgilerin mobil ağlar yoluyla alınması ek ücretlere neden olabilir. Bunun yerine Wi-Fi ağlarını kullanmanız önerilir."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Seçtiğiniz kategori için yeni duvar kağıdı resimleri indirilecek. Bunun için ek ücretler uygulanabilir."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Önizlemek için dokun"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d görüntü seçildi"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d kategori seçildi"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 kategori seçildi"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "İlgi alanlarım'ı güncelle"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Kategori seçimini değiştir"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Etkinleştirme"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "İndir"
+

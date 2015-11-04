@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Pozadí domovské obrazovky a zamknutého displeje se změnilo."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Pozadí zamknuté obrazovky bylo změněno."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Nahrávám..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Pozadí domovské obrazovky bylo změněno."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "Vybráno %d"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Povolit"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Vypnout"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Znovu nezobrazovat"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Pozadí se změní při každém odemknutí zařízení."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Připojení k síti není k dispozici. Připojte se k síti Wi-Fi nebo zapněte Mobilní data a opakujte akci."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Nastavte své zařízení, aby na zamykací obrazovce zobrazovalo vysoce kvalitní obrázky založené na vašich zájmech. Vyberte preferované kategorie."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Všechny změny budou zrušeny."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Interval přechodu"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Zapnout Pouze Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Zapnout vylepšenou službu"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Vypnout Pouze Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Vypnout Vylepšenou službu"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Pozadí"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Přip. se nezdařilo"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Vylepšená služba"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Zrušit změny"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Zamk. disp."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Dom. obr."
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Storno"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Storno"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Prezentace"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Moje zájmy"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Nastavení"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Při připojení prostřednictvím mobilní sítě mohou být v závislosti na vašem tarifu účtovány další poplatky."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Každých %d hodin"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Každou hodinu"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Vybrat vše"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Barevné téma"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Výchozí pozadí"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Barevné téma se změní tak, aby odpovídalo vybranému pozadí. Chcete-li nastavit barevné téma ručně, přejděte na Nastavení > Barevné téma."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Pozadí Cestování"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "HOTOVO"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ZRUŠIT"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Došlo k chybě sítě. Opakujte akci později."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Pokud vypnete možnost Rozšířená služba, předvolby budou odstraněny a může to ovlivnit kvalitu poskytované služby."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Abychom vám poskytli lepší služby, potřebujeme mít přístup k identifikátoru vašeho zařízení a informacím o kategoriích vybraných či upravených obrázků a o nastavení intervalu vašeho displeje. Možnost Rozšířená služba můžete vypnout a předvolby můžete odstranit pomocí menu Nastavení."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Paleta barev"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Upravit"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Byl překročen maximální počet obrázků (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Pozadí se změní každých %d hodin při připojení prostřednictvím Wi-Fi nebo mobilní sítě."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Pozadí se změní každých %d hodin pouze při připojení prostřednictvím Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Pozadí se změní každou hodinu při připojení prostřednictvím Wi-Fi nebo mobilní sítě."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Pozadí se změní každou hodinu pouze při připojení prostřednictvím Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Přijímání obrázků pozadí a dalších informací prostřednictvím mobilních sítí může vést k dalším poplatkům. Místo toho doporučujeme používat sítě Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Pro kategorii, kterou jste právě vybrali, se stáhnou nové obrázky pozadí. To však může vést k dalším poplatkům."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Klepněte pro náhled"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Je vybráno %d obrázků"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Je vybráno %d kategorií"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Je vybrána 1 kategorie"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Aktualizovat Moje zájmy"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Změnit výběr kategorie"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Nepovolit"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Stáhnout"
+

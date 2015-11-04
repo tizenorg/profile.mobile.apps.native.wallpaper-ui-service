@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Alku- ja lukitusnäytön taustakuva on vaihdettu."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Lukitusnäytön taustakuva vaihdettu."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Ladataan..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Alkunäytön taustakuva vaihdettu."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d valittu"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Päälle"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Ei käyt."
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Älä näytä uudestaan"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Taustakuva vaihtuu aina, kun poistat laitteen lukituksen."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Verkkoyhteyttä ei ole. Muodosta yhteys Wi-Fi-verkon kautta tai ota mobiilidata käyttöön ja yritä uudelleen."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Määritä laite näyttämään lukitusnäytössä mielenkiinnon kohteisiisi perustuvia laadukkaita kuvia. Valitse haluamasi luokat."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Kaikki muutokset hylätään."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Siirtymäaika"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Ota Vain Wi-Fi käyttöön"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Ota Parannettu palvelu k."
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Poista Vain Wi-Fi käytöstä"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Poista Parannettu palvelu k."
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Taustakuvat"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Ei voi yhdistää"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Parannettu palvelu"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Hylkää muutokset"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Luk.näyttö"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Alkunäyttö"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Hylkää"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Peruuta"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Diaesitys"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Kiinnost. kohteet"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galleria"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Asetukset"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Matkapuhelinverkkoyhteyden muodostamisesta voidaan periä lisämaksuja tilauksestasi riippuen."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "%d tunnin välein"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "1 tunnin välein"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Valitse kaikki"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Väriteema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Oletus-\ntaustakuvat"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Väriteema vaihdetaan vastaamaan valittua taustakuvaa. Jos haluat määrittää väriteeman manuaalisesti, valitse Asetukset > Väriteema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Matkataustakuva"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "VALMIS"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "PERUUTA"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Verkkovirhe. Yritä myöhemmin uudelleen."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Jos poistat Parannetun palvelun käytöstä, omat asetuksesi poistetaan, ja tämä voi vaikuttaa käytettävissä olevan palvelun laatuun."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Käyttöelämyksen parantamiseksi tarkistamme laitetunnuksen, valitut tai esitettävät kuva-kategoriat sekä tiedot näyttöintervalliasetuksistasi. Voit poistaa Parannetun palvelun käytöstä ja poistaa omat asetuksesi Asetukset-valikossa."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Väripaletti"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Muokkaa"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Kuvien enimmäismäärä (%d) on ylitetty."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Taustakuva vaihtuu %d tunnin välein, kun yhteys on muodostettu Wi-Fi- tai matkapuhelinverkon kautta."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Taustakuva vaihtuu %d tunnin välein, kun yhteys on muodostettu vain Wi-Fi-verkon kautta."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Taustakuva vaihtuu tunnin välein, kun yhteys on muodostettu Wi-Fi- tai matkapuhelinverkon kautta."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Taustakuva vaihtuu tunnin välein, kun yhteys on muodostettu vain Wi-Fi-verkon kautta."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Taustakuvien ja lisätietojen vastaanottamisesta matkapuhelinverkkojen kautta voidaan periä lisämaksuja. On suositeltavaa käyttää sen sijaan Wi-Fi-verkkoja."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Juuri valitsemaasi luokkaan ladataan uusia taustakuvia. Tämä voi johtaa lisämaksuihin."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Esikatsele napauttamalla"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d kuvaa valittu"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d luokkaa valittu"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 luokka valittu"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Päivitä kiinnostuksen kohteet"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Muuta luokkien valintaa"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Älä ota käytt."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Lataa"
+

@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "เปิดใช้งาน"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "เกินจำนวนรูปภาพสูงสุด (%d) แล้ว"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "เปลี่ยนวอลเปเปอร์หน้าหลัก และหน้าจอล็อค"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "เปลี่ยนวอลเปเปอร์หน้าจอล็อคแล้ว"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "โหลด..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "เปลี่ยนวอลเปเปอร์หน้าจอหลักแล้ว"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "เลือก %d รายการ"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ตกลง"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "ปิด​ใช้​งาน"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "ไม่ต้องแสดงอีก"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "แกลเลอรี่"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "วอลเปเปอร์พื้นฐาน"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "วอลเปเปอร์เดินทาง"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "ธีม​สี"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "ธีมสีจะถูกเปลี่ยนเพื่อให้ตรงกับวอลเปเปอร์ที่คุณเลือกไว้ ในการตั้งธีมสีด้วยตนเอง ไปที่ การตั้งค่า > ธีมสี"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "ตั้ง​ค่า"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "สไลด์โชว์"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "ความสนใจส่วนตัว"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "แบบสี"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "วอลเปเปอร์จะเปลี่ยนทุกครั้งที่คุณปลดล็อคอุปกรณ์"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "เลือกทั้งหมด"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "วอลเปเปอร์"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "ละทิ้งการเปลี่ยนแปลง"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "การ​เปลี่ยน​แปลง​ทั้ง​หมด​ จะ​ถูก​ละทิ้ง"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "ยกเลิก"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "ละทิ้ง"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ทุกๆ %d ชั่วโมง"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ไม่มีการเชื่อมต่อเครือข่าย เชื่อมต่อกับเครือข่าย Wi-Fi หรือเปิดข้อมูลมือถือแล้วลองอีกครั้ง"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "บริการที่เสริมสมรรถนะ"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "เชื่อมต่อไม่ได้"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "การ​เชื่อม​ต่อ​ผ่าน​เครือ​ข่าย​มือ​ถือ​อาจ​มี​ค่า​ใช้​จ่าย​เพิ่ม​เติม ขึ้น​อยู่​กับ​แผน​การ​ชำระ​เงิน​ของ​คุณ"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "เราจะค้นหาการเชื่อมต่อกับตัวระบุอุปกรณ์ของคุณ และประเภทของหมวดหมู่ที่เลือกหรือภาพที่แสดง เพื่อให้คุณได้รับประสบการณ์การใช้งานอันยอดเยี่ยม คุณอาจปิดการใช้งานบริการปรับปรุงประสิทธิภาพนี้ และลบการตั้งค่าของคุณผ่านเมนูการตั้งค่า"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "หากคุณปิดการใช้งานบริการปรับปรุงประสิทธิภาพนี้ การตั้งค่าของคุณจะถูกลบและการดำเนินการนี้อาจส่งผลต่อคุณภาพของบริการที่มีให้"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "แก้ไข"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "เรียบร้อย"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ยกเลิก"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "ตั้งค่าอุปกรณ์ของคุณให้แสดงรูปภาพที่มีคุณภาพสูง ตามความสนใจของคุณ ขึ้นบนหน้าจอล็อค เลือกหมวดหมู่ที่คุณชอบ"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ช่วงเวลาการเปลี่ยนแปลง"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "ปิดใช้งาน Wi-Fi เท่านั้น"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "เปิดใช้งาน Wi-Fi เท่านั้น"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "ปิดใช้งานบริการที่เสริมสมรรถนะ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "เปิดใช้งานบริการที่เสริมสมรรถนะ"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "หน้าจอล็อค"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "หน้าจอหลัก"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "เกิด​ข้อ​ผิด​พลาด​ใน​เครือ​ข่าย ลอง​ใหม่​ภาย​หลัง"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ทุก 1 ​ชั่วโมง"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "ไม่เปิดใช้งาน"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "การรับรูปภาพวอลเปเปอร์และข้อมูลเพิ่มเติมผ่านเครือข่ายมือถือ อาจทำให้เกิดค่าใช้จ่ายเพิ่มเติม จึงแนะนำให้ใช้เครือข่าย Wi-Fi แทน"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "อัพเดท ความสนใจส่วนตัว"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "เปลี่ยนการเลือกหมวดหมู่"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "รูปภาพวอลเปเปอร์ใหม่ในหมวดหมู่ที่คุณเลือกจะถูกดาวน์โหลด ซึ่งอาจมีค่าใช้จ่ายเพิ่มเติม"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ดาวน์โหลด"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "วอลเปเปอร์จะเปลี่ยนทุกชั่วโมง ขณะที่เชื่อมต่อผ่าน Wi-Fi เท่านั้น"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "วอลเปเปอร์จะเปลี่ยนทุกชั่วโมง ขณะที่เชื่อมต่อผ่าน Wi-Fi หรือเครือข่ายมือถือ"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "วอลเปเปอร์จะเปลี่ยนทุก %d ชั่วโมง ขณะที่เชื่อมต่อผ่าน Wi-Fi เท่านั้น"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "วอลเปเปอร์จะเปลี่ยนทุก %d ชั่วโมง ขณะที่เชื่อมต่อผ่าน Wi-Fi หรือเครือข่ายมือถือ"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "สัมผัสเพื่อดูตัวอย่าง"
+

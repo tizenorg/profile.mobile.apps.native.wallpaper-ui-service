@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Cúlbhrat baile agus scáileáin ghlasála athraithe."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Cúlbhrat an scáileáin ghlasála athraithe."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Ag lódáil..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Cúlbhrat an scáileáin bhaile athraithe."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d roghnaithe"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Cumasaigh"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Díchumasú"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ná taispeáin arís"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Athrófar an cúlbhrat gach uair a dhéanann tú an gléas a dhíghlasáil."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Níl nasc líonra ann. Nasc le líonra Wi-Fi nó cas Sonraí móibíleacha air agus triail arís."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Socraigh do ghléas le híomhánna ardchaighdeáin a thaispeáint ar an scáileán glasála bunaithe ar d'ábhair spéise. Roghnaigh do chatagóirí sainroghnaithe."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Cuileálfar gach athrú"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Eatramh trasdula"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Cumasaigh Wi-Fi amháin"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Cum. Seirbhís fheabhsaithe"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Díchumasaigh Wi-Fi amháin"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Díchum. Seirbhís fheabhsaithe"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Cúlbhrait"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Nascadh dodhéanta"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Seirbhís fheabhsaithe"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Cuileáil athruithe"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Sc. glasála"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Scá. baile"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Cuileáil"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Cealaigh"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Taispeántas sleamhnán"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "M'ábhair spéise"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Gailearaí"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Socruithe"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Is féidir go ngearrfar táillí breise ar nascadh le líonra móibíleach ag brath ar do phlean íocaíochta"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Gach %d uair an chloig"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Gach 1 uair an chloig"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Roghnaigh gach"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Téama dathanna"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Cúlbhrait réamhshocr."
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Athrófar an téama dathanna le teacht le do chúlbhrat roghnaithe. Leis an téama dathanna a shocrú de láimh, gabh chuig Socruithe > Téama dathanna."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Cúlbhrat taistil"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "DÉANTA"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "CUIR AR CEAL"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Tharla earráid líonra. Triail arís ar ball."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Má díchumasaíonn tú Seirbhís fheabhsaithe, scriosfar do shainroghanna agus is féidir go mbeadh tionchar aige sin ar cháilíochta na seirbhíse a chuirtear ar fáil."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Chur ar fáil duit le taithí níos fearr, is mian linn rochtain ar do aitheantóir gléas, cén catagóirí na n-íomhánna atá roghnaithe a rinneadh, agus a thaispeáint do chuid sainroghanna inmheánacha. Is féidir leat seirbhís feabhsaithe a dhíchumasú agus a scriosadh do chuid sainroghanna tríd an roghchlár Socruithe."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Pailéad dathanna"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "In eagar"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Uaslíon na bpictiúr (%d) sáraithe."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Athrófar an cúlbhrat gach %d uair an chloig agus é nasctha trí Wi-Fi nó trí líonra móibíleach."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Athrófar an cúlbhrat gach %d uair an chloig agus é nasctha trí Wi-Fi amháin."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Athrófar an cúlbhrat gach uair an chloig agus é nasctha trí Wi-Fi nó trí líonra móibíleach."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Athrófar an cúlbhrat gach uair an chloig agus é nasctha trí Wi-Fi amháin."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Is féidir go ngearrfar táillí breise ar fháil íomhánna cúlbhrait agus faisnéis bhreise trí líonraí móibíleacha. Moltar duit líonraí Wi-Fi a úsáid ina n-ionad."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Íoslódálfar cúlbhrait nua don chatagóir atá díreach roghnaithe agat. Is féidir go ngearrfar táillí breise air sin."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Tapáil le réamhamharc air"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Tá %d íomhá roghnaithe"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Tá %d catagóir roghnaithe"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Tá 1 chatagóir roghnaithe"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Nuashonraigh M'ábhair spéise"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Athraigh rogha na catagóire"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Ná cumasaigh"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Íoslódáil"
+

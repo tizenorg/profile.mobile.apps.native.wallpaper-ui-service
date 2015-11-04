@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Aktif"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Melebihi bilangan maksimum gambar (%d)."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Hiasan latar skrin utama dan skrin kunci ditukar"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Hiasan latar skrin kunci berubah."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Memuat…"
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Hiasan latar skrin utama berubah."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d dipilih"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Nyahaktif"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Jangan tunjukkan lagi."
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galeri"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Hiasan latar lalai"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Hias latar p'jlnan"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Tema warna"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Tema warna akan ditukar agar sepadan dengan hiasan latar yang anda pilih. Untuk menetapkan tema warna secara manual, pergi ke Aturan > Tema warna."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Aturan"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Persembahan slaid"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Minat saya"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Palet warna"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Hiasan latar akan ditukar setiap kali anda membuka kunci peranti."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Pilih semua"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Hiasan latar"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Buang perubahan"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Semua perubahan akan dibuang."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Buang"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Setiap %d jam"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Tiada sambungan rangkaian. Sambung ke rangkaian Wi-Fi atau hidupkan Data mudah alih dan cuba lagi."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Perkhidmatan dipertingkat"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Tdk dpt menyambung"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Menyambung melalui rangkaian mudah alih mungkin dikenakan caj tambahan bergantung kepada pelan pembayaran anda."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Untuk memberikan anda pengalaman yang lebih dipertingkatkan, kami ingin mengakses pengecam peranti anda dan jenis kategori yang dipilih atau imej yang diberikan. Anda boleh menyahdayakan perkhidmatan Dipertingkatkan dan memadamkan keutamaan anda menerusi menu Tetapan."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Jika anda menyahdayakan perkhidmatan Dipertingkatkan, keutamaan anda akan dipadamkan dan ini mungkin mempengaruhi kualiti perkhidmatan yang disediakan."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Sunting"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "SELESAI"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "BATAL"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Tetapkan peranti anda untuk menunjukkan imej yang berkualiti tinggi berdasarkan minat anda pada skrin kunci. Pilih kategori pilihan anda."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Selang peralihan"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Nyahaktifkan Wi-Fi sahaja"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Aktifkan Wi-Fi sahaja"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Nyhaktf Pkhidmatn dipertingkat"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Aktfkn Pkhidmatan dipertingkat"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Skrin kunci"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Skrin utama"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Ralat rangkaian berlaku. Cuba nanti."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Setiap 1 jam"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Jangan aktifkn"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Menerima imej hiasan latar dan maklumat tambahan melalui rangkaian mudah alih mungkin dikenakan caj tambahan. Sebaliknya, anda dicadangkan menggunakan rangkaian Wi-Fi."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Kemas kini Minat saya"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Ubah pilihan kategori"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Imej hiasan latar baru akan dimuat turun untuk kategori yang anda pilih. Ini mungkin dikenakan caj tambahan."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Muat turun"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Hiasan latar akan berubah setiap sejam semasa disambungkan melalui Wi-Fi sahaja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Hiasan latar akan berubah setiap sejam semasa disambungkan melalui Wi-Fi atau rangkaian mudah alih."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Hiasan latar akan berubah setiap %d jam semasa disambungkan melalui Wi-Fi sahaja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Hiasan latar akan berubah setiap %d jam semasa disambungkan melalui Wi-Fi atau rangkaian mudah alih."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Ketik untuk pratonton"
+

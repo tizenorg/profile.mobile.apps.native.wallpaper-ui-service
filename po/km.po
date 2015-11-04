@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "បើក"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "បាន​លើស​ចំនួន​រូបភាព​អតិបរមា (%d)។"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "បាន​ប្ដូរ​រូបផ្ទៃ​គេហអេក្រង់ និង អេក្រង់​ជាប់សោ"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "បាន​ប្តូរ​រូបផ្ទៃអេក្រង់​ជាប់សោ។"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "កំពុង​ផ្ទុក..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "បាន​ប្តូរ​រូបផ្ទៃ​គេហអេក្រង់។"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "បាន​ជ្រើស %d"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ព្រម"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "បិទ"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "កុំ​បង្ហាញ​ម្តង​ទៀត"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "វិចិត្រសាល"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "រូបផ្ទៃអេក្រង់​លំនាំដើម"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "រូបអេក្រង់​ធ្វើ​ដំណើរ"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "រូបរាង​ពណ៌"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "រូបរាង​ពណ៌​នឹង​ប្ដូរ​ដើម្បី​ឲ្យ​ត្រូវ​នឹង​រូបផ្ទៃ​អេក្រង់​ដែល​អ្នក​បាន​ជ្រើស។ ដើម្បី​កំណត់​រូបរាង​ពណ៌​ដោយដៃ សូម​ចូលទៅ​ការកំណត់ > រូបរាង​ពណ៌។"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "ការកំណត់"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "ការបញ្ចាំង​ស្លាយដ៍"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "ចំណាប់អារម្មណ៍​របស់​ខ្ញុំ"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "បន្ទះក្ដារ​ពណ៌"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "រូបផ្ទៃអេក្រង់​នឹង​ប្ដូរ គ្រប់ពេល​ដែល​អ្នក​ដោះសោ​ឧបករណ៍។"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "ជ្រើស​ទាំងអស់"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "រូបផ្ទៃអេក្រង់"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "ចោល​ការប្ដូរ"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "នឹង​ចោល​ការប្តូរ​ទាំងអស់។"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "បោះ​បង់"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "ចោល"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "រៀងរាល់ %d ម៉ោង"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "គ្មាន​ការភ្ជាប់​បណ្ដាញ។ ភ្ជាប់​ទៅ​បណ្ដាញ Wi-Fi ឬ បើក​ទិន្នន័យ​ចល័ត ហើយ​សាកល្បង​ម្ដងទៀត។"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "សេវា​បន្ថែម"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "មិន​អាច​ភ្ជាប់"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ការភ្ជាប់​តាម​បណ្ដាញ​ចល័ត​អាច​គិត​ថ្លៃ​បន្ថែម អាស្រ័យ​លើ​គម្រោង​បង់ប្រាក់​របស់​អ្នក។"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "ដើម្បីផ្តល់ជូនលោកអ្នកនូវបទពិសោធន៍ក្នុងការប្រើប្រាស់ឲ្យកាន់តែប្រសើរជាងមុន យើងខ្ញុំនឹងចូលទៅពិនិត្យមើលព៌ត័មានអំពីអត្តសញ្ញាណនៃឧបករណ៍របស់លោកអ្នក និងប្រភេទនៃចំណាត់ថ្នាក់ដែលលោកអ្នកបានជ្រើសរើស ឬរូបភាពដែលលោកអ្នកបានប្រើប្រាស់។ លោកអ្នកអាចបិទ ឬបញ្ចប់ការប្រើប្រាស់សេវាកម្មបន្ថែមនេះ និងលុបចោលនូវជម្រើសពីមុនៗរបស់លោកអ្នក ដោយចូលទៅកាន់តារាងកំណត់ការប្រើប្រាស់កម្មវិធី  (Settings Menu)។"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "ប្រសិនបើលោកអ្នកបិទ ឬបញ្ចប់ការប្រើប្រាស់សេវាកម្មបន្ថែមនេះ ជម្រើសនានារបស់លោកអ្នកដែលបានជ្រើសរើស នឹងត្រូវបានបានលុបចោល ហើយវានិងអាចប៉ះពាល់ដល់គុណភាពនៃសេវាកម្មដែលបានផ្តល់ជូន។"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "កែ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "រួចរាល់"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "បោះបង់"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "កំណត់​ឲ្យ​ឧបករណ៍​របស់​អ្នក​បង្ហាញ​រូប​ដែល​មាន​គុណភាព​ខ្ពស់​លើ​អេក្រង់​ជាប់សោ ដោយ​ផ្អែក​លើ​ចំណាប់អារម្មណ៍​របស់​អ្នក។ ជ្រើស​ប្រភេទ​ដែល​អ្នក​ចូលចិត្ត។"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ចន្លោះពេល​អន្តរភាព"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "បិទ Wi-Fi ប៉ុណ្ណោះ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "បើកប្រើ Wi-Fi ប៉ុណ្ណោះ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "បិទ​សេវា​បន្ថែម"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "បើកប្រើ​សេវា​បន្ថែម"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "អេក្រង់​ជាប់សោ"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "គេហអេក្រង់"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "កំហុស​បណ្តាញ​បាន​កើត​ឡើង។ សាកល្បង​ពេល​ក្រោយ។"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "រៀងរាល់ 1 ម៉ោង"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "កុំ​បើកប្រើ"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "ការទទួល​រូបផ្ទៃអេក្រង់ និង ព័ត៌មាន​បន្ថែម​តាម​បណ្ដាញ​ចល័ត អាច​នាំ​ឲ្យ​គិត​ថ្លៃ​បន្ថែម។ យើង​ឲ្យ​យោបល់​អ្នក​ប្រើ​បណ្ដាញ Wi-Fi ជំនួស។"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "អាប់ដេត​ចំណាប់​អារម្មណ៍​របស់​ខ្ញុំ"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "ប្ដូរ​ការជ្រើស​ប្រភេទ"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "រូបផ្ទៃអេក្រង់​ថ្មី​នឹង​ត្រូវ​បាន​ទាញយក​សម្រាប់​ប្រភេទ​ដែល​អ្នក​ទើប​បាន​ជ្រើស។ នេះ​អាច​នាំ​ឲ្យ​គិត​ថ្លៃ​បន្ថែម។"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ទាញយក"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "រូបផ្ទៃអេក្រង់​នឹង​ប្ដូរ​រៀងរាល់​ម៉ោង ខណៈពេល​បាន​ភ្ជាប់​តាម Wi-Fi ប៉ុណ្ណោះ។"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "រូបផ្ទៃអេក្រង់​នឹង​ប្ដូរ​រៀងរាល់​ម៉ោង ខណៈពេល​បាន​ភ្ជាប់​តាម Wi-Fi ឬ បណ្ដាញ​ចល័ត។"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "រូបផ្ទៃអេក្រង់​នឹង​ប្ដូរ​រៀងរាល់ %d ម៉ោង ខណៈពេល​បាន​ភ្ជាប់​តាម Wi-Fi ប៉ុណ្ណោះ។"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "រូបផ្ទៃអេក្រង់​នឹង​ប្ដូរ​រៀងរាល់ %d ម៉ោង ខណៈពេល​បាន​ភ្ជាប់​តាម Wi-Fi ឬ បណ្ដាញ​ចល័ត។"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "ប៉ះ​ដើម្បី​បង្ហាញ"
+

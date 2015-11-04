@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "실행"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "최대 사진 수(%d)를 초과하였습니다."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "홈 및 잠금화면의 배경을 변경하였습니다."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "잠금화면 배경을 변경하였습니다."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "불러오는 중..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "홈 배경화면을 변경하였습니다."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d개 선택"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "확인"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "해제"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "다시 보지 않기"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "갤러리"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "기본 배경화면"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "여행 배경화면"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "색상 테마"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "선택한 배경화면에 맞춰 색상 테마를 변경합니다. 색상 테마를 직접 설정하려면 [설정] > [색상 테마]로 이동하세요."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "설정"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "슬라이드쇼"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "관심 카테고리"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "색상 팔레트"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "디바이스 잠금을 해제할 때마다 배경화면이 변경됩니다."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "모두 선택"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "배경화면"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "변경사항 저장 안 함"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "모든 변경사항을 저장하지 않습니다."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "취소"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "저장 안 함"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "%d시간 간격"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "연결된 네트워크가 없습니다. Wi-Fi 네트워크에 연결하거나 [모바일 데이터]를 실행한 후 다시 시도하세요."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "특화 서비스"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "연결할 수 없음"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "모바일 네트워크로 연결하면 요금제에 따라 추가요금이 부과될 수 있습니다."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "향상된 서비스 제공을 위하여 단말식별정보, 선택한 카테고리 및 제공된 이미지 정보를 수집합니다. 정보 수집에 동의하지 않더라도 서비스 이용은 가능하나, 중복된 이미지가 제공될 수 있습니다. 수집된 정보는 설정에서 [향상된 서비스 받기] 비활성화 시 삭제됩니다."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "[향상된 서비스 받기] 비활성화 시 중복된 이미지가 제공될 수 있습니다. 수집된 기기정보 및 선호도 정보는 삭제됩니다."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "편집"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "완료"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "취소"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "내 관심사에 맞춰 높은 화질의 이미지를 잠금화면에 표시하도록 디바이스를 설정합니다. 선호하는 카테고리를 선택하세요."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "전환 간격"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi 연결 시 옵션을 해제"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi 연결 시 옵션을 실행"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "특화 서비스 해제"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "특화 서비스 실행"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "잠금화면"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "홈 화면"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "네트워크 오류가 발생하였습니다. 나중에 시도하세요."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "1시간 간격"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "실행 안 함"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "모바일 네트워크로 배경화면 이미지 및 추가정보를 받으면 추가요금이 부과될 수 있습니다. Wi-Fi 네트워크를 사용할 것을 권장합니다."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "관심 카테고리 업데이트"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "카테고리 선택 변경"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "선택한 카테고리에 알맞은 새 배경화면 이미지를 다운로드합니다. 추가요금이 부과될 수 있습니다."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "다운로드"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "[Wi-Fi 연결 시]로 연결하면 1시간 간격으로 배경화면이 변경됩니다."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi 또는 모바일 네트워크로 연결하면 1시간 간격으로 배경화면이 변경됩니다."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "[Wi-Fi 연결 시]로 연결하면 %d시간 간격으로 배경화면이 변경됩니다."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi 또는 모바일 네트워크로 연결하면 %d시간 간격으로 배경화면이 변경됩니다."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "미리 보려면 누르세요"
+

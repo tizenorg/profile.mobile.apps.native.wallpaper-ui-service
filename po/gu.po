@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "સક્ષમ કરો"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "ચિત્રોની મહત્તમ સંખ્યા (%d) વટાવી દીધી."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "હોમ અને લોક સ્ક્રીન વોલપેપર બદલ્યું."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "લોક સ્ક્રીન વોલપેપર બદલાયું."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "લોડિંગ..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "હોમ સ્ક્રીન વૉલપેપર બદલાયું."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d પસંદ કર્યા"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ઓકે"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "અક્ષમ કરો"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "ફરી બતાવશો નહીં"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ગેલેરી"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "મૂળભૂત વોલપેપરો"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "યાત્રા વોલપેપર"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "રંગ થીમ"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "તમારા પસંદ કરેલ વોલપેપરને અનુરૂપ થવા રંગ થીમ બદલાશે. રંગ થીમને મેન્યુઅલી સેટ કરવા માટે, સેટિંગ્સ > રંગ થીમ પર જાઓ."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "સેટિંગ્સ"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "સ્લાઇડશો"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "મારી રુચિઓ"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "કલર પેલેટ"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "વોલપેપર તમે ઉપકરણને અનલોક કરો ત્યારે દર સમયે બદલાશે."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "બધું પસંદ કરો"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "વોલપેપરો"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "પરિવર્તનો કાઢી નાખો"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "બધા પરિવર્તનો રદ કરી દેવામાં આવશે."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "રદ કરો"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "કાઢી નાખો"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "દર %d કલાક"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "કોઈ નેટવર્ક જોડાણ નથી. Wi-Fi નેટવર્કથી જોડો અથવા મોબાઇલ ડેટા બંધ કરો અને ફરી પ્રયાસ કરો."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "વધારેલ સેવા"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "જોડાણ કરવામાં અસમર્થ"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "મોબાઇલ નેટવર્ક દ્વારા જોડવા પર તમારા ચૂકવણી પ્લાનનાં આધારે અતિરિક્ત શુલ્ક લાગી શકે છે."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "તમને વધારેલ અનુભવ પ્રદાન કરવા માટે, અમે તમારા ઉપકરણ ઓળખકર્તા અને કયા પ્રકારની શ્રેણીઓ પસંદ કરાવામાં આવી છે અથવા છબીઓને રેન્ડર કરવામાં આવી છે તેની ઍક્સેસ માગીએ છીએ. તમે વધારેલ સેવાઓને અક્ષમ કરી અને સેટિંગ્સ મેનૂમાંથી તમારી પસંદગીઓને હટાવી શકો છો."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "જો તમે વધારેલ સુવિધાઓને અક્ષમ કરો છો, તો તમારી પસંદગીઓને હટાવવામાં આવશે અને પ્રદાન કરવામાં આવેલી સેવાની ગુણવત્તા પર આની કોઈ અસર થશે નહીં."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "ફેરફાર કરો"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "પૂર્ણ થયું"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "રદ કરો"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "તમારા ઉપકરણને લોક સ્ક્રીન પર તમારી રુચિઓ પર આધારિત ઉચ્ચ ગુણવત્તાની છબીઓ બતાવવા માટે સેટ કરો. તમારી પસંદગીની શ્રેણીઓ પસંદ કરો."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "સંક્રમણ અંતરાલ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "માત્ર Wi-Fi ને અક્ષમ કરો"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "માત્ર Wi-Fi સક્ષમ કરો"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "વધારેલ સેવાને અક્ષમ કરો"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "વધારેલ સેવાને સક્ષમ કરો"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "સ્ક્રીન લોક કરો"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "હોમ સ્ક્રીન"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "નેટવર્ક ભૂલ થઈ છે. પછી પ્રયત્ન કરો."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "દર 1 કલાકે"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "સક્ષમ કરશો નહીં"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "મોબાઇલ નેટવર્ક્સ દ્વારા વોલપેપર છબીઓ અને વધારાની માહિતી પ્રાપ્ત કરવાનું પરિણામ વધારાના દરોમાં આવી શકે છે. તમને તેને બદલે Wi-Fi નેટવર્ક્સનો ઉપયોગ કરવાની ભલામણ કરવામાં આવે છે."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "મારી રુચિઓ અપડેટ કરો"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "શ્રેણી પસંદગી બદલો"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "તમે હાલમાં પસંદ કરેલ શ્રેણી માટે નવી વોલપેપર છબીઓને ડાઉનલોડ કરવામાં આવશે. આના પરિણામે વધારાના દરો લાગી શકે છે."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ડાઉનલોડ કરો"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "માત્ર Wi-Fi દ્વારા જોડેલ હોય ત્યારે વોલપેપર દર કલાકે બદલાશે."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi અથવા મોબાઇલ નેટવર્ક દ્વારા જોડેલ હોય ત્યારે વોલપેપર દર કલાકે બદલાશે."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "ફક્ત Wi-Fi દ્વારા જોડેલ હોય ત્યારે વોલપેપર દર %d કલાકે બદલાશે."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi અથવા મોબાઇલ નેટવર્ક દ્વારા જોડેલ હોય ત્યારે વોલપેપર દર %d કલાકે બદલાશે."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "પૂર્વદર્શન માટે ટેપ કરો"
+

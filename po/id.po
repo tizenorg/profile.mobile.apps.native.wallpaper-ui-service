@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Aktif"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Jumlah maksimum gambar (%d) terlampaui."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Wallpaper layar depan dan layar kunci diubah"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Wallpaper layar kunci diubah."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Meloading…"
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Wallpaper layar depan diubah."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d terpilih"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Tdk aktif"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Jangan tampilkan lagi"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galeri"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Wallpaper default"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Wallpaper travel"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Tema warna"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Tema warna akan diubah agar sesuai dengan wallpaper yang Anda pilih. Untuk mengatur tema warna secara manual, buka Pengaturan > Tema warna."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Pengaturan"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Slideshow"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Minat saya"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Palet warna"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Wallpaper akan berubah setiap kali Anda membuka kunci perangkat."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Pilih semua"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Wallpaper"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Buang perubahan"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Semua perubahan akan dibuang."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Batal"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Buang"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Setiap %d jam"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Tidak ada koneksi jaringan. Sambungkan ke jaringan Wi-Fi atau hidupkan Data seluler dan coba lagi."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Layanan ditingkatkan"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Tdk dpt menyambung"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Menyambungkan lewat jaringan seluler dapat dikenakan biaya tambahan tergantung pada rencana pembayaran Anda."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Untuk memberikan Anda pengalaman yang lebih ditingkatkan, kami mencari akses ke pengidentifikasi perangkat Anda dan apa saja tipe kategori yang dipilih atau gambar yang ditampilkan. Anda dapat menonaktifkan layanan Peningkatan dan menghapus preferensi Anda melalui menu Pengaturan."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Jika Anda menonaktifkan layanan Peningkatan, preferensi Anda akan dihapus dan ini mungkin berdampak pada kualitas layanan yang disediakan."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Edit"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "SELESAI"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "BATAL"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Atur perangkat untuk menampilkan gambar berkualitas tinggi berdasarkan minat Anda di layar kunci. Pilih kategori pilihan Anda."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Interval transisi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Nonaktifkan Wi-Fi saja"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Aktifkan Wi-Fi saja"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Nonaktifkan Layanan ditingkatkan"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Aktifkan Layanan ditingkatkan"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Layar kunci"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Layar depan"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Terjadi kesalahan jaringan. Coba nanti."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Setiap 1 jam"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Jgn aktifkan"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Menerima gambar wallpaper dan informasi tambahan lewat jaringan seluler dapat dikenakan biaya tambahan. Disarankan agar Anda menggunakan jaringan Wi-Fi."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Perbarui Minat saya"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Ubah pilihan kategori"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Gambar wallpaper baru akan diunduh untuk kategori yang Anda pilih. Hal ini dapat dikenakan biaya tambahan."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Unduh"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wallpaper akan berubah tiap jam saat tersambung lewat Wi-Fi saja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wallpaper akan berubah tiap jam saat tersambung lewat Wi-Fi atau jaringan seluler."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wallpaper akan berubah tiap %d jam saat tersambung lewat Wi-Fi saja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wallpaper akan berubah tiap %d jam saat tersambung lewat Wi-Fi atau jaringan seluler."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Ketuk untuk pratinjau"
+

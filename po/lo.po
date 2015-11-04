@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "ເປີດໃຫ້ໃຊ້ງານໄດ້"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "ເກີນຈໍານວນຮູບສູງສຸດ (%d) ແລ້ວ."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "ວອລເປເປີຂອງໜ້າຈໍຫຼັກ ແລະໜ້າຈໍລັອກປ່ຽນແປງ"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ວອລເປເປີໜ້າຈໍລັອກຖືກປ່ຽນແປງ."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "ກຳລັງໂຫຼດ..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ວອລເປເປີໜ້າຈໍຫຼັກຖືກປ່ຽນແປງ."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ຖືກເລືອກ"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ຕົກລົງ"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "ປິດໃຊ້ງານ"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "ບໍ່ຕ້ອງສະແດງອີກ"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ແກເລີຣີ"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "ວອລເປເປີມາດຕະຖານ"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "ວອລເປເປີການເດີນທາງ"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "ເທມສີ"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "ເທມສີຈະປ່ຽນແປງ ເພື່ອໃຫ້ເຂົ້າກັບວອລເປເປີຂອງທ່ານທີ່ເລືອກໄວ້. ເພື່ອຕັ້ງເທມສີເອົາເອງ, ໄປທີ່ການຕັ້ງຄ່າ > ສີເທມ."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "ຕັ້ງຄ່າ"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "ສະໄລດ໌ໂຊ"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "ຄວາມສົນໃຈຂອງຂ້ອຍ"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "ແຜ່ນປະສົມສີ"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "ວອລເປເປີຈະປ່ຽນທຸກຄັ້ງ ທີ່ທ່ານປົດລັອກອຸປະກອນ."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "ເລືອກທັງໝົດ"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "ວອລເປເປີ"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "ໂລະການປ່ຽນແປງຖິ້ມ"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "ການປ່ຽນແປງທຸກອັນຈະຖືກລຶບ."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "ເອົາຖິ້ມ"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ທຸກໆ %d ຊົ່ວໂມງ"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ບໍ່ມີການເຊື່ອມຕໍ່ເຄືອຂ່າຍ. ເຊື່ອມຕໍ່ກັບເຄືອຂ່າຍ Wi-Fi ຫຼືເປີດຂໍ້ມູນມືຖື ແລະລອງໃໝ່ອີກ."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "ການບໍລິການທີ່ປັບປຸງແລ້ວ"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "ບໍ່ສາມາດເຊື່ອມຕໍ່ໄດ້"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ເຊື່ອມຕໍ່ຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເກີດມີຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມ ຂຶ້ນກັບແຜນການຊໍາລະຂອງທ່ານ."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "To provide you with a more enhanced experience, we seek access to your device identifier and what type of categories selected or images rendered. You may disable Enhanced service and delete your preferences through the Settings menu."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "If you disable Enhanced service, your preferences will be deleted and this may affect the quality of the service provided."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "ແກ້ໄຂ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ສໍາເລັດ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ຍົກເລີກ"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "ຕັ້ງອຸປະກອນຂອງທ່ານເພື່ອສະແດງຮູບຄຸນນະພາບສູງອີງຕາມຄວາມສົນໃຈຂອງທ່ານຢູ່ເທິງໜ້າຈໍລັອກ. ເລືອກໝວດທີ່ມັກຂອງທ່ານ."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ໄລຍະເວລາການປ່ຽນ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "ປິດໃຊ້ງານ Wi-Fi ເທົ່ານັ້ນ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "ເປີດໃຊ້ງານ Wi-Fi ເທົ່ານັ້ນ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "ປິດໃຊ້ງານການບໍລິການທີ່ປັບປຸງແລ້ວ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "ເປີດໃຊ້ງານການບໍລິການທີ່ປັບປຸງແລ້ວ"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "ໜ້າຈໍລັອກ"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "ໜ້າຈໍຫຼັກ"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "ເຄືອຂ່າຍເກີດຂັດຂ້ອງ. ລອງອີກພາຍຫຼັງ."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ທຸກໆ 1 ຊົ່ວໂມງ"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "ຢ່າເປີດໃຊ້ງານ"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "ການຮັບຮູບວອລເປເປີ ແລະຂໍ້ມູນເພີ່ມເຕີມຜ່ານເຄືອຂ່າຍມືຖືອາດຈະເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມ. ແນະນຳໃຫ້ທ່ານໃຊ້ເຄືອຂ່າຍ Wi-Fi ແທນ."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "ອັບເດດຄວາມສົນໃຈຂອງຂ້ອຍ"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "ປ່ຽນການເລືອກໝວດ"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "ຈະດາວໂຫຼດຮູບວອລເປເປີໃໝ່ໃຫ້ກັບໝວດທີ່ທ່ານຫາກໍ່ເລືອກ. ອັນນີ້ອາດຈະມີຜົນເຮັດໃຫ້ເສຍຄ່າໃຊ້ຈ່າຍເພີ່ມເຕີມ."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ດາວໂຫຼດ"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "ວອລເປເປີຈະປ່ຽນທຸກໆຊົ່ວໂມງ ໃນຂະນະທີ່ເຊື່ອມຕໍ່ຜ່ານ Wi-Fi ເທົ່າ​ນັ້ນແລ້ວ."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "ວອລເປເປີຈະປ່ຽນທຸກໆຊົ່ວໂມງ ໃນຂະນະທີ່ເຊື່ອມຕໍ່ຜ່ານ Wi-Fi ເທົ່າ​ນັ້ນ ຫຼື​ເຄືອ​ຂ່າຍ​ມື​ຖືແລ້ວ."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "ວອລເປເປີຈະປ່ຽນທຸກໆ %d ຊົ່ວໂມງ ໃນຂະນະທີ່ເຊື່ອມຕໍ່ຜ່ານ Wi-Fi ເທົ່າ​ນັ້ນແລ້ວ."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "ວອລເປເປີຈະປ່ຽນທຸກໆ %d ຊົ່ວໂມງ ໃນຂະນະທີ່ເຊື່ອມຕໍ່ຜ່ານ Wi-Fi ເທົ່າ​ນັ້ນ ຫຼື​ເຄືອ​ຂ່າຍ​ມື​ຖືແລ້ວ."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "ແຕະເພື່ອເບິ່ງເປັນຕົວຢ່າງ"
+
