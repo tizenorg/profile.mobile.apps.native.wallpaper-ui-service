@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Fundalul ecranului de pornire şi de blocare a fost schimbat."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Fundalul ecranului de blocare s-a schimbat."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Încărcare..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Fundalul ecranului de pornire s-a schimbat."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d selectate"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Activare"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Dezactiv."
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Nu se mai afişează"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Fundalul se va schimba de fiecare dată când deblocaţi dispozitivul."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Nicio conexiune la reţea. Conectaţi-vă la o reţea Wi-Fi sau activaţi Datele mobile şi încercaţi din nou."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Configuraţi dispozitivul pentru a afişa pe ecranul de blocare imagini de înaltă calitate, în funcţie de interesele dvs. Selectaţi categoriile preferate."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Toate modificările vor fi eliminate."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Interval tranziţie"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Activare Numai Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Activare Serviciu îmbunătăţit"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Dezactivare Numai Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Dezactiv. Serviciu îmbunătăţit"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fundaluri"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Impos. de conectat"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Serviciu îmbunătăţit"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Anulaţi modificările"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Bloc. ecr."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Ecran Acasă"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Renunţare"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Anulare"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Exp. diap."
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Interesele mele"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerie"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Setări"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Conectarea prin intermediul reţelei mobile poate genera costuri suplimentare, în funcţie de planul de plăţi."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "La fiecare %d ore"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "La fiecare oră"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Selectare totală"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Temă culoare"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Fundaluri implicite"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Tema de culoare se va schimba pentru a corespunde fundalului selectat. Pentru a seta manual tema de culoare, deschideţi meniul Setări > Temă de culoare."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Fundal călătorie"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "EFECTUAT"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ANULARE"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Eroare de reţea apărută. Încercaţi mai târziu."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Dacă dezactivaţi Serviciul îmbunătăţit, preferinţele dvs. vor fi şterse, iar acest fapt poate afecta calitatea serviciului oferit."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Pentru a vă oferi o experienţă îmbunătăţită, solicităm acces la identificatorul dispozitivului şi la tipul de categorii selectate sau de imagini redate. Puteţi să dezactivaţi Serviciul îmbunătăţit şi să ştergeţi preferinţele prin intermediul meniului Setări."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Paletă de culori"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Editare"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Numărul maxim de imagini (%d) a fost depăşit."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Fundalul se va schimba la fiecare %d ore în timp ce sunteţi conectat numai prin Wi-Fi sau printr-o reţea mobilă."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Fundalul se va schimba la fiecare %d ore în timp ce sunteţi conectat numai prin Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Fundalul se va schimba o dată pe oră în timp ce sunteţi conectat numai prin Wi-Fi sau printr-o reţea mobilă."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Fundalul se va schimba o dată pe oră în timp ce sunteţi conectat numai prin Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Primirea fundalurilor şi a informaţiilor suplimentare prin intermediul reţelelor mobile poate genera costuri suplimentare. Se recomandă utilizarea  în schimb a reţelelor Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Vor fi descărcate fundaluri noi pentru categoria pe care tocmai aţi selectat-o. Acest proces poate genera costuri suplimentare."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Atingeţi pentru a examina"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d imagini sunt selectate"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d categorii sunt selectate"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 categorie este selectată"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Actualizare Interesele mele"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Schimbare selecţie categorie"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Nu activaţi"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Descărc."
+

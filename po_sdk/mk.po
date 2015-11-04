@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Заднината на почетниот и екранот за заклучување е сменета."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Заднината на заклучениот екран е сменета."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Активирање..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Заднината на основниот екран е сменета."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d избрани"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Вклучи"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Исклучи"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Не прикажувај веќе"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Заднината ќе се менува при секое отклучување на уредот."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Нема мрежно поврзување. Поврзете се со мрежа Wi-Fi или вклучете Мобилни податоци и обидете се повторно."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Поставете уредот да покажува висококвалитетни слики врз основа на Вашите интереси на екранот за заклучување. Изберете претпочитани категории."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Сите промени ќе се отфрлат."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Интервал на преминот"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Вклучи само Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Вклучи проширена услуга"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Исклучи само Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Исклучи проширена услуга"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Заднини"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Не е можно поврз."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Проширена услуга"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Отфрли промени"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Екр.за закл."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Поч. екран"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Отфрли"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Откажи"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Слајдови"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Мои интереси"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Галерија"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Нагодување"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Поврзувањето преку мобилна мрежа може да се наплаќа дополнително, зависно од вашиот пакет."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Секои %d часа"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "На 1 час"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Избери ги сите"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Тема на бои"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Основни заднини"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Темата на бои ќе се смени да одговара на избраната заднина. За да ја одредите темата на бои рачно, одете во Опции > Тема на бои."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Патувачка заднина"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ГОТОВО"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ОТКАЖИ"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Дојде до грешка на мрежата. Обидете се подоцна."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Ако ја исклучите Напредената услуга, подесувањата ќе се избришат, што може да влијае врз квалитетот на дадената услуга."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "За да Ви обезбедиме побогато искуство, бараме пристап до идентификаторот на Вашиот уред и кои видови категории се избрани или кои слики се обработени. Напредната услуга може да ја исклучите и да ги избришете претпочитаните подесувања преку менито Поставки."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Палета на бои"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Измени"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Надминат е максималниот број слики (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Заднината ќе се менува на %d часа додека сте поврзани преку Wi-Fi или мобилна мрежа."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Заднината ќе се менува на %d часа само додека сте поврзани преку Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Заднината ќе се менува секој час додека сте поврзани преку Wi-Fi или мобилна мрежа."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Заднината ќе се менува секој час само додека сте поврзани преку Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Примањето слики на заднини и дополнителни информации преку мобилни мрежи може да се наплаќа дополнително. Се препорачува да користите мрежи Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Ќе се преземат нови слики за заднина за категоријата што ја избравте. Тоа може да се наплаќа дополнително."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Допрете за преглед"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Избрани се %d слики"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Избрани се %d категории"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Избрана е 1 категорија"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Ажурирај Мои интереси"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Смени избор на категории"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Не вклучувај"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Преземи"
+

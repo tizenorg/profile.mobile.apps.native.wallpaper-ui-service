@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Bật"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Đã vượt quá số ảnh tối đa (%d)."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Đã đổi ảnh nền màn hình chờ và màn hình khóa"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Đã đổi ảnh nền màn hình khóa."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Đang tải…"
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Đã đổi ảnh nền màn hình chờ."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "Đã chọn %d"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Tắt"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Không hiện lại"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Bộ sưu tập"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Hình nền mặc định"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Hình nền du lịch"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Màu theme"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Màu theme sẽ được thay đổi để phù hợp với hình nền đã chọn của bạn. Để đặt chủ đề màu thủ công, hãy vào Cài đặt > Màu theme."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Cài đặt"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Trình chiếu"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Sở thích của bạn"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Bảng màu"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Hình nền sẽ thay đổi mỗi khi bạn mở khóa thiết bị."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Chọn tất cả"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Hình nền"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Hủy các thay đổi"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Mọi thay đổi sẽ không được lưu."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Thoát"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Hủy bỏ"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Mỗi %d giờ"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Không có kết nối mạng. Hãy kết nối mạng Wi-Fi hoặc bật Dữ liệu di động và thử lại."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Dịch vụ nâng cao"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Không thể kết nối"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Kết nối qua mạng di động có thể phải trả phí bổ sung tùy thuộc vào kế hoạch thanh toán của bạn."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Để cung cấp cho bạn thêm một trải nghiệm nâng cao, chúng tôi tìm kiếm truy cập vào nhận dạng thiết bị của bạn và loại danh mục nào được chọn hoặc hình ảnh nào được hiển thị. Bạn có thể tắt dịch vụ Nâng cao và xóa các tùy chọn của bạn thông qua menu Cài đặt."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Nếu tắt dịch vụ Nâng cao thì các tùy chọn của bạn sẽ bị xóa và điều này sẽ ảnh hưởng đến chất lượng của dịch vụ được cung cấp."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Sửa"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "HOÀN TẤT"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "HỦY"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Cài đặt thiết bị để hiển thị ảnh chất lượng cao trên màn hình khóa dựa vào sở thích của bạn. Chọn thể loại yêu thích của bạn."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Chu kỳ chuyển tiếp"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Tắt Chỉ Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Bật Chỉ Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Tắt Dịch vụ nâng cao"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Bật Dịch vụ nâng cao"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Màn hình khóa"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Màn hình chờ"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Đã xảy ra lỗi mạng. Thử lại sau."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Mỗi 1 giờ"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Không bật"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Nhận hình nền và thông tin bổ sung qua mạng di động có thể phát sinh thêm phí. Bạn nên sử dụng mạng Wi-Fi thay thế."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Cập nhật Sở thích của bạn"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Thay đổi lựa chọn thể loại"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Các hình nền mới sẽ được tải về cho thể loại mà bạn vừa chọn. Việc này có thể phát sinh thêm phí."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Tải về"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Hình nền sẽ thay đổi mỗi giờ khi chỉ kết nối qua Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Hình nền sẽ thay đổi mỗi giờ khi kết nối qua Wi-Fi hoặc mạng di động."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Hình nền sẽ thay đổi mỗi %d giờ khi chỉ kết nối qua Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Hình nền sẽ thay đổi mỗi %d giờ khi kết nối qua Wi-Fi hoặc mạng di động."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Chạm để xem trước"
+

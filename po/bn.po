@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "সক্ষম"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "ছবিগুলির সর্বাধিক সংখ্যায় (%dটি) অতিক্রম করেছে।"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "হোম এবং লক স্ক্রিন ওয়ালপেপার পরিবর্তিত হয়েছে"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "লক স্ক্রিন ওয়ালপেপার পরিবর্তিত।"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "লোড হচ্ছে..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "হোম স্ক্রিন ওয়ালপেপার পরিবর্তিত।"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%dটি নির্বাচিত"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ওকে"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "অক্ষম"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "আর দেখাবেন না৷"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "গ্যালারী"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "ডিফল্ট ওয়ালপেপার"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "ভ্রমণের ওয়ালপেপার"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "রঙের থিম"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "আপনার নির্বাচিত ওয়ালপেপারটির সাথে মেলাতে রঙয়ের থিমটি পরিবর্তিত হবে। ম্যানুয়ালী রঙয়ের থিমটি সেট করতে এতে যান সেটিংস > রঙয়ের থিম।"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "সেটিংস"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "স্লাইডশো"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "আমার আগ্রহগুলি"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "রঙের প্যালেট"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "আপনি প্রত্যেক বার ডিভাইস আনলক করলে ওয়ালপেপার পরিবর্তিত হবে।"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "সমস্ত নির্বাচন করুন"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "ওয়ালপেপারগুলি"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "পরিবর্তনগুলি পরিত্যাগ করুন"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "সমস্ত পরিবর্তন পরিত্যাগ করা হবে।"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "বাতিল"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "পরিত্যাগ"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "প্রতি %d ঘন্টা"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "কোনও নেটওয়ার্ক সংযোগ নেই। একটি Wi-Fi নেটওয়ার্কে সংযোগ করুন বা মোবাইল তথ্য চালু করুন এবং পুনরায় চেষ্টা করুন।"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "বর্ধিত পরিষেবা"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "সংযোগ করতে অক্ষম"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "মোবাইল নেটওয়ার্কের মাধ্যমে সংযুক্ত করা হলে আপনার প্রদানের পরিকল্পনা অনুযায়ী অতিরিক্ত মূল্য ধার্য করা হতে পারে।"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "আপনাকে আরও উন্নত অভিজ্ঞতা প্রদান করতে, আমরা আপনার ডিভাইস পরিচায়ক এবং কি ধরণের বিভাগসমূহ নির্বাচন বা চিত্রগুলি ব্যবহার করা হয়েছে তা অ্যাক্সেস করতে চাই। আপনি সেটিংস মেনুর মাধ্যমে উন্নত পরিষেবা নিষ্ক্রিয় করতে এবং আপনার পছন্দসমূহ মুছে ফেলতে পারেন।"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "আপনি যদি উন্নত পরিষেবা নিষ্ক্রিয় করেন, তবে আপনার পছন্দসমূহ মুছে যাবে এবং এটি প্রদত্ত পরিষেবার গুণমানকে প্রভাবিত করতে পারে।"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "সম্পাদনা করুন"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "সম্পন্ন"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "বাতিল"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "লক স্ক্রিনে আপনার আগ্রহের উপর ভিত্তি করে উচ্চ গুণমানের চিত্রগুলি দেখাতে আপনার ডিভাইসটি সেট করুন। আপনার পছন্দসই বিভাগগুলি নির্বাচন করুন।"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "স্থানান্তরণ বিরতি"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "কেবলমাত্র Wi-Fi অক্ষম করুন"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "কেবলমাত্র Wi-Fi সক্ষম করুন"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "উন্নত পরিষেবা অক্ষম করুন"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "উন্নত পরিষেবা সক্ষম করুন"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "লক স্ক্রিন"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "হোম স্ক্রিন"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "নেটওয়ার্ক ত্রুটি ঘটেছে। পরে চেষ্টা করুন।"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "প্রতি 1 ঘন্টায়"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "সক্ষম করবেন না"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "মোবাইল নেটওয়ার্কগুলির মাধ্যমে ওয়ালপেপার চিত্রগুলি এবং অতিরিক্ত তথ্য প্রাপ্ত করার ফলে অতিরিক্ত চার্জ লাগতে পারে। পরিবর্তে আপনাকে Wi-Fi নেটওয়ার্ক ব্যবহারের সুপারিশ করা হয়।"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "আমার আগ্রহগুলি আপডেট করুন"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "বিভাগ নির্বাচন পরিবর্তন করুন"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "আপনি এইমাত্র যে বিভাগটি নির্বাচন করেছেন তার জন্য নতুন ওয়ালপেপার চিত্রগুলি ডাউনলোড হবে। এর ফলে অতিরিক্ত চার্জ লাগতে পারে।"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ডাউনলোড"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "কেবলমাত্র Wi-Fi-এর মাধ্যমে সংযুক্ত থাকাকালীন প্রত্যেক ঘন্টায় ওয়ালপেপার পরিবর্তন হবে।"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi বা মোবাইল নেটওয়ার্কের মাধ্যমে সংযুক্ত থাকাকালীন প্রত্যেক ঘন্টায় ওয়ালপেপার পরিবর্তন হবে।"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "কেবলমাত্র Wi-Fi-এর মাধ্যমে সংযুক্ত থাকাকালীন প্রত্যেক %d ঘন্টায় ওয়ালপেপার পরিবর্তন হবে।"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi বা মোবাইল নেটওয়ার্কের মাধ্যমে সংযুক্ত থাকাকালীন প্রত্যেক %d ঘন্টায় ওয়ালপেপার পরিবর্তন হবে।"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "পূর্বরূপ দেখতে ট্যাপ করুন"
+

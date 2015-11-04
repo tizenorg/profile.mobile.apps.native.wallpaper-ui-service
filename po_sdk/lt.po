@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Pradžios ir užrakinimo ekranų fonas pakeistas"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Užrakinimo ekrano fonas pakeistas."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Įkeliama..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Pradžios ekrano fonas pakeistas."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "Pasirinkta: %d"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "Gerai"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Įjungti"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Išjungti"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Daugiau nerodyti"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Ekrano fonas pasikeis kiekvieną kartą, kai atrakinsite įrenginį."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Čia nėra tinklo ryšio. Prisijunkite prie „Wi-Fi“ tinklo arba įjunkite mobiliuosius duomenis ir pabandykite dar kartą."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Nustatykite, kad užrakintame ekrane įrenginys rodytų jus dominančius aukštos kokybės vaizdus. Pasirinkite pageidaujamas kategorijas."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Visi pokyčiai bus panaikinti."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Perėjimo intervalas"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Įjungti „Tik Wi-Fi“"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Įjungti „Tobulesnė paslauga“"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Išjungti „Tik Wi-Fi“"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Išjungti „Tobulesnė paslauga“"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Ekrano fonai"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Neįmanoma jungtis"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Tobulesnė paslauga"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Atmesti pakeitimus"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Užrak. ekr."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Pradž. ekr."
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Panaikinti"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Atšaukti"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Skaidrių\nrodymas"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Mano\npomėgiai"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerija"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Nustatymai"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Jungiantis per mobilųjį tinklą gali būti taikomas papildomas mokestis, atsižvelgiant į mokėjimo planą."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Kas %d val."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Kas 1 val."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Pasirinkti visus"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Spalvos tema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Numatyt.\nekrano fon."
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Spalvų tema bus pakeista, kad atitiktų pasirinktą ekrano foną. Jei spalvų temą norite nustatyti rankiniu būdu, eikite į skirtuką Nustatymai > Spalvų tema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Kelion. ekr. fonas"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ATLIKTA"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ATŠAUKTI"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Įvyko tinklo klaida. Bandykite vėliau."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Jei išjungsite „Pritaikytos paslaugos“, jūsų nuostatos bus pašalintos, o tai gali turėti įtakos teikiamų paslaugų kokybei."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Spalvų paletė"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Redaguoti"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Viršytas maksimalus nuotraukų skaičius (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Ekrano fonas keisis kas %d val., prisijungus prie „Wi-Fi“ ir mobiliojo tinklo."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Ekrano fonas keisis kas %d val., prisijungus tik prie „Wi-Fi“."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Ekrano fonas keisis kas valandą, prisijungus prie „Wi-Fi“ ir mobiliojo tinklo."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Ekrano fonas keisis kas valandą, prisijungus tik prie „Wi-Fi“."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Atsisiunčiant ekrano fono vaizdus ir papildomą informaciją per mobiliuosius tinklus, gali būti taikomi papildomi mokesčiai. Vietoje to rekomenduojama naudoti „Wi-Fi“ tinklus."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Bus atsisiųsti nauji pasirinktos kategorijos ekrano fono vaizdai. Dėl to gali būti taikomi papildomi mokesčiai."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Bakstelėkite ir peržiūrėkite"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Pasirinkta vaizdų: %d"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Pasirinkta kategorijų: %d"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Pasirinkta 1 kategorija"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Atnaujinti „Mano pomėgiai“"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Keisti pasirinktą kategoriją"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Neįjungti"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Atsisiųsti"
+

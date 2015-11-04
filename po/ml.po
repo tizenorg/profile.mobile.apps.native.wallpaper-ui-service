@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "പ്രാപ്‌തമാക്കുക"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "ചിത്രങ്ങളുടെ പരമാവധി എണ്ണം (%d) കടന്നു."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "ഹോം, ലോക്ക് സ്‌ക്രീൻ വാൾപേപ്പറുകൾ മാറ്റി"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ലോക്ക് സ്ക്രീൻ വാൾപേപ്പർ മാറ്റി."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "ലോഡ്‌ ചെയ്യുന്നു..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ഹോം സ്ക്രീൻ വാൾപേപ്പർ മാറ്റി."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d തിരഞ്ഞെടുത്തു"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ശരി"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "നിഷ്ക്രിയമാക്കുക"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "ഇത് വീണ്ടും കാണിക്കരുത്"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ഗാലറി"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "ഡിഫോൾട്ട് വാൾപേപ്പറുകൾ"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "യാത്രാ വാള്‍പേപ്പര്‍"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "കളര്‍ തീം"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "തിരഞ്ഞെടുത്ത നിങ്ങളുടെ വാൾപേപ്പറിന് അനുയോജ്യമാകത്തക്കവിധം നിറ തീം മാറ്റപ്പെടും. നിറ തീം കരകൃതമായി ക്രമീകരിക്കുന്നതിന്, ക്രമീകരണങ്ങൾ > നിറ തീം എന്നിവയിലേക്ക് പോവുക."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "ക്രമീകരണങ്ങള്‍"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "സ്ലൈഡ്‌ഷോ"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "എന്‍റെ താൽപ്പര്യങ്ങൾ"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "കളർ പാലറ്റ്"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "നിങ്ങൾ ഓരോ തവണയും ഉപകരണം അൺലോക്ക് ചെയ്യുമ്പോൾ വാൾപേപ്പർ മാറും."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "എല്ലാം തിരഞ്ഞെടുക്കുക"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "വാൾപേപ്പറുകൾ"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "മാറ്റങ്ങൾ ഉപേക്ഷിക്കുക"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "എല്ലാ മാറ്റങ്ങളും നിരാകരിക്കപ്പെടും."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "റദ്ദാക്കുക"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "ക്യാന്‍സല്‍"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ഓരോ %d മണിക്കൂറിലും"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "നെറ്റ്‌വര്‍ക്ക് കണക്ഷന്‍ ഒന്നുമില്ല. ഒരു Wi-Fi നെറ്റ്‌വർക്കിലേക്ക് ബന്ധിപ്പിക്കുക അല്ലെങ്കിൽ മൊബൈൽ ഡാറ്റ ഓൺ ചെയ്ത് വീണ്ടും ശ്രമിക്കുക."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "വിപുലീകൃത സേവനം"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "കണക്ടു ചെയ്യാനാകുന്നില്ല"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "മൊബൈല്‍ നെറ്റ്‌വര്‍ക്ക് വഴി കണക്ട് ചെയ്യുന്നതിന് നിങ്ങളുടെ പേയ്മെന്‍റ് പ്ലാന്‍ അനുസരിച്ച് അധിക നിരക്കുകള്‍ ഈടാക്കിയേക്കും."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "നിങ്ങൾക്ക് മെച്ചപ്പെടുത്തിയ അനുഭവം നൽകുന്നതിന്, നിങ്ങളുടെ ഉപകരണ ഐഡന്റിഫയറിലേക്കും എന്തുതരത്തിലുള്ള വിഭാഗങ്ങളാണ് തിരഞ്ഞെടുത്തിരിക്കുന്നത് അല്ലെങ്കിൽ ഇമേജുകളാണ് റെൻഡർ ചെയ്യുന്നത് എന്നതിലേക്കും ഞങ്ങൾ ആക്സസ് ആവശ്യപ്പെടുന്നു. മെച്ചപ്പെടുത്തിയ സേവനം നിങ്ങൾക്ക് അപ്രാപ്തമാക്കാവുന്നതാണ്, ഒപ്പം സജ്ജീകരണ മെനുവിലൂടെയുള്ള മുൻഗണനകൾ ഇല്ലാതാക്കാവുന്നതാണ്."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "മെച്ചപ്പെടുത്തിയ സേവനം നിങ്ങൾ അപ്രാപ്തമാക്കുന്നുവെങ്കിൽ, നിങ്ങളുടെ മുൻഗണനകൾ ഇല്ലാതാക്കപ്പെടും, നൽകപ്പെടുന്ന സേവനത്തിന്റെ ഗുണനിലവാരത്തെ ഇത് ബാധിച്ചേക്കാം."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "എഡിറ്റുചെ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ചെയ്‌തു"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "റദ്ദാക്കുക"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "നിങ്ങളുടെ താൽപ്പര്യങ്ങളിൽ അധിഷ്ഠിതമായ ഉയർന്ന മേന്മയുള്ള ചിത്രങ്ങൾ ലോക്ക് സ്ക്രീനിൽ കാണിക്കത്തക്കവിധം നിങ്ങളുടെ ഉപകരണത്തെ ക്രമീകരിക്കുക. നിങ്ങൾക്ക് ഇഷ്ടപ്പെട്ട വിഭാഗങ്ങൾ തിരഞ്ഞെടുക്കുക."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ട്രാൻസിഷൻ ഇടവേള"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi മാത്രം അപ്രാപ്തമാക്കുക"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi മാത്രം പ്രാപ്തമാക്കുക"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "മികച്ച സേവനം അപ്രാപ്തമാക്കുക"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "മികച്ച സേവനം പ്രാപ്തമാക്കുക"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "ലോക്ക് സ്ക്രീൻ"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "ഹോം സ്ക്രീന്‍‌"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "നെറ്റ്‌വര്‍ക്ക് പിശക് സംഭവിച്ചു. പിന്നീട് ശ്രമിക്കുക."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ഓരോ 1 മണിക്കൂറില്‍"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "പ്രാപ്തമാക്കരുത്"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "മൊബൈൽ നെറ്റ്‌വർക്ക് വഴി വാൾപേപ്പർ ചിത്രങ്ങളും അധിക വിവരവും സ്വീകരിക്കുന്നത് അധിക നിരക്കുകൾക്ക് കാരണമായേക്കാം. പകരമായി Wi-Fi നെറ്റ്‌വർക്കുകൾ ഉപയോഗിക്കാൻ ഇത് ശുപാർശ ചെയ്യുന്നു."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "എന്‍റെ താൽപ്പര്യങ്ങൾ അപ്ഡേറ്റ് ചെയ്യുക"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "വിഭാഗ തിരഞ്ഞെടുപ്പ് മാറ്റുക"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "നിങ്ങൾ ഇപ്പോൾ തിരഞ്ഞെടുത്ത വിഭാഗത്തിനായി പുതിയ വാൾപേപ്പർ ചിത്രങ്ങൾ ഡൗൺലോഡ് ചെയ്യപ്പെടും. ഇത് അധിക നിരക്കുകൾക്ക് ഇടവരുത്തിയേക്കാം."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ഡൗൺലോഡുചെയ്യുക"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi മാത്രം വഴി ബന്ധിപ്പിച്ചിരിക്കുന്ന സമയത്ത് ഓരോ മണിക്കൂറിലും വാൾപേപ്പർ മാറും."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi അല്ലെങ്കിൽ മൊബൈൽ നെറ്റ്‌വർക്ക് വഴി ബന്ധിപ്പിച്ചിരിക്കുന്ന സമയത്ത് ഓരോ മണിക്കൂറിലും വാൾപേപ്പർ മാറും."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi മാത്രം വഴി ബന്ധിപ്പിച്ചിരിക്കുന്ന സമയത്ത് ഓരോ %d മണിക്കൂറിലും വാൾപേപ്പർ മാറും."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi അല്ലെങ്കിൽ മൊബൈൽ നെറ്റ്‌വർക്ക് വഴി ബന്ധിപ്പിച്ചിരിക്കുന്ന സമയത്ത് ഓരോ %d മണിക്കൂറിലും വാൾപേപ്പർ മാറും."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "പ്രിവ്യൂ കാണുന്ന. സ്പർശിക്കുക"
+

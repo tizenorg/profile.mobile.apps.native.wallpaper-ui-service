@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "සක්‍රිය ක."
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "උපරිම රූප ගණන (%d) ඉක්මවීය."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "මුල්පිටු සහ අගුළු තිර බිතුපත වෙනස් කෙරිණි"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "අගුළු තිර බිතුපත වෙනස් කෙරිණි."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "ප්‍රෙව්ශනය කරමින්..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "මුල් පිටු තිර බිතුපත වෙනස් කෙරිණි."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ක් තෝරා ඇත"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "හරි"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "අක්‍රිය ක."
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "නැවත නොපෙන්වන්න."
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ගැලරි"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "පෙරනිමි බිතුපත්"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "සංචාරක බිතුපත"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "වර්ණ තේමාව"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "ඔබ තේරූ බිතුපතට ගැළපෙන ආකාරයට වර්ණ තේමාව වෙනස් වනු ඇත. වර්ණ තේමාව හස්තීයව සැකසීමට සැකසුම් > වර්ණ තේමාව වෙත යන්න."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "සැකසුම්"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "ස්ලයිඩ දැක්ම"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "මගේ කැමැත්ත"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "වර්ණ පුවරුව"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "ඔබ උපාංගය අගුලු හරින සෑම විටම බිතුපත වෙනස් වනු ඇත."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "සියල්ල තේරීම"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "බිතුපත්"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "වෙනස්කම් නොසලකා හරින්න"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "සියලු වෙනස්කම් බැහැර කෙරෙනු ඇත."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "අවල. කර."
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "ඉවතලන්න"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "සෑම පැය %d කට වරක්"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ජාල සබඳතාවයක් නැත. Wi-Fi ජාලයක් වෙත සබඳින්න නැතහොත් ජංගම දත්ත සක්‍රිය කර නැවත උත්සාහ කරන්න."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "වැඩිදියුණු කළ සේවාව"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "සබැඳීමට නොහැක"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "ජංගම ජාලය හරහා සම්බන්ධ වී‍ම සඳහා ඔබේ ගෙවීම් සැලැස්ම අනුව අතිරේක ගාස්තු අය වනු ඇත."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "‍ඔබට වැඩිදියුණුකළ අත්දැකීමක් ලබා දීමට, ඔබගේ හඳුනාගැනීමේ උපාංගයට ප්‍රවේශ වීමටත් කුමන ආකරයේ වර්ග තෝරාගෙන ඇතිද හෝ ලබා දී ‍තිබෙන ජායා රූප මොනවාද යන්නත් විමසමු. පසුතල සැකසුම තුලින් ඔබට වැඩිදියුණු කළ සේවය අබල කිරීමටත් ඔබගේ අභිමතයන් මකා දැමීමටත් හැකිය."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "ඔබ වැඩිදියුණුකළ සේවය අබල කළහොත්, ඔබගේ අභිමතයන් මැකීයන අතර මෙය සේවා සැපයුම් තත්වයට බලපෑමක් කිරීමට ඉඩ ඇත."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "සංස්කරණය ක."
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "නිමයි"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "අවලංගු කර."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "අගුලු තිරය මත ඇති ඔබේ අභිරුචීන් මත පදනම්ව ඉහළ තත්ත්වයේ අනුරූ දර්ශනය කිරීමට ඔබේ උපාංගය පිහිටුවන්න. ඔබේ වඩා කැමති ප්‍රවර්ග තෝරන්න."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "සංක්‍රාන්ති විරාමය"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi පමණක් අක්‍රිය කරන්න"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi පමණක් සක්‍රිය කරන්න"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "වැඩිදියුණු කළ සේවාව අක්‍රිය ක."
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "වැඩිදියුණු කළ සේවාව සක්‍රිය ක."
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "අගුලු තිරය"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "මුල් තිරය"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "ජාලයේ දෝෂයක් මතුවිය. පසුව උත්සාහ කරන්න."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "සෑම පැය 1කට ව."
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "සක්‍රිය නොක."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "ජංගම ජාල ඔස්සේ බිතුපත් අනුරූ හා අමතර තොරතුරු ලබා ගැනීමේ ප්‍රතිඵලයක් ලෙස අතිරේක ගාස්තු අය කරනු ලැබිය හැක. ඒ වෙනුවට Wi-Fi ජාල භාවිතා කිරීම යෝග්‍ය වේ."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "මාගේ අභිරුචි යාවත්කාල කර."
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "ප්‍රවර්ග තේරීම වෙනස් කිරීම"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "ඔබ මේ දැන් තෝරාගත් ප්‍රවර්ගය සඳහා නව බිතුපත් අනුරූ බාගැනෙනු ඇත. මින් අතිරේක ගාස්තු අය විය හැක."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "බාගන්න"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi ඔස්සේ පමණක් සම්බන්ධිත අතරතුර සෑම පැයකටම වරක් බිතුපත වෙනස් වනු ඇත."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi හෝ ජංගම ජාලය ඔස්සේ පමණක් සම්බන්ධිත අතරතුර සෑම පැයකටම වරක් බිතුපත වෙනස් වනු ඇත."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi ඔස්සේ පමණක් සම්බන්ධිත අතරතුර සෑම පැය %d කටම වරක් බිතුපත වෙනස් වනු ඇත."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi හෝ ජංගම ජාලය ඔස්සේ පමණක් සම්බන්ධිත අතරතුර සෑම පැය %d කටම වරක් බිතුපත වෙනස් වනු ඇත."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "පෙරදැක්මට තට්ටු කර."
+

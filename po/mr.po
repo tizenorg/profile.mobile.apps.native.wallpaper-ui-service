@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "सक्रिय"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "चित्रांच्‍या अधिकतम संख्‍येची मर्यादा (%d) ओलांडली आहे."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "होम आणि लॉक स्‍क्रीन वॉलपेपर बदलले"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "लॉक स्‍क्रीन वॉलपेपर बदलले."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "लोड होत आहे..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "होम स्‍क्रीन वॉलपेपर बदलले."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d निवडलेले"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ठीक"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "अक्षम"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "पुन्हा दर्शवू नका."
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "गॅलरी"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "डिफॉल्ट वॉलपेपर्स"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "प्रवास वॉलपेपर"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "रंग थीम"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "आपण निवडलेल्या वॉलपेपरशी जुळण्यासाठी रंग थीम बदलली जाईल. रंग थीम मॅन्युअली सेट करण्यासाठी, सेटिंग्स > रंग थीमवर जा."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "सेटिंग्स"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "स्लाइडशो"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "माझ्या रूची"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "रंग पॅलेट"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "प्रत्येक वेळी आपण उपकरण अनलॉक केल्यावर वॉलपेपर बदलेल."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "सर्व निवडा"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "वॉलपेपर्स"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "बदल काढून टाका"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "सर्व बदल काढून टाकले जातील."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "रद्द"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "टाकून द्या"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "प्रत्येक %d तासांनी"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "तिथे कोणतीही नेटवर्क कनेक्शन नाही. Wi-Fi नेटवर्कशी कनेक्ट करा किंवा मोबाईल डेटा चालू करा आणि पुन्हा प्रयत्न करा."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "उन्‍नत सेवा"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "कनेक्ट करण्यामध्‍ये अक्षम"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "आपल्या देय योजनेनुसार मोबाईल नेटवर्क द्वारे कनेक्ट केल्यास अतिरिक्त शुल्क लागू शकते."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "आपल्याला अधिक वर्धित अनुभव देण्यासाठी आम्ही आपल्या उपकरण ओळखकर्त्याकडे आणि कोणत्या प्रकारच्या वर्गवारी निवडल्या आहेत किंवा प्रतिमा प्रस्तुत केल्या जात आहेत याकडे प्रवेश इच्छितो. आपण सेटिंग्स मेनूमधुन वर्धित सेवा असमर्थ करू शकाल आणि आपले प्राधान्यक्रम खोडू शकाल."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "आपण वर्धित सेवा असमर्थ केल्यास आपले प्राधान्यक्रम खोडले जातील आणि याचा पुरविल्या जाणार्‍या सेवेच्या गुणवत्तेवर परिणाम होऊ शकेल."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "संपादित करा"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "झाले"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "रद्द करा"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "आपल्या आवडीनुसार लॉक स्क्रीनवर उच्च गुणवत्ता प्रतिमा दर्शवण्यासाठी आपले उपकरण सेट करा. आपल्‍या प्राधान्‍यीकृत श्रेण्‍या निवडा."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "संक्रमण मध्यांतर"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "केवळ Wi-Fi अक्षम करा"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "केवळ Wi-Fi सक्षम करा"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "उन्‍नत सेवा अक्षम करा"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "उन्नत सेवा सक्षम करा"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "लॉक स्क्रीन"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "मुख्य स्‍क्रीन"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "नेटवर्क त्रुटी आली. नंतर प्रयत्न करा."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "प्रत्येक 1 तासानी"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "सक्षम करू नये"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "मोबाईल नेटवर्क्‍सद्वारे वॉलपेपर प्रतिमा आणि अतिरिक्‍त माहिती प्राप्‍त करण्‍याच्‍या परिणामस्‍वरूप अतिरिक्‍त शुल्‍क लागू शकते. शिफारस केली जाते की आपण च्‍याऐवजी Wi-Fi नेटवर्क्‍स वापरावेत."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "माझ्या रूची अद्ययावत करा"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "श्रेणी निवड बदला"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "आपण नुकतीचे निवडलेल्‍या श्रेणीसाठी नवीन वॉलपेपर प्रतिमा डाउनलोड करण्‍यात येतील. ह्याच्‍या परिणामस्‍वरूप कदाचित अतिरिक्‍त शुल्‍क लागू शकतील."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "डाउनलोड"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "केवळ Wi-Fi द्वारे कनेक्ट केलेले असताना प्रत्येक तासाने वॉलपेपर बदलेल."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "केवळ Wi-Fi किंवा मोबाईल नेटवर्कद्वारे कनेक्ट केलेले असताना प्रत्येक तासाने वॉलपेपर बदलेल."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "केवळ Wi-Fi द्वारे कनेक्ट केलेले असताना प्रत्येक %d तासांनी वॉलपेपर बदलेल."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "केवळ Wi-Fi किंवा मोबाईल नेटवर्कद्वारे कनेक्ट केलेले असताना प्रत्येक %d तासांनी वॉलपेपर बदलेल."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "पूर्वावलोकनासाठी टॅप करा"
+

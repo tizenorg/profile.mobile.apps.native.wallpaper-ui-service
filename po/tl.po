@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Paganahin"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Lumagpas na sa maximum na bilang ng mga litrato (%d)."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Napalitan ang wallpaper ng home at lock screen"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Binago ang wallpaper ng lock screen."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Naglo-load..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Binago ang wallpaper ng home screen."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ang pinili"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Huwag paganahin"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Huwag ipakitang muli"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Gallery"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Default na wallpaper"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Travel wallpaper"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Colour theme"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Papalitan ang tema ng kulay para tumugma sa pinili mong wallpaper. Para manu-manong itakda ang tema ng kulay, pumunta sa Mga Setting > Tema ng kulay."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Mga Setting"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Slideshow"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Mga interes ko"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Palette ng kulay"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Ang wallpaper ay magbabago tuwing i-unlock mo ang device."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Piliin lahat"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Mga Wallpaper"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Itapon ang mga pagbabago"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Tatanggalin ang lahat ng pagbabago."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Ikansela"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "I-discard"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Bawat %d (na) oras"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Walang koneksyon sa network. Kumonekta sa isang Wi-Fi network o i-on ang Mobile data at subukang muli."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Pinahusay na serbisyo"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Hindi makakonekta"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Connecting via mobile network may incur additional charges depending on your payment plan."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "To provide you with a more enhanced experience, we seek access to your device identifier and what type of categories selected or images rendered. You may disable Enhanced service and delete your preferences through the Settings menu."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "If you disable Enhanced service, your preferences will be deleted and this may affect the quality of the service provided."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "I-edit"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "TAPOS NA"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "KANSELAHIN"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "I-set ang iyong device para magpakita ng mataas na kalidad na larawan batay sa iyong mga interes sa lock screen. Piliin ang mga gusto mong kategorya."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Agwat ng pagpapalit"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Huwag paganahin ang Wi-Fi lamang"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Paganahin lamang ang Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Huwag paganahin ang Pinahusay na serbisyo"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Paganahin ang Pinahusay na serbisyo"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Lock screen"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Home screen"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "May naganap na error sa network. Subukan sa ibang pagkakataon."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Bawat 1 oras"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Huwag paganahin"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Pagtanggap ng mga larawan ng wallpaper at karagdagang impormasyon sa pamamagitan ng mga mobile netework ay maaaring magresulta sa mga karagdagang bayad. Inirerekomenda na gumamit ka ng mga Wi-Fi network sa halip."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "I-update ang Mga interes ko"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Palitan ang pagpili ng kategorya"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Ida-download ang mga bagong larawan ng wallpaper para sa kategorya na pinili mo lang. Maaari itong magresulta sa mga karagdagang pagsingil."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Download"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Magpapalit ang wallpaper bawat oras habang nakakonekta sa pamamagitan lang ng Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Magpapalit ang wallpaper bawat oras habang nakakonekta sa pamamagitan lang ng Wi-Fi o mobile network."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Magpapalit ang wallpaper tuwing %d (na) oras habang nakakonekta sa pamamagitan lamang ng Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Magpapalit ang wallpaper tuwing %d (na) oras habang nakakonekta sa pamamagitan ng Wi-Fi o mobile network."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "I-tap para i-preview"
+

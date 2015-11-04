@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "செயல்படுத்துக"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "அதிகபட்ச படங்களின் எண்ணிக்கையை (%d) தாண்டியது."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "முகப்பு மற்றும் பூட்டு திரைக்கான வால்பேப்பர் மாற்றப்பட்டது"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "பூட்டுத்திரை வால்பேப்பர் மாற்றப்பட்டது."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "லோடிங்..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "முகப்புத் திரை வால்பேப்பர் மாற்றப்பட்டது."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d தேர்வுசெய்யப்பட்டது"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "சரி"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "செயல்நீக்கு"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "மீண்டும் காண்பிக்க வேண்டாம்"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "கேலரி"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "டீஃபால்ட் வால்பேப்பர்கள்"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "பயண வால்பேப்பர்"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "நிற தீம்"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "நீங்கள் தேர்ந்தெடுத்த வால்பேப்பருக்கு பொருந்துமாறு நிற தீம் மாற்றப்படும். நிற தீமை கைமுறையாக அமைக்க அமைவுகள் > நிற தீம் என்பதற்குச் செல்லவும்."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "அமைவுகள்"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "ஸ்லைடுஷோ"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "எனது ஆர்வங்கள்"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "நிறத் தட்டு"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "சாதனத்தை ஒவ்வொரு முறை நீங்கள் பூட்டுநீக்கும்போதும் வால்பேப்பர் மாறும்."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "எல். தேர்வுசெய்க"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "வால்பேப்பர்கள்"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "மாற்றங்களை தவிர்க்கவும்"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "அனைத்து மாற்றங்களும் தவிர்க்கப்படும்."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "ரத்து"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "தவிர்."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ஒவ்வொரு %d மணிநேரமும்"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "நெட்வொர்க் இணைப்பு ஏதுமில்லை. Wi-Fi நெட்வொர்க்குடன் இணைத்து அல்லது மொபைல் தரவை ஆன் செய்து மீண்டும் முயலவும்."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "மேம்படுத்தப்பட்ட சேவை"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "இணைக்க இயலவில்லை"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "மொபைல் நெட்வொர்க் வழியே இணைப்பது உங்கள் கட்டண திட்டத்தைப் பொருத்து கூடுதல் கட்டணத்திற்கு உட்படக்கூடும்."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "உங்களுக்கு மிகவும் மேம்பட்ட அனுபவத்தை வழங்குவதற்கு, உங்கள் சாதன அடையாளங்காட்டியை அணுகி, என்ன வகையான வகைகள் தேர்ந்தெடுக்கப்பட்டுள்ளன அல்லது என்ன வகையான படங்கள் வழங்கப்பட்டன போன்றவற்றை நாடுவோம். மேம்பட்ட சேவையை முடக்கி, அமைப்புகள் மெனு வழியாக உங்கள் விருப்பங்களை நீக்கலாம்."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "மேம்பட்ட சேவையை நீங்கள் முடக்கினால், உங்கள் விருப்பங்கள் நீக்கப்பட்டு, அதனால் வழங்கப்படும் சேவையின் தரம் பாதிக்கப்படலாம்."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "திருத்துக"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "முடிந்தது"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ரத்துசெய்க"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "பூட்டுத் திரையில் உங்கள் ஆர்வங்களின் அடிப்படையில் உயர் தர படிமங்களை காட்டுமாறு உங்கள் சாதனத்தை அமைக்கவும். உங்கள் விருப்பமான வகைகளை தேர்வுசெய்யவும்."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "நிலைமாற்ற இடைவெளி"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi மட்டும் செயல்நீக்குக"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi மட்டும் செயல்படுத்துக"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "மேம்படுத்திய சேவை செயல்நீக்குக"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "மேம்படுத். சேவை செயல்படுத்துக"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "பூட்டு திரை"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "முகப். திரை"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "நெட்வொர்க் பிழை. பின்னர் முயலுக."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ஒவ்வொரு 1 மணிநேரம்"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "செயல்படுத்த வேண்டாம்"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "மொபைல் நெட்வொர்க்குகள் வழியே வால்பேப்பர் படிமங்களையும் கூடுதல் விவரத்தையும் பெறுவது, கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும். பதிலாக Wi-Fi நெட்வொர்க்குகளைப் பயன்படுத்துமாறு பரிந்துரைக்கப்படுகிறது."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "எனது ஆர்வங்களைப் புதுப்பி."
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "வகைத் தேர்வை மாற்றவும்"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "புதிய வால்பேப்பர் படிமங்கள், நீங்கள் தற்போது தேர்வுசெய்த வகைக்காகப் பதிவிறக்கப்படும். இது கூடுதல் கட்டணங்களுக்கு உட்படக்கூடும்."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "பதிவிறக்குக"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi வழியே இணைக்கப்படும் போது மட்டும் வால்பேப்பர் ஒவ்வொரு மணிநேரத்திலும் மாறும்."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi அல்லது மொபைல் நெட்வொர்க் வழியே இணைக்கப்படும் போது  வால்பேப்பர் ஒவ்வொரு மணிநேரத்தில் மாறும்."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi வழியே இணைக்கப்படும் போது மட்டும் வால்பேப்பர் ஒவ்வொரு %d மணிநேரத்திலும் மாறும்."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi அல்லது மொபைல் நெட்வொர்க் வழியே இணைக்கப்படும் போது வால்பேப்பர் ஒவ்வொரு %d மணிநேரத்திலும் மாறும்."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "முன்காட்சியிட டேப் செய்க"
+

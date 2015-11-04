@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "စတင္လုပ္ေဆာင္ပါ"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "ပံု အမ်ားဆံုး အေရအတြက္ (%d) ထက္ ေက်ာ္သြားပါၿပီ။"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "မူလႏွင့္ ေသာ့ ဖန္သားျပင္ ေနာက္ခံပံုရိပ္ ေျပာင္းထားသည္"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ေသာ့ခပ္ဖန္သားျပင္ နံရံကပ္စကၠဴ ေျပာင္းသြားျပီး။"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "အခ်က္အလက္ျဖည့္သြင္းေနပါသည္…"
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "မူလဖန္သားျပင္ နံရံကပ္စကၠဴ ေျပာင္းသြားျပီး။"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d ခု ေရြးထားသည္"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "အုိေက"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "ပိတ္ထားပါ"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "ထပ္မျပပါေတာ့ႏွင့္"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ျပခန္း"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "အသင့္လုပ္ၿပီး ေနာက္ခံပံုရိပ္မ်ား"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "ခရီး နံရံကပ္စကၠဴ"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "အေရာင္ ေနာက္ခံ ဒီဇိုင္း"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "သင္ေရြးထားေသာ ေနာက္ခံပံုရိပ္ႏွင့္ ကိုက္ညီရန္ အေရာင္ အခင္းအက်င္း ေျပာင္းလိမ့္မည္။ အေရာင္ အခင္းအက်င္းကို ကိုယ္တိုင္သတ္မွတ္ရန္ ဆက္တင္မ်ား > အေရာင္ အခင္းအက်င္း သို႔သြားပါ။"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "သတ္မွတ္ခ်က္မ်ား"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "ဆလိုက္ရွိဳး"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "မိမိ စိတ္ဝင္စားမႈမ်ား"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "ေဆးေရာင္စုံအကန္႔"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "ကိရိယာကို သင္ ေသာ့ဖြင့္ေသာ အႀကိမ္တိုင္း ေနာက္ခံျမင္ကြင္းက ေျပာင္းလဲသြားပါမည္။"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "အားလံုးကိုေရြးပါ"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "ေနာက္ခံပုံရိပ္မ်ား"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "အေျပာင္းအလဲမ်ား စြန္႔ပစ္ပါ"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "အေျပာင္းအလဲအားလံုးကို ျပစ္ပယ္လိုက္မည္။"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "စြန္႔ပစ္ပါ"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "%d နာရီတုိင္း"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ကြန္ယက္ ခ်ိတ္ဆက္မႈ မရွိပါ။ Wi-Fi ကြန္ယက္သုိ႔ ခ်ိတ္ဆက္ၿပီး (သို႔) မိုးဘိုင္းေဒတာကို ဖြင့္ၿပီးေနာက္ ထပ္ႀကိဳးစားပါ။"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "ထပ္တုိး ဝန္ေဆာင္မႈ"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "ခ်ိတ္ဆက္ရန္ မရႏိုင္ပါ"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "မိုဘိုင္း ကြန္ယက္ မွတဆင့္ ဆက္သြယ္ျခင္းမ်ားသည္ သင္၏ ေငြေပးေခ်ျခင္း အစီအစဥ္ေပၚမူတည္ျပီး အပိုေဆာင္းေငြေပးရျခင္းမ်ား ျဖစ္ႏိုင္သည္။"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "သင့္အား ပိုမိုအဆင့္ျမင့္ေသာ အေတြ႔အၾကံဳမ်ားေပးရန္ ကၽြႏု္ပ္တို႔သည္ သင့္ကိရိယာေဖာ္ျပခ်က္ကိုရွာေဖြျပီး မည္သည့္အမ်ဳိးအစားကိုေရြးခ်ယ္ျခင္း သို႔မဟုတ္ ရုပ္ပံုမ်ားေပးထားျခင္းကို ၾကည့္ရႈပါသည္။ သင္သည္ ပိုမိုအဆင္ျမင့္ေသာ ဝန္ေဆာင္မႈမ်ားကို ပိတ္ထားႏိုင္ျပီး ဆက္တင္မီႏူးမွတဆင့္ သင္ၾကိဳက္ႏွစ္သက္ရာမ်ားကို ဖ်က္ႏုိင္ပါသည္။"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "သင္သည္ ပိုမိုအဆင္ျမင့္ေသာ ၀န္ေဆာင္မႈမ်ားကို ပိတ္ထားလွ်င္ သင့္ၾကိဳက္ႏွစ္သက္မႈမ်ားသည္ ပ်က္သြားလိမ္႔မည္ျဖစ္ျပီး ၎သည္ ေပးထားေသာ ဝန္ေဆာင္မႈအရည္အေသြးကို ထိခိုက္ေစပါလိမ္႔မည္။"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "တည္းျဖတ္ပါ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "ၿပီးၿပီ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ပယ္ဖ်က္ပါ"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "ေသာ့ဖန္သားျပင္အေပၚ သင့္စိတ္ဝင္စားမႈကို အေျခခံ၍ အရည္အေသြးျမင့္ ပုံမ်ား ျပရန္ သင့္ကိရိယာကို သတ္မွတ္ပါ။ သင္ ပိုလိုလားေသာ အမ်ိဳးအစားအုပ္စုမ်ားကို ေရြးပါ။"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ကူးေျပာင္းမႈဆိုင္ရာ ၾကားကာလ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi သာလွ်င္ ပိတ္ပါ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fi သာလွ်င္ ဖြင့္ပါ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "ပိုေကာင္းေစေသာ ဝန္ေဆာင္မႈကို ပိတ္ပါ"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "ပိုေကာင္းေစေသာ ဝန္ေဆာင္မႈကို ဖြင့္ပါ"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "ေသာ့ဖန္သားျပင္"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "ပင္မ ဖန္သားျပင္"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "ေနာက္မွျပန္ၾကိဳးစားပါ"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "၁ နာရီတိုင္း"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "မဖြင့္ပါ"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "ေနာက္ခံပုံရိပ္၏ ပုံမ်ားႏွင့္ ေနာက္ထပ္ အခ်က္အလက္ေတြကို မိုဘုိင္းကြန္ယက္မ်ားမွ တဆင့္ လက္ခံျခင္းသည္ ေနာက္ထပ္ အဖိုးအခမ်ား က်သင့္ေစႏုိင္ပါသည္။ Wi-Fi ကြန္ရက္မ်ား သင္ အစားထိုးၿပီး သုံးရန္ အႀကံျပဳလိုပါသည္။"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "ကၽြႏု္ပ္ စိတ္ဝင္စားမႈမ်ားကို အပ္ဒိတ္လုပ္ပါ"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "အမ်ိဳးအစားအုပ္စု ေရြးျခင္းကို ေျပာင္းပါ"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "ေနာက္ခံပုံရိပ္၏ ပုံအသစ္မ်ားကို သင္ ခုေလးတြင္ ေရြးခဲ့ေသာ အမ်ိဳးအစားအုပ္စုအတြက္ ေဒါင္းလုတ္လုပ္ပါလိမ့္မည္။ ၎က ေနာက္ထပ္ အဖိုးအခမ်ား က်င့္သင့္ေစႏုိင္ပါသည္။"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ေဒါင္းလုတ္လုပ္မည္လား"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi မွတဆင့္သာလွ်င္ ခ်ိတ္ဆက္ထားလွ်င္ ေနာက္ခံပံုရိပ္သည္ တစ္နာရီၾကာတိုင္း ေျပာင္းသြားမည္။"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi (သို႕) မိုဘိုင္းကြန္ယက္မွတဆင့္ ခ်ိတ္ဆက္ထားလွ်င္ ေနာက္ခံပံုရိပ္သည္ တစ္နာရီၾကာတိုင္း ေျပာင္းသြားမည္။"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Wi-Fi မွတဆင့္သာလွ်င္ ခ်ိတ္ဆက္ထားလွ်င္ ေနာက္ခံပံုရိပ္သည္ %d နာရီၾကာတိုင္း ေျပာင္းသြားမည္။"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi (သို႕) မိုဘိုင္းကြန္ယက္မွတဆင့္ ခ်ိတ္ဆက္ထားလွ်င္ ေနာက္ခံပံုရိပ္သည္ %d နာရီၾကာတိုင္း ေျပာင္းသြားမည္။"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "ႀကိဳတင္ၾကည့္ရန္ ႏွိပ္ပါ"
+
