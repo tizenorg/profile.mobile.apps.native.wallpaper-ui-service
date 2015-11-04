@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Ava- ja lukustusekraani taustpilt on muudetud"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Lukustusekraani taustpilti on muudetud."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Laadimine..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Avaekraani taustpilti on muudetud."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d on valitud"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Luba"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Desaktiv."
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ära näita uuesti"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Taustpilt muutub iga kord, kui avate seadme."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Võrguühendust pole. Looge ühendus Wi-Fi võrguga või lülitage mobiilne andmeside sisse ja proovige uuesti."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Saate määrata seadme näitama lukustusekraanil teie huvidel põhinevaid kõrgekvaliteedilisi pilte. Valige eelistatud kategooriad."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Koikidest muudatustest loobutakse."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Ülemineku intervall"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Aktiveeri Ainult Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Aktiveeri täiendatud teenus"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Desaktiveeri Ainult Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Desaktiveeri täiendatud teenus"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Taustpildid"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Ühend. ei saa luua"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Täiendatud teenus"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Loobu muudatustest"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Luk.ekraan"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Avaekraan"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Loobu"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Tühista"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Slaidi-\nseanss"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Minu huvid"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerii"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Seaded"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Mobiilsidevorgu kaudu uhenduse loomisel voivad rakenduda lisatasud soltuvalt teie paketist."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Iga %d tunni järel"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Iga 1 t järel"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Vali kõik"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Värviteema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Vaike-\ntaustpildid"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Värviteemat muudetakse, et see sobiks teie valitud taustpildiga. Värviteema käsitsi määramiseks avage menüü Seaded > Värviteema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Reisitaustpilt"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "VALMIS"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "TÜHISTA"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Ilmnes võrgutõrge. Proovige hiljem."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Täiustatud teenuse keelamise korral kustutatakse teie eelistused ja see võib mõjutada pakutava teenuse kvaliteeti."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Teile parema kasutuskogemuse pakkumiseks soovime juurdepääsu teie seadme identifikaatorile, piltide kategooriatele, mida olete valinud ja saanud, samuti teie kuvari intervallide eelistustele. Täiustatud teenuse saate keelata ja eelistused kustutada menüüs Seaded."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Värvipalett"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Redigeeri"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Piltide maksimaalne arv (%d) on ületatud."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Taustpilt muutub iga %d tunni järel, kui olete ühendatud Wi-Fi või mobiilsidevõrgu kaudu."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Taustpilt muutub iga %d tunni järel ainult siis, kui olete ühendatud Wi-Fi kaudu."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Taustpilt muutub iga tunni järel, kui olete ühendatud Wi-Fi või mobiilsidevõrgu kaudu."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Taustpilt muutub iga tunni järel ainult siis, kui olete ühendatud Wi-Fi kaudu."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Taustpiltide ja lisateabe vastuvõtmisel mobiilsidevõrkude kaudu võivad rakenduda lisatasud. Selle asemel soovitame kasutada Wi-Fi võrke."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Uued taustpildid laaditakse alla just valitud kategooria jaoks. Sellega võivad rakenduda lisatasud."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Toksake eelvaateks"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Valitud on %d pilti"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Valitud on %d kategooriat"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Valitud on 1 kategooria"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Teenuse Minu huvid värskend."
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Kategooriate valiku muutmine"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Ära aktiveeri"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Lae alla"
+

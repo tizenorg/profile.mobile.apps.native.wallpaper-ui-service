@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Baggrund for Startskærm og låst skærm er ændret."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Baggrund for låst skærm ændret."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Indlæser data ..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Baggrund for startskærm ændret."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d valgt"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Aktivér"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Deaktivér"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Vis ikke igen"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Baggrunden vil ændre sig, hver gang du låser enheden op."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Der er ingen netværksforbindelse. Opret forbindelse til et Wi-Fi-netværk, eller slå Mobile data til, og prøv igen."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Indstil din enhed til at vise billeder af høj kvalitet, baseret på dine interesser, på låseskærmen. Vælg dine foretrukne kategorier."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Alle ændringer bliver forkastet."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Overgangsinterval"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Aktiver Kun Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Aktiver Udvidet tjeneste"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Deaktiver Kun Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Deaktiver Udvidet tjeneste"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Baggrunde"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Kunne ikke tilsl."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Udvidet tjeneste"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Kassér ændringer"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Låseskærm"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Startskærm"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Afvis"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Annullér"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Diasshow"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Mine interesser"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galleri"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Indstillinger"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Oprettelse af forbindelse via mobilt netværk kan medføre yderligere gebyrer afhængigt af dit abonnement."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Hver %d. time"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Hver time"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Vælg alle"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Farvetema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Standard-\nbaggrunde"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Farvetemaet bliver ændret, så det matcher din valgte baggrund. For at indstille farvetemaet manuelt skal du gå til Indstillinger > Farvetema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Rejsebaggrund"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "UDFØRT"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "ANNULLER"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Der opstod en netværksfejl. Prøv senere."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Hvis du deaktiverer Forbedret tjeneste, bliver dine valg slettet, og dette kan påvirke kvaliteten af den leverede tjeneste."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "For at give dig en bedre oplevelse ønsker vi adgang til din enheds id, hvilke kategorier af billeder der er valgt eller vist og til dine intervalpræferencer for visning af skærmbilleder. Du kan deaktivere Forbedret tjeneste og slette dine valg via menuen Indstillinger."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Farvepalette"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Redigér"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Maksimale antal billeder (%d) overskredet."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Baggrunden ændres hver %d. time, når der er oprettet forbindelse via Wi-Fi eller mobilt netværk."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Baggrunden ændres hver %d. time, når der er oprettet forbindelse Kun via Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Baggrunden ændres hver time, når der er oprettet forbindelse via Wi-Fi eller mobilt netværk."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Baggrunden ændres hver time, når der er oprettet forbindelse Kun via Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Modtagelse af baggrundsbilleder og yderligere oplysninger via mobile netværk kan medføre yderligere gebyrer. Det anbefales, at du bruger Wi-Fi-netværk i stedet."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Der vil blive downloadet nye baggrundsbilleder for den kategori, du netop har valgt. Dette kan medføre yderligere gebyrer."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Tryk for at se eksempel"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d billeder er valgt"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d kategorier er valgt"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 kategori er valgt"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Opdater Mine interesser"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Skift kategorivalg"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Aktiver ikke"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Overfør"
+

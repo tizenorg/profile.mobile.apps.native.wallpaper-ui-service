@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Ozadje za domači in zaklenjen zaslon je spremenjeno."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Ozadje zaklenjenega zaslona je spremenjeno."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Nalaganje..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Ozadje domačega zaslona je spremenjeno."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d izbranih"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "V redu"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Omogoči"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Onemogoči"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ne kaži več"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Ozadje se bo spremenilo vsakič, ko odklenete napravo."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Ni omrežne povezave. Povežite se z omrežjem Wi-Fi ali vklopite funkcijo Prenos podatkov prek mobilnega omrežja in poskusite znova."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Nastavite, da naprava na zaklenjenem zaslonu prikazuje slike visoke kakovosti, ki temeljijo na vaših zanimanjih. Izberite prednostne kategorije."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Vse spremembe bodo zavržene."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Interval prehoda"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Omogoči samo Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Omog. fun. Izboljšana storitev"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Onemogoči samo Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Onem. fun. Izboljšana storitev"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Ozadja"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Ni mogoče povezati"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Izboljšana storitev"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Zavrzite spremembe"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Zak. zaslon"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Dom. zaslon"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Zavrzi"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Prekliči"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Dia–\nprojekcija"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Moja zanimanja"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galerija"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Nastavitve"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Povezava z mobilnim omrežjem lahko povzroči dodatne stroške, odvisno od vaše naročnine."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Vsakih %d h"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Vsako uro"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Izberi vse"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Barvna tema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Privzeta ozadja"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Barvna tema bo spremenjena, da se bo ujemala z izbranim ozadjem. Če želite barvno temo nastaviti ročno, pojdite v Nastavitve > Barvna tema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Potovalno ozadje"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "KONČANO"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "PREKLIČI"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Prišlo je do omrežne napake. Poskusite pozneje."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Če onemogočite izboljšano storitev, se vaše nastavitve izbrišejo, kar lahko vpliva na kakovost zagotovljenih storitev."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Da bi vam lahko zagotovili izboljšano izkušnjo, vas prosimo za dostop do identifikatorja vaše naprave in do informacij o izbranih kategorijah ali obdelanih slikah. V meniju Nastavitve lahko onemogočite izboljšano storitev in izbrišete svoje nastavitve."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Barvna paleta"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Urejanje"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Največje dovoljeno število slik (%d) je preseženo."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Ozadje se spreminja na %d h, ko ste povezani prek omrežja Wi-Fi ali mobilnega omrežja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Ozadje se spreminja na %d h, ko ste povezani samo prek omrežja Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Ozadje se spremeni vsako uro, ko ste povezani prek omrežja Wi-Fi ali mobilnega omrežja."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Ozadje se spremeni vsako uro, ko ste povezani samo prek omrežja Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Prejemanje slik ozadja in dodatnih informacij prek mobilnih omrežij lahko povzroči dodatne stroške. Priporočamo uporabo omrežij Wi-Fi."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Prenesene bodo nove slike ozadja za pravkar izbrano kategorijo. To lahko povzroči dodatne stroške."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Pritisnite za predogled"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "Izbranih je toliko slik: %d"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "Izbranih je toliko kategorij: %d"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Izbrana je 1 kategorija"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Posodobite meni Moja zanimanja"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Spremenite izbiro kategorije"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Ne omogoči"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Prenos"
+

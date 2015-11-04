@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "A kezdő- és zárolt képernyő háttere módosult."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "A zárolt képernyő háttere módosult."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Betöltés..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "A kezdőképernyő háttere módosult."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d kijelölve"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Engedélyezés"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Kikapcsol"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ne jelenjen meg ismét"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Az eszköz feloldásakor mindig változik a háttérkép."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Nincs hálózati kapcsolat. Kapcsolódjon Wi-Fi hálózathoz, vagy kapcsolja be a mobil internetkapcsolatot, és próbálja újra."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Beállíthatja, hogy érdeklődési körének megfelelő, kiváló minőségű képek jelenjenek meg az eszköz zárolt képernyőjén. Válassza ki a kívánt kategóriákat."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Minden változtatás elvetése"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Váltási időköz"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Csak Wi-Fi funkc. bekapcsolása"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Bővített szolgáltatás bekapcs."
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Csak Wi-Fi funkc. kikapcsolása"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Bővített szolgáltatás kikapcs."
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Háttérképek"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Nem lehet kapcs."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Bővített szolgáltatás"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Változtatások elvetése"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Zár. képer."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Kezdőképer."
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Elvetés"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Mégse"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Diabemutató"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Érdeklődési kör"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galéria"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Beállítások"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Előfizetésétől függően lehetséges, hogy a mobilhálózaton keresztül történő kapcsolódásért további díjat kell fizetni."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "%d óránként"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "1 óránként"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Összes kijelölése"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Színséma"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Alapért. háttérképek"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "A színtéma a kiválasztott háttérképnek megfelelően módosul. A színtéma kézi beállításához válassza a Beállítások > Színtéma menüpontot."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Utazás háttérkép"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "KÉSZ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "MÉGSE"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Hálózati hiba történt. Próbálja meg később."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "A Beállítások menüben letilthatja a Bővített szolgáltatást és törölheti a beállításait."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Annak érdekében, hogy továbbfejlesztett élményt biztosíthassunk Önnek, hozzáférést kérünk az eszközazonosítójához, hogy milyen kategóriákat választott ki, milyen képeket jelenített meg, valamint milyen kijelző váltási időközt részesít előnyben. A Beállítások menüben letilthatja a Bővített szolgáltatást és törölheti a beállításait."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Színpaletta"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Szerk."
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Túllépte a képek maximális számát (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi- vagy mobilhálózati kapcsolat használata esetén %d óránként változik a háttérkép."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Csak Wi-Fi-kapcsolat használata esetén %d óránként változik a háttérkép."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi- vagy mobilhálózati kapcsolat használata esetén óránként változik a háttérkép."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Csak Wi-Fi-kapcsolat használata esetén óránként változik a háttérkép."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "A háttérképek és további információk mobilhálózaton történő fogadása további költséggel járhat. Wi-Fi-hálózat használatát javasoljuk."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Az eszköz új háttérképeket fog letölteni az imént kiválasztott kategóriához. Ez további költséggel járhat."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Érintse meg az előnézetért"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d képet jelölt ki"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d kategóriát jelölt ki"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1 kategóriát jelölt ki"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Érdekl. kör funkció frissítése"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Albumkategória kiválasztása"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Ne kapcs. be"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Letöltés"
+

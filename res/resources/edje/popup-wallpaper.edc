@@ -1,0 +1,35 @@
+/*
+ * Copyright (c) 20014-2015 Samsung Electronics Co., Ltd All Rights Reserved
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+collections {
+  base_scale: 2.4;
+
+  #define LOCK_TEXT_STYLE		"TIZEN_SHADOW"
+  #define LOCK_TEXT_COLOR		255 255 255 255
+  #define LOCK_TEXT_COLOR2		0 0 0 0
+  #define LOCK_TEXT_COLOR3		0 0 0 178
+
+  #define LOCK_TEXT_COLOR_DIM		230 230 230 230
+  #define LOCK_TEXT_COLOR2_DIM		0 0 0 0
+  #define LOCK_TEXT_COLOR3_DIM		0 0 0 178
+
+  #include "color_classes.edc"
+  #include "popup-wallpaper-macro.edc"
+  #include "popup-wallpaper-main-view.edc"
+  #include "mutiple-wallpaper.edc"
+  #include "gengrid_customized_theme.edc"
+}

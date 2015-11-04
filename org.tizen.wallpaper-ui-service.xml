@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.wallpaper-ui-service" version="0.0.1-1" install-location="internal-only" api-version="2.3.1">
+	<label>Wallpapers</label>
+	<author email="sung1103.park@samsung.com" href="www.samsung.com">Sung park</author>
+	<description>Wallpapers</description>
+	<ui-application appid="org.tizen.wallpaper-ui-service" exec="/usr/apps/org.tizen.wallpaper-ui-service/bin/wallpaper-ui-service" nodisplay="true" multiple="false" type="capp" taskmanage="false" process-pool="true">
+		<label>Wallpapers</label>
+		<label xml:lang="as-in">ৱালপেপাৰসমূহ</label>
+		<label xml:lang="bn-in">ওয়ালপেপারগুলি</label>
+		<label xml:lang="en-gb">Wallpapers</label>
+		<label xml:lang="gu-in">વોલપેપરો</label>
+		<label xml:lang="hi-in">वॉलपेपर्स</label>
+		<label xml:lang="kn-in">ವಾಲ್‌ಪೇಪರ್‌ಗಳು</label>
+		<label xml:lang="ko-kr">배경화면</label>
+		<label xml:lang="ml-in">വാൾപേപ്പറുകൾ</label>
+		<label xml:lang="mr-in">वॉलपेपर्स</label>
+		<label xml:lang="ne-np">भित्तेकागजहरू</label>
+		<label xml:lang="or-in">ୱାଲପେପରଗୁଡିକ</label>
+		<label xml:lang="pa-in">ਵਾਲਪੇਪਰਸ</label>
+		<label xml:lang="si-lk">බිතුපත්</label>
+		<label xml:lang="ta-in">வால்பேப்பர்கள்</label>
+		<label xml:lang="te-in">వాల్‌పేపర్‌లు</label>
+		<label xml:lang="ur-pk">وال پیپرز</label>
+	</ui-application>
+</manifest>

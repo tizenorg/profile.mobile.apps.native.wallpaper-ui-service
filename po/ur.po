@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "فعال"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "تصاویر کی زیادہ سے زیادہ تعداد (%d) متجاوز گئی۔"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "گھر اور مقفل اسکرین وال پیپر تبدیل کیے"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "لاک اسکرین وال پیپر تبدیل ہوگیا۔"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "لوڈنگ..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ہوم اسکرین وال پیپر تبدیل ہوگیا۔"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d منتخب کیا"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ٹھیک ہے"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "نااہل کریں"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "دوبارہ نہیں دکھا‏‏ئيں"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "گیلری"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "ڈیفالٹ وال پیپرز"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "سفری وال پیپر"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "خیالیہ رنگ"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "رنگین تھیم آپ کے منتخب وال پیپر کی مماثلت کیلئے تبدیل ہوجائے گا۔ رنگ کا خیالیہ دستی طور پر متعین کرنے کے لیے، سیٹنگز > رنگین تھیم پر جائیں۔"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "سیٹنگز"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "سلائیڈ شو"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "میری دلچسپیاں"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "رنگ کی تختی"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "آپ کے آلہ کو انلاک کرنے پر ہر بار وال پیپر تبدیل ہوگا۔"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "سبھی کو منتخب کریں"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "وال پیپرز"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "تبدیلیوں کو رد کریں"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "سب تبدیلیاں مسترد ہوجائیں گی"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "منسوخ"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "مسترد کریں"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "ہر %d گھنٹے پر"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "کوئی نیٹ ورک کنکشن نہیں ہے۔ Wi-Fi نیٹ ورک سے جڑیں یا فلائٹ موڈ آن کریں اور دوبارہ کوشش کریں۔"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "افزودہ خدمات"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "جڑنے سے قاصر"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "براستہ موبائل نیٹ ورک جڑنے پر آپ کے ادائیگی کے منصوبہ پر منحصر اضافی اخراجات آسکتے ہیں"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "آپ کو ایک زیادہ بہترتجربہ فراہم کرنے کیلئے، ہم آپ کے آلہ کے شناخت کنندہ (نمبر)اورمنتخب و حاصل کردہ تصاویر کی اقسام تک رسائی چاہتے ہیں۔ آپ اِن افزودہ خدمات کوکسی بھی وقت غیر کارآمد بنا سکتے ہیں اوراِن سے متعلق اپنی ترجیحات کو سیٹنگز مینیو کے ذریعہ حذف کرسکتے ہیں۔"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "اگر آ پ اِن افزودہ خدمات کو غیر کارآمد بناتے ہیں، تو اِن سے متعلق آپ کی ترجیحات حذف کردی جائیں گی جس کی وجہ سے فراہم کردہ خدمات کا معیارمتاثر ہوسکتا ہے۔"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "تدوین کریں"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "مکمل ہوگیا"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "منسوخ کریں"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "مقفل اسکرین پر اپنی دلچسپیوں کی بنیاد پر، اپنے آلہ کو اعلی معیاری تصاویر دکھانے کے لیے سیٹ کریں۔ اپنے ترجیحی زمروں کو منتخب کریں۔"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "عبوری وقفہ"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "صرف Wi-Fi غیر فعال کریں"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "صرف Wi-Fi اہل کریں"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "افزودہ خدمات کو غیر فعال کریں"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "افزودہ خدمات کو اہل کریں"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "اسکرین مقفل کریں"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "ہوم اسکرین"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "نیٹ ورک غلطی واقع ہوگئی۔ بعد میں کوشش کریں۔"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "ہر 1 گھنٹے پر"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "اہل نہ کریں"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "وال پیپر کی تصاویر اور اضافی معلومات بذریعہ موبائل نیٹ ورک اضافی اخراجات کا باعث ہوسکتے ہیں۔ سفارش کی جاتی ہے کہ آپ اس کے بجائے Wi-Fi نیٹ ورکس کا استعمال کریں۔"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "میری دلچسپیوں کو اپ ڈیٹ کریں"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "زمرہ کا انتخاب تبدیل کریں"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "آپ نے ابھی ابھی جس زمرے کو منتخب کیا ہے اس کے لیے نئی وال پیپر تصویریں ڈاؤن لوڈ کی جائیں گی۔ اس کا نتیجہ اضافی لاگت کی صورت میں نکل سکتا ہے۔"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ڈاؤن لوڈ"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "صرف بذریعہ Wi-Fi مربوط ہونے پر وال پیپر ہر گھنٹے میں تبدیل ہوگا۔"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "صرف بذریعہ Wi-Fi یا موبائل نیٹ ورک سے مربوط ہونے پر وال پیپر ہر گھنٹے میں تبدیل ہوگا۔"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "صرف بذریعہ Wi-Fi مربوط ہونے پر وال پیپر ہر %d گھنٹے میں تبدیل ہوگا۔"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "صرف بذریعہ Wi-Fi یا موبائل نیٹ ورک سے مربوط ہونے پر وال پیپر ہر %d گھنٹے میں تبدیل ہوگا۔"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "پیش منظر دیکھنے کے لیے تھپکی دیں"
+

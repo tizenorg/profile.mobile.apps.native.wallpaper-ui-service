@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "সক্ষম"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "সৰ্বাধিক সংখ্যক চিত্ৰ (%d) পাৰ হৈছে৷"
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "গৃহ আৰু লক স্ক্ৰীণ ৱালপেপাৰ পৰিৱৰ্তন হৈছে"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "লক স্ক্ৰীণ ৱালপেপাৰ পৰিৱৰ্তন হৈছে৷"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "লোড হৈ আছে..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "গৃহ স্ক্ৰীণ ৱালপেপাৰ পৰিৱৰ্তন হৈছে৷"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d টা চয়নিত"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "ঠিক"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "অক্ষম"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "আকৌ প্রদর্শন নকৰিব"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "গেলাৰী"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "ডিফ'ল্ট ৱালপেপাৰসমূহ"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "ভ্ৰমণ ৱালপেপাৰ"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "ৰং থীম"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "আপোনাৰ চয়নিত ৱালপেপাৰ সৈতে মিলাবৰ বাবে ৰঙৰ বিষয়বস্তু সলনি কৰা হ'ব৷ মেনুৱেলভাৱে ৰঙৰ বিষয়বস্তু ছেট কৰিবৰ বাবে, ছেটিংছ > ৰঙৰ বিষয়বস্তুলৈ যাওক৷"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "ছেটিংছ"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "শ্লাইডশ্ব'"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "মোৰ ৰুচি"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "ৰং প্লেট"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "ৱালপেপাৰ আপুনি ডিভাইচ আনলক কৰিলে প্ৰত্যেক সময়তে পৰিৱৰ্তন হ'ব৷"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "সকলো চয়ন কৰক"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "ৱালপেপাৰসমূহ"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "পৰিৱৰ্তনসমূহ পৰিত্যাগ কৰক"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "সকলো পৰিৱৰ্তন পৰিত্যাগ কৰা হ'ব৷"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "বাতিল"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "পৰিত্যাগ"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "প্ৰত্যেক %d ঘণ্টাত"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ইয়াত কোনো নেটৱৰ্ক সংযোগ নাই৷ এটা Wi-Fi নেটৱৰ্কলৈ সংযোগ কৰক বা ম'বাইল ডাটা অন কৰক আৰু পুনৰাই চেষ্টা কৰক৷"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "পৰিবৰ্দ্ধিত সেৱা"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "সংযোগ কৰাত অক্ষম"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "আপোনাৰ পৰিশোধ পদ্ধতিৰ প্লেনৰ ওপৰত নিৰ্ভৰ কৰি ম'বাইল নেটৱৰ্কৰ মাধ্যমেদি সংযোগ কৰাৰ ফলত অতিৰিক্ত ধন ভৰিব লাগিব পাৰে৷"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "আপোনাক আৰু উন্নত অভিজ্ঞতা প্ৰদান কৰিবলৈ, আমি আপোনাৰ ডিভাইচ চিনাক্তকৰ্তাক প্ৰৱেশাধিকাৰ দিবলৈ কেনে ধৰণৰ শ্ৰেণী বাছনি কৰে বা প্ৰতিচ্ছবি ৰেণ্ডাৰ কৰে সেইটো চাওঁ৷ আপুনি ছেটিংছ মেনুৰ মাধ্যমেৰে উন্নত সেৱাক অক্ষম কৰিব আৰু আপোনাৰ পচন্দৰ বস্তুখিনি বিলোপ কৰিব পাৰে৷"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "আপুনি উন্নত সেৱাক অক্ষম কৰিলে, আপোনাৰ পচন্দৰ বস্তুখিনি বিলোপ কৰা হ'ব আৰু ই প্ৰদান কৰা সেৱাৰ মানদণ্ডক প্ৰভাৱিত কৰিব পাৰে৷"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "সম্পাদনা"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "সম্পন্ন"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "বাতিল কৰক"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "লক স্ক্ৰীণত আপোনাৰ অভিৰুচিসমূহত ভিত্তিত উচ্চ গুণমানৰ প্ৰতিচ্ছবিসমূহ দেখুৱাবলৈ আপোনাৰ ডিভাইচ ছেট কৰক৷ আপোনাৰ অগ্ৰাধিকাৰপ্ৰাপ্ত বৰ্গসমূহ চয়ন কৰক৷"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "ট্ৰানজিশ্বন বিৰতি"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "কেৱল Wi-Fi অক্ষম কৰক"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "কেৱল Wi-Fi সক্ষম কৰক"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "পৰিবৰ্দ্ধিত সেৱা অক্ষম কৰক"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "পৰিবৰ্দ্ধিত সেৱা সক্ষম কৰক"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "লক স্ক্ৰীণ"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "গৃহ স্ক্ৰীণ"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "নেটৱৰ্ক ত্ৰুটি ঘটিছে৷ পিছত চেষ্টা কৰক"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "প্ৰত্যেক 1 ঘণ্টাত"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "সক্ষম নকৰিব"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "ম'বাইল নেটৱৰ্কসমূহৰ হৈ ৱালপেপাৰ প্ৰতিচ্ছবিসমূহ আৰু অতিৰিক্ত তথ্য প্ৰাপ্ত কৰাৰ ফলত অতিৰিক্ত মাছুল ভৰিব লাগিব পাৰে৷ ইয়াৰ পৰিৱৰ্তে Wi-Fi নেটৱৰ্কসমূহ ব্যৱহাৰ কৰিবলৈ অনুমোদিত৷"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "মোৰ অভিৰুচি আপডেট কৰক"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "বৰ্গ চয়ন পৰিৱৰ্তন কৰক"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "আপুনি এইমাত্ৰ চয়ন কৰা বৰ্গৰ বাবে নতুন ৱালপেপাৰ প্ৰতিচ্ছবিসমূহ ডাউনলোড কৰা হ'ব৷ ইয়াৰ ফলত অতিৰিক্ত মাছুল বহন কৰিব লাগিব পাৰে৷"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ডাউনলোড"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "কেৱল Wi-Fi হৈ সংযোজিত হৈ থকাৰ সময়ত প্ৰতি ঘণ্টাত ৱালপেপাৰ পৰিৱৰ্তন হ'ব৷"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi বা ম'বাইল নেটৱৰ্ক হৈ সংযোজিত হৈ থকাৰ সময়ত প্ৰতি ঘণ্টাত ৱালপেপাৰ পৰিৱৰ্তন হ'ব৷"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "কেৱল Wi-Fi হৈ সংযোজিত হৈ থকাৰ সময়ত প্ৰতি %d ঘণ্টাত ৱালপেপাৰ পৰিৱৰ্তন হ'ব৷"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Wi-Fi বা ম'বাইল নেটৱৰ্ক হৈ সংযোজিত হৈ থকাৰ সময়ত প্ৰতি %d ঘণ্টাত ৱালপেপাৰ পৰিৱৰ্তন হ'ব৷"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "পূৰ্বলোকন কৰিবলৈ টিপক"
+

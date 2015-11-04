@@ -1,0 +1,171 @@
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Activar"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Alcanzó el número máximo de imágenes (%d)."
+
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Se cambió el fondo de pantalla de inicio y de bloqueo."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Se modificó el fondo de pantalla de bloqueo."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Cargando..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Se cambió el fondo de pantalla de inicio."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d seleccionado(s)"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "Aceptar"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Desactivar"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "No volver a mostrar"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Galería"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Fond. de pant. predet."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Fondo pant. viaje"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Tema de color"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "El tema de color se cambiará para hacer coincidir el fondo de pantalla que seleccionó. Para definir manualmente el tema de color, vaya a Configuración > Tema de color."
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Configuración"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Presentación"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Mis intereses"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Paleta de colores"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "El fondo de pantalla cambiará cada vez que desbloquee el dispositivo."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Seleccionar todo"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Fondos de pantalla"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Descartar cambios"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Se descartarán los cambios."
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Cancelar"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Descartar"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Cada %d horas"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "No hay conexión de red. Conéctese a una red Wi-Fi o active Datos móviles e inténtelo de nuevo."
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Servicio mejorado"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "No es posible conec."
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "La conexión mediante red móvil puede generar costos adicionales según el plan de pago."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Para brindarle una experiencia optimizada, queremos tener acceso al identificador de su dispositivo y saber qué tipo de categorías seleccionó o qué imágenes generó, con la finalidad de conocer sus preferencias y reducir duplicaciones con relación a las imágenes exhibidas. Usted puede, en cualquier momento, desactivar esta opción, y eliminar sus preferencias en el menú Configuración."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Si deshabilita esta opción, se eliminarán sus preferencias, lo que puede afectar la calidad del servicio provisto."
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Editar"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "REALIZADO"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "CANCELAR"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Defina el dispositivo para que muestre imágenes de alta calidad de acuerdo con sus intereses en la pantalla de bloqueo. Seleccione sus categorías preferidas."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Intervalo de transición"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Desactivar solo Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Activar solo Wi-Fi"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Desactivar Servicio mejorado"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Activar Servicio mejorado"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Bloq. pant."
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Pan. inicio"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Se ha producido un error de red. Inténtelo más tarde."
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Cada hora"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "No activar"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "La recepción de imágenes de fondo de pantalla e información adicional vía redes móviles puede generar costos adicionales. Se recomienda el uso de redes Wi-Fi."
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Actualizar Mis intereses"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Cambiar selección de categoría"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Se descargarán nuevas imágenes de fondo de pantalla de la categoría que ha seleccionado. Esto puede generar costos adicionales."
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Descargar"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "El fondo de pantalla cambiará cada hora mientras el dispositivo esté conectado solo vía Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "El fondo de pantalla cambiará cada hora mientras el dispositivo esté conectado vía Wi-Fi o red móvil."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "El fondo de pantalla cambiará cada %d horas mientras el dispositivo esté conectado solo vía Wi-Fi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "El fondo de pantalla cambiará cada %d horas mientras el dispositivo esté conectado vía Wi-Fi o red móvil."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Pulsar para ver vista previa"
+

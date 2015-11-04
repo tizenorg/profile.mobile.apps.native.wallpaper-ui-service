@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "ホーム画面とロック画面の壁紙を変更しました。"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ロック画面の壁紙が変更されました。"
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "読み込み中..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "ホーム画面の壁紙が変更されました。"
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d件選択"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "OK"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "有効"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "無効"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "今後表示しない"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "端末のロックを解除するたびに壁紙を変更します。"
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ネットワークに接続されていません。Wi-Fiネットワークに接続するか、モバイルデータをONにし、再度実行してください。"
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "ユーザーの好みに合わせた高品質の画像をロック画面に表示されるように端末を設定します。お好みのカテゴリを選択してください。"
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "全ての変更を破棄します。"
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "切り替え間隔"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fiのみ同期を有効"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "高度なサービスを有効にする"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Wi-Fiのみ同期を無効"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "高度なサービスを無効にする"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "壁紙"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "接続不可"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "高度なサービス"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "変更を破棄"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "ロック画面"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "ホーム画面"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "破棄"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "キャンセル"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "スライドショー"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "カテゴリ壁紙"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "ギャラリー"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "設定"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "モバイルネットワークで接続すると、料金プランによっては、高額なパケット通信料金が発生することがあります。"
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "%d時間ごと"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "1時間ごと"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "全て選択"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "カラーテーマ"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "標準壁紙"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "選択した壁紙に合わせてカラーテーマを変更します。手動でカラーテーマを変更するには、[設定] > [カラーテーマ]に移動してください。"
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "旅行の壁紙"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "完了"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "キャンセル"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "ネットワークエラーが発生しました。後ほどお試しください。"
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "高度なサービスを無効にすると、同サービスで利用されるお客様の選択などに関する情報も削除されるため、提供されるサービスの質に影響が及ぶことがあります。"
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "より快適にご利用いただけるように、お客様のデバイス ID にアクセスしてお客様がどのような分野を選択されたのか、どのような画像が描画されたのかを把握します。お客様は、[設定] メニューを使用して、高度なサービスを無効にし、同サービスで利用されるお客様の選択などに関する情報を削除することができます。"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "カラーパレット"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "編集"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "写真の最大枚数(%d枚)を超えました。"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "壁紙は、Wi-Fiまたはモバイルネットワーク接続時に、%d時間ごとに変更されます。"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "壁紙は、Wi-Fi接続時のみ、%d時間ごとに変更されます。"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "壁紙は、Wi-Fiまたはモバイルネットワーク接続時に、毎時間変更されます。"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "壁紙は、Wi-Fi接続時のみ、毎時間変更されます。"
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "モバイルネットワーク経由で壁紙の画像や追加情報を受信すると、追加料金が発生する可能性があります。Wi-Fiネットワークを使用して受信することをおすすめします。"
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "選択したカテゴリの内容から、新しい壁紙の画像をダウンロードします。ダウンロードすると、追加料金が発生する可能性があります。"
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "タップしてプレビュー"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d件の画像を選択"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d件のカテゴリを選択"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "1件のカテゴリを選択"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "カテゴリ壁紙を更新"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "カテゴリの選択を変更"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "有効にしない"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "ﾀﾞｳﾝﾛｰﾄﾞ"
+

@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "تم تغيير خلفية ‏‫شاشة القفل والشاشة الرئيسية‬"
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "تم تغيير خلفية شاشة القفل."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "جاري التحميل ..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "تم تغيير خلفية الشاشة الرئيسية."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "تم تحديد %d"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "موافق"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "تفعيل"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "تعطيل"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "عدم العرض مرة أخرى"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "ستتغير الخلفية كل مرة تقوم بإلغاء قفل الجهاز."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "ما من اتصال بالشبكة. اتصل بشبكة Wi-Fi أو قم بتشغيل بيانات الهاتف المحمول وحاول مرة أخرى."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "اضبط جهازك لإظهار صور عالية الجودة استناداً إلى اهتماماتك على شاشة القفل. حدد فئاتك المفضلة."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "سيتم تجاهل جميع التغييرات."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "الفاصل الزمني للانتقال"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "تفعيل Wi-Fi فقط"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "تفعيل الخدمة المحسنة"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "إلغاء تفعيل Wi-Fi فقط"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "إلغاء تفعيل الخدمة المحسنة"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "الخلفيات"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "يتعذر الاتصال"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "الخدمة المحسنة"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "تجاهل التغييرات"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "شاشة القفل"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "الشاشة الرئيسية"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "رفض"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "إلغاء"
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "عرض الشرائح"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "اهتماماتي"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "استوديو"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "الضبط"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "قد يترتب على الاتصال عبر شبكة الهاتف المحمول فرض تكاليف إضافية وفقا لخطة الدفع."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "كل %d ساعات"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "كل ساعة"
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "تحديد الكل"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "سمة اللون"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "خلفيات افتراضية"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "سيتم تغيير سمة اللون لتتناسب مع خلفية شاشتك المحددة. لضبط سمة اللون يدويًا، انتقل إلى الضبط > سمة اللون."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "خلفية السفر"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "تم"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "إلغاء"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "حدث خطأ بالشبكة. حاول في وقت لاحق."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "إذا قمت بتعطيل الخدمة المعززة، فسيتم حذف تفضيلاتك وقد يؤثر هذا على جودة الخدمة المقدمة."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "لوحة الألوان"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "تعديل"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "تم تجاوز الحد الأقصى لعدد الصور (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "ستتغير خلفية الشاشة كل %d من الساعات أثناء الاتصال عبر Wi-Fi أو شبكة الهاتف المحمول."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "ستتغير خلفية الشاشة كل %d من الساعات أثناء الاتصال عبر Wi-Fi فقط."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "ستتغير خلفية الشاشة كل ساعة أثناء الاتصال عبر Wi-Fi أو شبكة الهاتف المحمول."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "ستتغير خلفية الشاشة كل ساعة أثناء الاتصال عبر Wi-Fi فقط."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "قد يترتب على تلقي صور الخلفية ومعلومات إضافية عبر شبكات الهاتف المحمول فرض رسوم إضافية. يوصى باستخدام شبكات Wi-Fi بدلاً منها."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "سيتم تنزيل صور خلفية جديدة للفئة التي حددتها للتو. قد يترتب على ذلك فرض تكاليف إضافية."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "انقر للمعاينة"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "تم تحديد %d من الصور"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "تم تحديد %d من الفئات"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "تم تحديد فئة واحدة"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "تحديث اهتماماتي"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "تغيير تحديد الفئة"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "عدم التفعيل"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "تنزيل"
+

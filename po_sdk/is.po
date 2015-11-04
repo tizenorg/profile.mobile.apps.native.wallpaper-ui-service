@@ -1,0 +1,180 @@
+msgid "IDS_ST_TPOP_HOME_AND_LOCK_SCREEN_WALLPAPER_CHANGED"
+msgstr "Veggfóðri heima- og lásskjás var breytt."
+
+msgid "IDS_ST_POP_LOCK_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Veggfóðri lásskjás var breytt."
+
+msgid "IDS_ST_POP_LOADING_ING"
+msgstr "Hleð..."
+
+msgid "IDS_ST_POP_HOME_SCREEN_WALLPAPER_CHANGED_ABB"
+msgstr "Veggfóðri heimaskjás var breytt."
+
+msgid "IDS_ST_HEADER_PD_SELECTED_ABB"
+msgstr "%d valið"
+
+msgid "IDS_ST_BUTTON_OK_ABB"
+msgstr "Í lagi"
+
+msgid "IDS_ST_BUTTON_ENABLE"
+msgstr "Gera virkt"
+
+msgid "IDS_ST_BUTTON_DISABLE"
+msgstr "Slökkva"
+
+msgid "IDS_ST_BODY_DO_NOT_SHOW_AGAIN"
+msgstr "Ekki birta aftur"
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_TIME_YOU_UNLOCK_DEVICE"
+msgstr "Skipt verður um veggfóður í hvert skipti sem þú tekur tækið úr lás."
+
+msgid "IDS_LCKSCN_POP_THERE_IS_NO_NETWORK_CONNECTION_CONNECT_TO_A_WI_FI_NETWORK_OR_TURN_ON_MOBILE_DATA_AND_TRY_AGAIN"
+msgstr "Engin nettenging. Tengstu við Wi-Fi net eða kveiktu á farsímagögnum og reyndu aftur."
+
+msgid "IDS_LCKSCN_POP_SET_YOUR_DEVICE_TO_SHOW_HIGH_QUALITY_IMAGES_BASED_ON_YOUR_INTERESTS_ON_THE_LOCK_SCREEN_SELECT_YOUR_PREFERRED_CATEGORIES"
+msgstr "Stilltu tækið á að sýna hágæðamyndir, valdar samkvæmt áhugamálum þínum, á lásskjánum. Veldu flokkana sem þú vilt."
+
+msgid "IDS_LCKSCN_POP_ALL_CHANGES_WILL_BE_DISCARDED"
+msgstr "Öllum breytingum verður fleygt."
+
+msgid "IDS_LCKSCN_OPT_TRANSITION_INTERVAL_ABB"
+msgstr "Tími á milli skiptinga"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_WI_FI_ONLY_ABB"
+msgstr "Kveikja á „Aðeins um Wi-Fi“"
+
+msgid "IDS_LCKSCN_OPT_ENABLE_ENHANCED_SERVICE_ABB"
+msgstr "Virkja aukna þjónustu"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_WI_FI_ONLY_ABB"
+msgstr "Slökkva á „Aðeins um Wi-Fi“"
+
+msgid "IDS_LCKSCN_OPT_DISABLE_ENHANCED_SERVICE_ABB"
+msgstr "Slökkva á aukinni þjónustu"
+
+msgid "IDS_LCKSCN_MBODY_WALLPAPERS"
+msgstr "Veggfóður"
+
+msgid "IDS_LCKSCN_HEADER_UNABLE_TO_CONNECT_ABB"
+msgstr "Mistókst að tengja"
+
+msgid "IDS_LCKSCN_HEADER_ENHANCED_SERVICE_ABB"
+msgstr "Aukin þjónusta"
+
+msgid "IDS_LCKSCN_HEADER_DISCARD_CHANGES_ABB"
+msgstr "Hunsa breytingar"
+
+msgid "IDS_LCKSCN_BUTTON_LOCK_SCREEN_ABB2"
+msgstr "Lásskjár"
+
+msgid "IDS_LCKSCN_BUTTON_HOME_SCREEN_ABB"
+msgstr "Heimaskjár"
+
+msgid "IDS_LCKSCN_BUTTON_DISCARD"
+msgstr "Fleygja"
+
+msgid "IDS_LCKSCN_BUTTON_CANCEL"
+msgstr "Hætta v."
+
+msgid "IDS_LCKSCN_BUTTON2_SLIDESHOW"
+msgstr "Skyggnu-\nsýning"
+
+msgid "IDS_LCKSCN_BUTTON2_MY_INTERESTSM_PREFERRED_CATEGORIES_ABB"
+msgstr "Áhugamálin mín"
+
+msgid "IDS_LCKSCN_BODY_GALLERY"
+msgstr "Gallerí"
+
+msgid "IDS_ST_SK3_SETTINGS"
+msgstr "Stillingar"
+
+msgid "IDS_ST_POP_CONNECTING_VIA_MOBILE_NETWORK_MAY_INCUR_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN"
+msgstr "Tenging í gegnum farsímanet kann að hafa í för með sér aukakostnað eftir því hvernig áskrift þinni er háttað."
+
+msgid "IDS_ST_OPT_EVERY_PD_HOURS_ABB2"
+msgstr "Á %d klst. fresti"
+
+msgid "IDS_ST_OPT_EVERY_1_HOUR"
+msgstr "Á 1 klst. fr."
+
+msgid "IDS_ST_HEADER_SELECT_ALL_ABB2"
+msgstr "Velja allt"
+
+msgid "IDS_ST_HEADER_COLOUR_THEME"
+msgstr "Litaþema"
+
+msgid "IDS_ST_BUTTON2_DEFAULT_WALLPAPERS_ABB"
+msgstr "Sjálfgefið veggfóður"
+
+msgid "IDS_ST_BODY_THE_COLOUR_THEME_WILL_BE_CHANGED_TO_MATCH_YOUR_SELECTED_WALLPAPER_TO_SET_THE_COLOUR_THEME_MANUALLY_GO_TO_MSG"
+msgstr "Litaþema verður breytt til að það passi við veggfóðrið þitt. Þú getur breytt litaþemanu handvirkt með því að opna Stillingar > Litaþema."
+
+msgid "IDS_STRAVEL_OPT_TRAVEL_WALLPAPER_ABB"
+msgstr "Ferðaveggfóður"
+
+msgid "IDS_TPLATFORM_ACBUTTON_DONE_ABB"
+msgstr "LOKIÐ"
+
+msgid "IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"
+msgstr "HÆTTA VIÐ"
+
+msgid "IDS_CALL_BODY_NETWORK_ERROR_OCCURRED_TRY_LATER"
+msgstr "Netvilla kom upp. Reyndu aftur síðar."
+
+msgid "MIDS_LSM_POP_IF_YOU_DISABLE_ENHANCED_SERVICE_MSG"
+msgstr "Ef þú gerir aukna þjónustu óvirka verður kjörstillingunum þínum eytt. Þetta kann að hafa áhrif á gæði þeirrar þjónustu sem er í boði."
+
+msgid "MIDS_LSM_MSG_TO_PROVIDE_YOU_WITH_A_MORE_ENHANCED_EXPERIENCE_MSG"
+msgstr "Til að veita þér betri upplifun biðjum við um aðgang að auðkenni tækisins, upplýsingum um hvaða flokkar mynda eru valdir eða notaðir og kjörstillingum á skjábreytingum. Þú getur gert aukna þjónustu óvirka og eytt kjörstillingunum þínum úr stillingavalmyndinni."
+
+msgid "IDS_HS_HEADER_COLOUR_PALETTE_ABB2"
+msgstr "Litaspjald"
+
+msgid "IDS_HS_BUTTON_EDIT_ABB"
+msgstr "Breyta"
+
+msgid "IDS_MEDIABR_POP_MAXIMUM_NUMBER_OF_PICTURES_HPD_EXCEEDED"
+msgstr "Farið fram yfir hámarksfjölda mynda (%d)."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Skipt verður um veggfóður á %d klukkustunda fresti þegar tenging um Wi-Fi eða farsímakerfi er fyrir hendi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_PD_HOURS_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Skipt verður um veggfóður á %d klukkustunda fresti eingöngu þegar tenging um Wi-Fi er fyrir hendi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_OR_MOBILE_NETWORK"
+msgstr "Skipt verður um veggfóður á klukkustundarfresti þegar tenging um Wi-Fi eða farsímakerfi er fyrir hendi."
+
+msgid "IDS_LCKSCN_TPOP_WALLPAPER_WILL_CHANGE_EVERY_HOUR_WHILE_CONNECTED_VIA_WI_FI_ONLY"
+msgstr "Skipt verður um veggfóður á klukkustundarfresti eingöngu þegar tenging um Wi-Fi er fyrir hendi."
+
+msgid "IDS_LCKSCN_POP_RECEIVING_WALLPAPER_IMAGES_AND_ADDITIONAL_INFORMATION_VIA_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_MSG"
+msgstr "Móttaka veggfóðursmynda og viðbótarupplýsinga gegnum farsímakerfi kann að hafa viðbótarkostnað í för með sér. Mælt er með notkun Wi-Fi neta í staðinn."
+
+msgid "IDS_LCKSCN_POP_NEW_WALLPAPER_IMAGES_WILL_BE_DOWNLOADED_FOR_THE_CATEGORY_YOU_JUST_SELECTED_THIS_MAY_RESULT_IN_ADDITIONAL_CHARGES"
+msgstr "Nýjar veggfóðursmyndir verða sóttar fyrir flokkinn sem þú valdir. Þetta kann að hafa viðbótarkostnað í för með sér."
+
+msgid "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"
+msgstr "Pikkaðu til að forskoða"
+
+msgid "IDS_LCKSCN_NPBODY_PD_IMAGES_ARE_SELECTED"
+msgstr "%d myndir eru valdar"
+
+msgid "IDS_LCKSCN_NPBODY_PD_CATEGORIES_ARE_SELECTED"
+msgstr "%d flokkar eru valdir"
+
+msgid "IDS_LCKSCN_NPBODY_1_CATEGORY_IS_SELECTED"
+msgstr "Einn flokkur er valinn"
+
+msgid "IDS_LCKSCN_HEADER_UPDATE_MY_INTERESTS_ABB"
+msgstr "Uppfæra „Áhugamálin mín“"
+
+msgid "IDS_LCKSCN_HEADER_CHANGE_CATEGORY_SELECTION_ABB"
+msgstr "Breyta vali á flokkum"
+
+msgid "IDS_LCKSCN_BUTTON_DO_NOT_ENABLE_ABB"
+msgstr "Ekki kveikja"
+
+msgid "IDS_LCKSCN_BUTTON_DOWNLOAD_ABB3"
+msgstr "Sækja"
+
