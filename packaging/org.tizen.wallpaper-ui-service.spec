@@ -1,6 +1,6 @@
-%define PREFIX    /usr/apps/%{name}
+%define PREFIX    %{TZ_SYS_RO_APP}/%{name}
 %define RESDIR    %{PREFIX}/res
-%define PREFIXRW  /opt/usr/apps/%{name}
+%define PREFIXRW  %{TZ_SYS_RO_APP}/%{name}
 
 Name:       org.tizen.wallpaper-ui-service
 Summary:    wallpaper-ui-service window
@@ -34,6 +34,7 @@ BuildRequires: cmake
 BuildRequires: edje-tools
 BuildRequires: gettext-tools
 BuildRequires: hash-signer
+BuildRequires: pkgconfig(libtzplatform-config)
 
 Requires(post): /usr/bin/vconftool
 
@@ -107,6 +108,7 @@ rm -rf %{buildroot}
 /etc/smack/accesses.d/%{name}.efl
 /usr/apps/org.tizen.wallpaper-ui-service/author-signature.xml
 /usr/apps/org.tizen.wallpaper-ui-service/signature1.xml
+
 %attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/shared
 %attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/shared/res
 %attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/data
