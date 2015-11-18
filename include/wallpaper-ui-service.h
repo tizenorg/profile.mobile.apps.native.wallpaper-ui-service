@@ -27,6 +27,7 @@
 #include <Evas.h>
 #include "wallpaper-ui-service-debug.h"
 #include <E_DBus.h>
+#include <tzplatform_config.h>
 
 #define PKGNAME "wallpaper-ui-service"
 
@@ -51,11 +52,11 @@
 #endif
 
 #if !defined(EDJDIR)
-#define EDJDIR "/usr/apps/org.tizen.wallpaper-ui-service/res/edje"
+#define EDJDIR tzplatform_mkpath(TZ_SYS_RO_APP, PKGNAME "/res/edje")
 #endif
 
 #if !defined(ICONDIR)
-#define ICONDIR "/usr/apps/org.tizen.wallpaper-ui-service/res/icons"
+#define ICONDIR tzplatform_mkpath(TZ_SYS_RO_ICONS, "wallpaper-ui-service.png")
 #endif
 
 #define EXTRA_KEY_FILE "file_path"
