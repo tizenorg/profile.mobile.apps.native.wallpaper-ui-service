@@ -69,20 +69,20 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 %make_install
 
-if [ ! -d /opt/usr/share/lockscreen/wallpaper_list ]
+if [ ! -d %{TZ_USER_SHARE}/lockscreen/wallpaper_list ]
 then
-	mkdir -p %{buildroot}/opt/usr/share/lockscreen/wallpaper_list
+	mkdir -p %{buildroot}/%{TZ_USER_SHARE}/lockscreen/wallpaper_list
 fi
 
-mkdir -p %{buildroot}/usr/share/license
-cp -f LICENSE %{buildroot}/usr/share/license/%{name}
-mkdir -p %{buildroot}/opt/usr/apps/org.tizen.wallpaper-ui-service/shared
-mkdir -p %{buildroot}/opt/usr/apps/org.tizen.wallpaper-ui-service/shared/res
-mkdir -p %{buildroot}/opt/usr/apps/org.tizen.wallpaper-ui-service/data
-mkdir -p %{buildroot}/opt/usr/apps/org.tizen.wallpaper-ui-service/data/wallpaper
+mkdir -p %{buildroot}/%{TZ_SYS_SHARE}/license
+cp -f LICENSE %{buildroot}/%{TZ_SYS_SHARE}/license/%{name}
+mkdir -p %{buildroot}/%{PREFIX}/shared
+mkdir -p %{buildroot}/%{PREFIX}/shared/res
+mkdir -p %{buildroot}/%{PREFIX}/data
+mkdir -p %{buildroot}/%{PREFIX}/data/wallpaper
 
 %define tizen_sign 1
-%define tizen_sign_base /usr/apps/org.tizen.wallpaper-ui-service
+%define tizen_sign_base %{TZ_SYS_RO_APP}/%{name}
 %define tizen_sign_level platform
 %define tizen_author_sign 1
 %define tizen_dist_sign 1
@@ -97,22 +97,22 @@ rm -rf %{buildroot}
 %postun -p /sbin/ldconfig
 
 %files
-%manifest org.tizen.wallpaper-ui-service.manifest
+%manifest %{name}.manifest
 %defattr(-,root,root,-)
 %{PREFIX}/bin/*
-/usr/apps/org.tizen.wallpaper-ui-service/res/locale/*
+%{PREFIX}/res/locale/*
 %{RESDIR}/icons/*
 %{RESDIR}/edje/*
-/usr/share/packages/org.tizen.wallpaper-ui-service.xml
-/usr/share/license/%{name}
+%{TZ_SYS_RO_PACKAGES}/%{name}.xml
+%{TZ_SYS_SHARE}/license/%{name}
 /etc/smack/accesses.d/%{name}.efl
-/usr/apps/org.tizen.wallpaper-ui-service/author-signature.xml
-/usr/apps/org.tizen.wallpaper-ui-service/signature1.xml
+%{TZ_SYS_RO_APP}/%{name}/author-signature.xml
+%{TZ_SYS_RO_APP}/%{name}/signature1.xml
 
-%attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/shared
-%attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/shared/res
-%attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/data
-%attr(-,app,app) %dir /opt/usr/apps/org.tizen.wallpaper-ui-service/data/wallpaper
+%attr(-,app,app) %dir %{PREFIX}/shared
+%attr(-,app,app) %dir %{PREFIX}/shared/res
+%attr(-,app,app) %dir %{PREFIX}/data
+%attr(-,app,app) %dir %{PREFIX}/data/wallpaper
 
-%attr(755,app,app)/opt/usr/share/lockscreen
-%attr(755,app,app)/opt/usr/share/lockscreen/wallpaper_list
+%attr(755,app,app)/%{TZ_USER_SHARE}/lockscreen
+%attr(755,app,app)/%{TZ_USER_SHARE}/lockscreen/wallpaper_list

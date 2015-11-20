@@ -33,9 +33,6 @@
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
 
-#define WALLPAPER_FILE_PATH_LOCK "/opt/usr/share/lockscreen/wallpaper_list/lockscreen.jpg"
-#define WALLPAPER_FILE_PATH_HOME "/opt/usr/share/lockscreen/wallpaper_list/homescreen.jpg"
-#define WALLPAPER_FILE_PATH_HOME_N_LOCK "/opt/usr/share/lockscreen/wallpaper_list/home_n_lock.jpg"
 
 static bool flag_view_exist = false;
 
