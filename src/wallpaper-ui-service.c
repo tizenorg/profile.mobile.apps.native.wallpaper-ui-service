@@ -27,15 +27,16 @@
 #include <app_alarm.h>
 #include <media_content.h>
 #include <fcntl.h>
+#include <tzplatform_config.h>
 //#include <dbus/dbus.h>
 #include <app_control_internal.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
 
-#define WALLPAPER_FILE_PATH_LOCK "/opt/usr/share/lockscreen/wallpaper_list/lockscreen.jpg"
-#define WALLPAPER_FILE_PATH_HOME "/opt/usr/share/lockscreen/wallpaper_list/homescreen.jpg"
-#define WALLPAPER_FILE_PATH_HOME_N_LOCK "/opt/usr/share/lockscreen/wallpaper_list/home_n_lock.jpg"
+#define WALLPAPER_FILE_PATH_LOCK tzplatform_mkpath(TZ_USER_SHARE, "lockscreen/wallpaper_list/lockscreen.jpg")
+#define WALLPAPER_FILE_PATH_HOME tzplatform_mkpath(TZ_USER_SHARE, "lockscreen/wallpaper_list/homescreen.jpg")
+#define WALLPAPER_FILE_PATH_HOME_N_LOCK tzplatform_mkpath(TZ_USER_SHARE, "lockscreen/wallpaper_list/home_n_lock.jpg")
 
 static bool flag_view_exist = false;
 
