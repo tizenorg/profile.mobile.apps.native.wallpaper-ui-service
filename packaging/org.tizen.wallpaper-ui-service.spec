@@ -105,7 +105,7 @@ rm -rf %{buildroot}
 %{RESDIR}/edje/*
 %{TZ_SYS_RO_PACKAGES}/%{name}.xml
 %{TZ_SYS_SHARE}/license/%{name}
-/etc/smack/accesses.d/%{name}.efl
+%{TZ_SYS_SMACK}/accesses.d/%{name}.efl
 %{TZ_SYS_RO_APP}/%{name}/author-signature.xml
 %{TZ_SYS_RO_APP}/%{name}/signature1.xml
 
