@@ -69,17 +69,17 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 %make_install
 
-if [ ! -d %{TZ_USER_SHARE}/lockscreen/wallpaper_list ]
+if [ ! -d %{TZ_SYS_SHARE}/lockscreen/wallpaper_list ]
 then
-	mkdir -p %{buildroot}/%{TZ_USER_SHARE}/lockscreen/wallpaper_list
+	mkdir -p %{buildroot}%{TZ_SYS_SHARE}/lockscreen/wallpaper_list
 fi
 
-mkdir -p %{buildroot}/%{TZ_SYS_SHARE}/license
-cp -f LICENSE %{buildroot}/%{TZ_SYS_SHARE}/license/%{name}
-mkdir -p %{buildroot}/%{PREFIX}/shared
-mkdir -p %{buildroot}/%{PREFIX}/shared/res
-mkdir -p %{buildroot}/%{PREFIX}/data
-mkdir -p %{buildroot}/%{PREFIX}/data/wallpaper
+mkdir -p %{buildroot}%{TZ_SYS_SHARE}/license
+cp -f LICENSE %{buildroot}%{TZ_SYS_SHARE}/license/%{name}
+mkdir -p %{buildroot}%{PREFIX}/shared
+mkdir -p %{buildroot}%{PREFIX}/shared/res
+mkdir -p %{buildroot}%{PREFIX}/data
+mkdir -p %{buildroot}%{PREFIX}/data/wallpaper
 
 %define tizen_sign 1
 %define tizen_sign_base %{TZ_SYS_RO_APP}/%{name}
@@ -91,8 +91,6 @@ mkdir -p %{buildroot}/%{PREFIX}/data/wallpaper
 rm -rf %{buildroot}
 
 %post
-
-#usr/bin/signing-client/hash-signer-client.sh -a -d -p platform /usr/apps/org.tizen.wallpaper-ui-service
 
 %postun -p /sbin/ldconfig
 
@@ -114,5 +112,5 @@ rm -rf %{buildroot}
 %attr(-,app,app) %dir %{PREFIX}/data
 %attr(-,app,app) %dir %{PREFIX}/data/wallpaper
 
-%attr(755,app,app)/%{TZ_USER_SHARE}/lockscreen
-%attr(755,app,app)/%{TZ_USER_SHARE}/lockscreen/wallpaper_list
+%attr(755,app,app) /%{TZ_SYS_SHARE}/lockscreen
+%attr(755,app,app) /%{TZ_SYS_SHARE}/lockscreen/wallpaper_list

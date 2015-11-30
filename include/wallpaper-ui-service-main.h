@@ -55,7 +55,7 @@ typedef struct {
 #endif
 
 #ifndef WALLPAPER_TXT_FILE
-#define WALLPAPER_TXT_FILE tzplatform_mkpath(TZ_USER_SHARE, "lockscreen/wallpaper_list/lockscreen_selected_images.txt")
+#define WALLPAPER_TXT_FILE tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list/lockscreen_selected_images.txt")
 #endif
 
 

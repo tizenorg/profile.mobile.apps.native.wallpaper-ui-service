@@ -32,7 +32,8 @@
 
 
 #define DEFAULT_IMAGE_DIR "/opt/usr/share/settings/Wallpapers/"
-
+#define WALLPAPER_IMAGE_FILE tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list%s.jpg")
+#define WALLPAPER_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list%s/%s")
 
 static Elm_Gengrid_Item_Class *gic_for_main = NULL;
 static wallpaper_ui_service_appdata *ad = NULL;
@@ -515,7 +516,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 		char temp[MAX_LENGTH_LINE] = {0};
 		char *p = strrchr(state_data.from[sd->img_idx], '/');
 		if (p) {
-			snprintf(temp, sizeof(temp), "/opt/usr/share/lockscreen/wallpaper_list%s", p);
+			snprintf(temp, sizeof(temp), WALLPAPER_IMAGE_DIR, p);
 			WALLPAPERUI_DBG("temp = %s", temp);
 			if (strcmp(temp, ad->current_preview_img_path) == 0) {
 				WALLPAPERUI_DBG("homescreen wallppaer do not be changed");
@@ -1188,10 +1189,10 @@ static void _done_to_set_wallpaper()
 					if (q) {
 						*q = '\0';
 					}
-					snprintf(filepath, sizeof(filepath), "/opt/usr/share/lockscreen/wallpaper_list%s.jpg", filename);
+					snprintf(filepath, sizeof(filepath), WALLPAPER_IMAGE_FILE, filename);
 				} else {
 					WALLPAPERUI_DBG("other image");
-					snprintf(filepath, sizeof(filepath), "/opt/usr/share/lockscreen/wallpaper_list%s", p);
+					snprintf(filepath, sizeof(filepath), WALLPAPER_IMAGE_DIR, p);
 				}
 				WALLPAPERUI_DBG("filepath = %s", filepath);
 				if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
@@ -1268,13 +1269,13 @@ static void _done_to_set_wallpaper()
 		}
 		WALLPAPERUI_DBG("value = %s", value);
 
-		file_list = ecore_file_ls("/opt/usr/share/lockscreen/wallpaper_list");
+		file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
 		count = eina_list_count(file_list);
 		if (count > 1) {
 			for (i = 0; i < count; i++) {
 				temp = (char *)eina_list_nth(file_list, i);
 				if (temp != NULL && strcmp(temp, "lockscreen_selected_images.txt") != 0) {
-					snprintf(string, sizeof(string), "/opt/usr/share/lockscreen/wallpaper_list/%s", temp);
+					snprintf(string, sizeof(string), WALLPAPER_IMAGE_DIR, temp);
 					if (strcmp(string, filepath) != 0) {
 						if (eina_list_search_unsorted(path_list, _compare_cb, string) == NULL) {
 							WALLPAPERUI_DBG("string = %s", string);
@@ -1330,13 +1331,13 @@ static void _lockscreen_gallery_destroy_func()
 	}
 	WALLPAPERUI_DBG("value = %s", value);
 
-	file_list = ecore_file_ls("/opt/usr/share/lockscreen/wallpaper_list");
+	file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
 	count = eina_list_count(file_list);
 	if (count > 1) {
 		for (i = 0; i < count; i++) {
 			temp = (char *)eina_list_nth(file_list, i);
 			if (temp != NULL && strcmp(temp, "lockscreen_selected_images.txt") != 0) {
-				snprintf(string, sizeof(string), "/opt/usr/share/lockscreen/wallpaper_list/%s", temp);
+				snprintf(string, sizeof(string), WALLPAPER_IMAGE_DIR, temp);
 				if (strcmp(string, filepath) != 0) {
 					if (eina_list_search_unsorted(path_list, _compare_cb, string) == NULL) {
 						WALLPAPERUI_DBG("string = %s", string);
@@ -1882,7 +1883,7 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 	if (result == APP_CONTROL_RESULT_SUCCEEDED) {
 		char **path_array = NULL;
 		int array_length = 0;
-		char *str = "/opt/usr/share/lockscreen/wallpaper_list";
+		char *str = WALLPAPER_IMAGE_DIR;
 		int j = 0;
 
 		if (app_control_get_extra_data_array(reply, "http://tizen.org/appcontrol/data/selected", &path_array, &array_length) == APP_CONTROL_ERROR_NONE) {
@@ -1907,7 +1908,7 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 
 
 			if (strncmp(str, path_array[0], strlen(str))) {
-				WALLPAPERUI_DBG("it is not from /opt/usr/share/lockscreen/wallpaper_list  home screen");
+				WALLPAPERUI_DBG("it is not from WALLPAPER_IMAGE_DIR/lockscreen/wallpaper_list  home screen");
 				WALLPAPERUI_DBG("home screen path_array[0]=%s", path_array[0]);
 			}
 
@@ -1921,7 +1922,7 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 
 			/*set lock icon in main only for first image */
 			if (strncmp(str, path_array[0], strlen(str))) {
-				WALLPAPERUI_DBG("it is not from /opt/usr/share/lockscreen/wallpaper_list lock screen");
+				WALLPAPERUI_DBG("it is not from WALLPAPER_IMAGE_DIR/lockscreen/wallpaper_list lock screen");
 				WALLPAPERUI_DBG("lock screen  path_array[0]=%s", path_array[0]);
 			}
 

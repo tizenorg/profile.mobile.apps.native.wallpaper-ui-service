@@ -2,15 +2,6 @@
 	<define>
 		<domain name="org.tizen.wallpaper-ui-service"/>
 	</define>
-	<assign>
-		<filesystem path="/usr/apps/org.tizen.wallpaper-ui-service/res/locale/*" label="_" />
-		<filesystem path="/usr/share/locale/*" label="_" />
-		<filesystem path="/usr/apps/org.tizen.wallpaper-ui-service/author-signature.xml" label="_"/>
-		<filesystem path="/usr/apps/org.tizen.wallpaper-ui-service/signature1.xml" label="_"/>
-		<filesystem path="/opt/usr/share/lockscreen" label="org.tizen.setting::default-resources" type="transmutable"/>
-		<filesystem path="/opt/usr/share/lockscreen/wallpaper_list" label="org.tizen.setting::default-resources" type="transmutable"/>
-		<filesystem path="/opt/usr/share/lockscreen/wallpaper_list/lockscreen_selected_images.txt" label="org.tizen.setting::default-resources" type="transmutable"/>
-	</assign>
 	<request>
 		<domain name="org.tizen.wallpaper-ui-service"/>
 	</request>
