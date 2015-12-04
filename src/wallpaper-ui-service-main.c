@@ -26,14 +26,14 @@
 #include <media_content.h>
 #include <feedback.h>
 #include <app_control_internal.h>
+#include <tzplatform_config.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
 
-
-#define DEFAULT_IMAGE_DIR "/opt/usr/share/settings/Wallpapers/"
-#define WALLPAPER_IMAGE_FILE tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list%s.jpg")
-#define WALLPAPER_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list%s/%s")
+#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "settings/Wallpapers/")
+#define WALLPAPER_IMAGE_FILE tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list.jpg")
+#define WALLPAPER_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list/")
 
 static Elm_Gengrid_Item_Class *gic_for_main = NULL;
 static wallpaper_ui_service_appdata *ad = NULL;
@@ -1820,7 +1820,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, _gallery_clicked_cb, s_item);
 		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
 	}
-	file_list = ecore_file_ls(DEFAULT_IMAGE_DIR);
+	file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
 	count = eina_list_count(file_list);
 	WALLPAPERUI_DBG("count = %d", count);
 
@@ -1829,7 +1829,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		for (i = 0; i < count; i++) {
 			temp = (char *)eina_list_nth(file_list, i);
 			WALLPAPERUI_DBG("temp = %s", temp);
-			snprintf(string, sizeof(string), DEFAULT_IMAGE_DIR"%s", temp);
+			snprintf(string, sizeof(string), DEFAULT_IMAGE_DIR, temp);
 
 			s_item = (Thumbnail *)calloc(1, sizeof(Thumbnail));
 			if (s_item) {
