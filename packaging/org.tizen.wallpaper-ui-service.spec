@@ -71,16 +71,7 @@ rm -rf %{buildroot}
 
 mkdir -p %{buildroot}%{TZ_SYS_SHARE}/license
 cp -f LICENSE %{buildroot}%{TZ_SYS_SHARE}/license/%{name}
-mkdir -p %{buildroot}%{PREFIX}/shared
-mkdir -p %{buildroot}%{PREFIX}/shared/res
-mkdir -p %{buildroot}%{PREFIX}/data
-mkdir -p %{buildroot}%{PREFIX}/data/wallpaper
 
-%define tizen_sign 1
-%define tizen_sign_base %{TZ_SYS_RO_APP}/%{name}
-%define tizen_sign_level platform
-%define tizen_author_sign 1
-%define tizen_dist_sign 1
 
 %clean
 rm -rf %{buildroot}
@@ -98,11 +89,3 @@ rm -rf %{buildroot}
 %{RESDIR}/edje/*
 %{TZ_SYS_RO_PACKAGES}/%{name}.xml
 %{TZ_SYS_SHARE}/license/%{name}
-%{TZ_SYS_SMACK}/accesses.d/%{name}.efl
-%{TZ_SYS_RO_APP}/%{name}/author-signature.xml
-%{TZ_SYS_RO_APP}/%{name}/signature1.xml
-
-%attr(-,app,app) %dir %{PREFIX}/shared
-%attr(-,app,app) %dir %{PREFIX}/shared/res
-%attr(-,app,app) %dir %{PREFIX}/data
-%attr(-,app,app) %dir %{PREFIX}/data/wallpaper
