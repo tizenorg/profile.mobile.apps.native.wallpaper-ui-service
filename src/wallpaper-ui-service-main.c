@@ -31,9 +31,8 @@
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
 
-#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "settings/Wallpapers/")
-#define WALLPAPER_IMAGE_FILE tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list.jpg")
-#define WALLPAPER_IMAGE_DIR tzplatform_mkpath(TZ_SYS_SHARE, "lockscreen/wallpaper_list/")
+#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers")
+#define DEFAULT_IMAGE_DIR_TEMPLATE tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers/%s")
 
 static Elm_Gengrid_Item_Class *gic_for_main = NULL;
 static wallpaper_ui_service_appdata *ad = NULL;
@@ -100,76 +99,6 @@ static void _wallpaper_show_focus_highlight(int selected_index) ;
 static void _done_to_set_wallpaper();
 static void _wallpaper_back_key_cb(void *data, Evas_Object *obj, void *event_info);
 static void _preview_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info);
-
-static int _wallpaper_txt_list_create(char *filename)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	WALLPAPERUI_DBG("filename=%s", filename);
-	retv_if(filename == NULL, -1);
-	if (access(filename, 0) == -1) {
-		WALLPAPERUI_DBG("%s is not exist.", filename);
-		FILE *file = fopen(filename, "w");
-		if (!file) {
-			WALLPAPERUI_DBG("fopen file failed");
-			return -1;
-		}
-		fclose(file);
-	}
-	WALLPAPERUI_TRACE_END;
-	return 0;
-}
-
-static int _wallpaper_txt_list_read(char *filename, char path_array[6][MAX_LENGTH_LINE])
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	WALLPAPERUI_DBG("filename=%s", filename);
-	retv_if(filename == NULL, -1);
-
-	FILE *fp = fopen(filename, "r");
-	if (!fp) {
-		WALLPAPERUI_DBG("fopen wallpaper txt file failed.");
-		return -1;
-	}
-
-	int i = 0;
-	while (fgets(path_array[i], MAX_LENGTH_LINE, fp) != NULL) {
-		path_array[i][strlen(path_array[i])-1] = '\0';
-		WALLPAPERUI_DBG("path=%s", path_array[i]);
-		i++;
-	}
-
-	fclose(fp);
-	WALLPAPERUI_TRACE_END;
-	return i;
-}
-
-static int _wallpaper_txt_list_write(char *filename, char *path_array[6])
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	FILE *fp = fopen(filename, "w");
-	if (!fp) {
-		WALLPAPERUI_DBG("fopen wallpaper txt file failed.");
-		return -1;
-	}
-
-	int i = 0;
-	while (i < 6) {
-		if (path_array[i]) {
-			WALLPAPERUI_DBG("path=%s", path_array[i]);
-			fprintf(fp, "%s\n", path_array[i]);
-			WALLPAPERUI_DBG("path=%s", path_array[i]);
-		}
-		i++;
-	}
-
-	fclose(fp);
-
-	WALLPAPERUI_TRACE_END;
-	return 0;
-}
 
 static int _lockscreen_gallery_file_cb(const char *src, const char *dst)
 {
@@ -512,17 +441,6 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 	if (err != EVAS_LOAD_ERROR_NONE) {
 		WALLPAPERUI_ERR("evas_object_image_file_set() failed");
 		WALLPAPERUI_ERR("file(%s) err(%s)", state_data.from[sd->img_idx], evas_load_error_str(err));
-
-		char temp[MAX_LENGTH_LINE] = {0};
-		char *p = strrchr(state_data.from[sd->img_idx], '/');
-		if (p) {
-			snprintf(temp, sizeof(temp), WALLPAPER_IMAGE_DIR, p);
-			WALLPAPERUI_DBG("temp = %s", temp);
-			if (strcmp(temp, ad->current_preview_img_path) == 0) {
-				WALLPAPERUI_DBG("homescreen wallppaer do not be changed");
-			}
-		}
-
 		sd->next_job = SCALE_JOB_ERR;
 		return ECORE_CALLBACK_CANCEL;
 	}
@@ -880,7 +798,7 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 		}
 
 		memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
-		strncpy(ad->saved_img_path, path_array[0], MAX_LENGTH_LINE - 1);
+		strncpy(ad->saved_img_path[0], path_array[0], MAX_LENGTH_LINE - 1);
 		WALLPAPERUI_DBG("saved_img_path is %s", ad->saved_img_path[0]);
 
 		elm_image_file_set(ad->preview_image, ad->saved_img_path[0], NULL);
@@ -1159,22 +1077,6 @@ static void _done_to_set_wallpaper()
 	Eina_List *path_list = NULL;
 	Eina_List *file_list = NULL;
 
-
-	if (!state_data.flag_changed) {
-		int count = _wallpaper_txt_list_read(WALLPAPER_TXT_FILE, path);
-		WALLPAPERUI_DBG("count=%d", count);
-		if (count > 0) {
-			WALLPAPERUI_DBG("path[0]=%s", path[0]);
-			if (system_settings_set_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, path[0]) != 0) {
-				WALLPAPERUI_DBG("Lockscreen set Error : %s", path[1]);
-			}
-		}
-/*		_wallpaper_destroy(ad); */
-		WALLPAPERUI_DBG("NO CHANGE");
-		return;
-	}
-
-
 	/*copy lock wallpaper */
 	while (i < MAX_MULTIPLE_SELECTION) {
 		if (strlen(ad->saved_img_path[i]) > 1) {
@@ -1189,10 +1091,6 @@ static void _done_to_set_wallpaper()
 					if (q) {
 						*q = '\0';
 					}
-					snprintf(filepath, sizeof(filepath), WALLPAPER_IMAGE_FILE, filename);
-				} else {
-					WALLPAPERUI_DBG("other image");
-					snprintf(filepath, sizeof(filepath), WALLPAPER_IMAGE_DIR, p);
 				}
 				WALLPAPERUI_DBG("filepath = %s", filepath);
 				if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
@@ -1227,8 +1125,6 @@ static void _done_to_set_wallpaper()
 		i++;
 	}
 
-	_wallpaper_txt_list_write(WALLPAPER_TXT_FILE, temp_path);
-
 	i--;
 	while (i >= 0 && temp_path[i]) {
 		free(temp_path[i]);
@@ -1251,47 +1147,6 @@ static void _done_to_set_wallpaper()
 		WALLPAPERUI_DBG("SCALE start!");
 
 		_lockscreen_gallery_scale_job_maker(480, 800, 0);
-	} else {
-		/*delete unused files */
-
-		i = 0;
-		memset(path, 0, sizeof(path));
-		count = _wallpaper_txt_list_read(WALLPAPER_TXT_FILE, path);
-		if (count > 0) {
-			for (i = 0; i < count; i++) {
-				path_list = eina_list_append(path_list, path[i]);
-			}
-		}
-
-		char *value = NULL;
-		if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &value) != SYSTEM_SETTINGS_ERROR_NONE) {
-			WALLPAPERUI_ERR("system_settings_get_value_string() failed");
-		}
-		WALLPAPERUI_DBG("value = %s", value);
-
-		file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
-		count = eina_list_count(file_list);
-		if (count > 1) {
-			for (i = 0; i < count; i++) {
-				temp = (char *)eina_list_nth(file_list, i);
-				if (temp != NULL && strcmp(temp, "lockscreen_selected_images.txt") != 0) {
-					snprintf(string, sizeof(string), WALLPAPER_IMAGE_DIR, temp);
-					if (strcmp(string, filepath) != 0) {
-						if (eina_list_search_unsorted(path_list, _compare_cb, string) == NULL) {
-							WALLPAPERUI_DBG("string = %s", string);
-							if (strcmp(string, value) != 0) {
-								if (ecore_file_remove(string) == EINA_FALSE) {
-									WALLPAPERUI_DBG("Remove fail");
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-		if (file_list != NULL) {
-			eina_list_free(file_list);
-		}
 	}
 
 	state_data.flag_changed = EINA_FALSE;
@@ -1318,45 +1173,11 @@ static void _lockscreen_gallery_destroy_func()
 	Eina_List *file_list = NULL;
 
 	memset(path, 0, sizeof(path));
-	count = _wallpaper_txt_list_read(WALLPAPER_TXT_FILE, path);
-
-	if (count > 0) {
-		for (i = 0; i < count; i++) {
-			path_list = eina_list_append(path_list, path[i]);
-		}
-	}
 
 	if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &value) != SYSTEM_SETTINGS_ERROR_NONE) {
 		WALLPAPERUI_ERR("system_settings_get_value_string() failed");
 	}
 	WALLPAPERUI_DBG("value = %s", value);
-
-	file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
-	count = eina_list_count(file_list);
-	if (count > 1) {
-		for (i = 0; i < count; i++) {
-			temp = (char *)eina_list_nth(file_list, i);
-			if (temp != NULL && strcmp(temp, "lockscreen_selected_images.txt") != 0) {
-				snprintf(string, sizeof(string), WALLPAPER_IMAGE_DIR, temp);
-				if (strcmp(string, filepath) != 0) {
-					if (eina_list_search_unsorted(path_list, _compare_cb, string) == NULL) {
-						WALLPAPERUI_DBG("string = %s", string);
-						WALLPAPERUI_DBG("value = %s", value);
-						if (strcmp(string, value) != 0) {
-							WALLPAPERUI_DBG("Remove string = %s", string);
-							if (ecore_file_remove(string) == EINA_FALSE) {
-								WALLPAPERUI_DBG("Remove fail");
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-
-	if (file_list != NULL) {
-		eina_list_free(file_list);
-	}
 
 	/*_wallpaper_destroy(ad); */
 
@@ -1504,8 +1325,6 @@ void wallpaper_preview_main()
 HAPI void wallpaper_main_create_view(void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
-	int i = 0;
-	int count = 0;
 	char *value = NULL;
 	char *from = NULL;
 
@@ -1522,27 +1341,7 @@ HAPI void wallpaper_main_create_view(void *data)
 		WALLPAPERUI_DBG("ad->win is NULL");
 		return;
 	}
-	/*create txt list file */
-	_wallpaper_txt_list_create(WALLPAPER_TXT_FILE);
 
-	/*initialize lock_path and home_path */
-	memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
-	count = _wallpaper_txt_list_read(WALLPAPER_TXT_FILE, ad->saved_img_path);
-
-	for (i = 0; i < count; i++) {
-		WALLPAPERUI_DBG("ad->saved_img_path[%d] = %s", i, ad->saved_img_path[i]);
-	}
-
-	if (count == 0) {
-		WALLPAPERUI_DBG("count == 0");
-		if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, &value) != SYSTEM_SETTINGS_ERROR_NONE) {
-			WALLPAPERUI_ERR("system_settings_get_value_string() failed");
-		}
-		memset(ad->saved_img_path[0], 0, sizeof(ad->saved_img_path[0]));
-		strncpy(ad->saved_img_path[0], value, sizeof(ad->saved_img_path[0])-1);
-
-		WALLPAPERUI_DBG("ad->saved_img_path[0] = %s", ad->saved_img_path[0]);
-	}
 	if (media_content_set_db_updated_cb(_wallpaper_db_update_cb, data) != MEDIA_CONTENT_ERROR_NONE) {
 		WALLPAPERUI_DBG("Set db updated cb failed!");
 	}
@@ -1560,9 +1359,14 @@ HAPI void wallpaper_main_create_view(void *data)
 	evas_object_show(preveiw_main_layout);
 	ad->main_layout = preveiw_main_layout;
 
+	if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, &value) != SYSTEM_SETTINGS_ERROR_NONE) {
+		WALLPAPERUI_ERR("system_settings_get_value_string() failed");
+	}
+	WALLPAPERUI_DBG("value = %s", value);
+
 	/* preview image */
 	Evas_Object *image = elm_image_add(preveiw_main_layout);
-	elm_image_file_set(image, ad->saved_img_path[0], NULL);
+	elm_image_file_set(image, value, NULL);
 	elm_image_aspect_fixed_set(image,	EINA_TRUE);
 	elm_image_fill_outside_set(image, EINA_TRUE);
 	elm_image_preload_disabled_set(image, EINA_FALSE);
@@ -1820,7 +1624,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, _gallery_clicked_cb, s_item);
 		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
 	}
-	file_list = ecore_file_ls(WALLPAPER_IMAGE_DIR);
+	file_list = ecore_file_ls(DEFAULT_IMAGE_DIR);
 	count = eina_list_count(file_list);
 	WALLPAPERUI_DBG("count = %d", count);
 
@@ -1829,7 +1633,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		for (i = 0; i < count; i++) {
 			temp = (char *)eina_list_nth(file_list, i);
 			WALLPAPERUI_DBG("temp = %s", temp);
-			snprintf(string, sizeof(string), DEFAULT_IMAGE_DIR, temp);
+			snprintf(string, sizeof(string), DEFAULT_IMAGE_DIR_TEMPLATE, temp);
 
 			s_item = (Thumbnail *)calloc(1, sizeof(Thumbnail));
 			if (s_item) {
@@ -1883,7 +1687,6 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 	if (result == APP_CONTROL_RESULT_SUCCEEDED) {
 		char **path_array = NULL;
 		int array_length = 0;
-		char *str = WALLPAPER_IMAGE_DIR;
 		int j = 0;
 
 		if (app_control_get_extra_data_array(reply, "http://tizen.org/appcontrol/data/selected", &path_array, &array_length) == APP_CONTROL_ERROR_NONE) {
@@ -1898,19 +1701,11 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 			return;
 		}
 
-		WALLPAPERUI_DBG("strlen(str) = %d", strlen(str));
-
 		if (path_array[0]) {
 			memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
 			strcpy(ad->saved_img_path[0], path_array[0]);
 
 			elm_image_file_set(ad->preview_image, path_array[0], NULL);
-
-
-			if (strncmp(str, path_array[0], strlen(str))) {
-				WALLPAPERUI_DBG("it is not from WALLPAPER_IMAGE_DIR/lockscreen/wallpaper_list  home screen");
-				WALLPAPERUI_DBG("home screen path_array[0]=%s", path_array[0]);
-			}
 
 			/*set home icon in main */
 			state_data.flag_changed = EINA_TRUE;
@@ -1919,12 +1714,6 @@ static void _service_imageviewer_ug_result_cb(app_control_h request, app_control
 			memset(ad->saved_img_path[0], 0, sizeof(ad->saved_img_path[0]));
 			strcpy(ad->saved_img_path[0], path_array[0]);
 			WALLPAPERUI_DBG("ad->saved_img_path[%d] = %s", 0, ad->saved_img_path[0]);
-
-			/*set lock icon in main only for first image */
-			if (strncmp(str, path_array[0], strlen(str))) {
-				WALLPAPERUI_DBG("it is not from WALLPAPER_IMAGE_DIR/lockscreen/wallpaper_list lock screen");
-				WALLPAPERUI_DBG("lock screen  path_array[0]=%s", path_array[0]);
-			}
 
 			state_data.flag_changed = EINA_TRUE;
 		}

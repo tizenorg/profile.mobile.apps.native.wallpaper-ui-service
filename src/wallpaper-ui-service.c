@@ -283,28 +283,6 @@ HAPI int wallpaper_ui_service_copy_wallpaper_file(char *source, char *destinatio
 	return 1;
 }
 
-static int _wallpaper_txt_write(char *filename, char *path_array)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	FILE *fp = fopen(filename, "w");
-	if (!fp) {
-		WALLPAPERUI_DBG("fopen wallpaper txt file failed.");
-		return -1;
-	}
-
-	if (path_array) {
-		WALLPAPERUI_DBG("path=%s", path_array);
-		fprintf(fp, "%s\n", path_array);
-		WALLPAPERUI_DBG("path=%s", path_array);
-	}
-
-	fclose(fp);
-
-	WALLPAPERUI_TRACE_END;
-	return 0;
-}
-
 static void _wallpaper_dbus_destroy(void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
