@@ -69,16 +69,6 @@ make %{?jobs:-j%jobs}
 rm -rf %{buildroot}
 %make_install
 
-if [ ! -d %{buildroot}%{TZ_SYS_SHARE}/lockscreen/wallpaper_list ]
-then
-	mkdir -p %{buildroot}%{TZ_SYS_SHARE}/lockscreen/wallpaper_list
-fi
-
-if [ ! -d %{buildroot}%{TZ_SYS_SHARE}/settings/Wallpapers ]
-then
-	mkdir -p %{buildroot}%{TZ_SYS_SHARE}/settings/Wallpapers
-fi
-
 mkdir -p %{buildroot}%{TZ_SYS_SHARE}/license
 cp -f LICENSE %{buildroot}%{TZ_SYS_SHARE}/license/%{name}
 mkdir -p %{buildroot}%{PREFIX}/shared
@@ -116,7 +106,3 @@ rm -rf %{buildroot}
 %attr(-,app,app) %dir %{PREFIX}/shared/res
 %attr(-,app,app) %dir %{PREFIX}/data
 %attr(-,app,app) %dir %{PREFIX}/data/wallpaper
-
-%attr(755,app,app) %{TZ_SYS_SHARE}/settings/Wallpapers
-%attr(755,app,app) %{TZ_SYS_SHARE}/lockscreen
-%attr(755,app,app) %{TZ_SYS_SHARE}/lockscreen/wallpaper_list
