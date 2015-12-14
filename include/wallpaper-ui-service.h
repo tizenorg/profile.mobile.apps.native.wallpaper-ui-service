@@ -37,8 +37,6 @@
 #define APP_STRING(str)			dgettext(PKGNAME, str)
 #define NOT_LOCALIZED(str)		(str)
 
-#define _(str)			gettext(str)
-
 #define _NOT_LOCALIZED(str) (str)
 
 #define GENGRID_ITEM_SIZE (126)
