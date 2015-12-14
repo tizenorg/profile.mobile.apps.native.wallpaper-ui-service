@@ -32,7 +32,7 @@
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
-
+#include <feedback.h>
 
 static bool flag_view_exist = false;
 
@@ -129,46 +129,11 @@ static bool _wallpaper_db_destroy(void)
 	return true;
 }
 
-static void _reply_to_sender(void *data, int result)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-	ret_if(data == NULL);
-
-	wallpaper_ui_service_appdata *ad = (wallpaper_ui_service_appdata *)data;
-
-	app_control_h svc;
-
-	if (app_control_create(&svc) == 0) {
-		WALLPAPERUI_DBG("reply to caller :: app_control_reply_to_launch_request(%d)", result);
-		app_control_reply_to_launch_request(svc, ad->service, result);
-		app_control_destroy(svc);
-	}
-    WALLPAPERUI_TRACE_END;
-}
-
 static void _del_win(void *data, Evas_Object *obj, void *event)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
 	ui_app_exit();
-}
-
-static void _win_rot_changed_cb(void *data, Evas_Object *obj, void *event)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-	int changed_ang = elm_win_rotation_get(obj);
-
-	switch (changed_ang) {
-		case APP_DEVICE_ORIENTATION_0:
-			break;
-		case APP_DEVICE_ORIENTATION_90:
-			break;
-		case APP_DEVICE_ORIENTATION_180:
-			break;
-		case APP_DEVICE_ORIENTATION_270:
-			break;
-	}
-	WALLPAPERUI_TRACE_END;
 }
 
 static Evas_Object *_create_win(const char *name, bool transparent)
@@ -199,7 +164,6 @@ static Evas_Object *_create_win(const char *name, bool transparent)
 		evas_object_resize(eo, w, h);
 
 		if (transparent) {
-			_disable_effect(eo);
 			elm_win_indicator_mode_set(eo, ELM_WIN_INDICATOR_HIDE);
 		} else {
 			elm_win_indicator_mode_set(eo, ELM_WIN_INDICATOR_SHOW);
@@ -617,7 +581,7 @@ static void _app_reset(app_control_h service, void *data)
     ad->win = _create_win("org.tizen.setting.wallpaper-ui-service", bTransparent);
     if (ad->win == NULL) {
         WALLPAPERUI_DBG("Can't create window");
-        return FALSE;
+        return;
     }
 
     flag_view_exist = false;
@@ -651,10 +615,6 @@ static void update_text(void *data)
 
 	wallpaper_ui_service_appdata *ad = (wallpaper_ui_service_appdata *) data;
 	ret_if(ad == NULL);
-
-	Evas_Object *cancel_button;
-	Evas_Object *done_button;
-	Evas_Object *obj;
 
 	if (ad->main_nf_it) {
 		elm_object_item_text_set(ad->main_nf_it, APP_STRING("IDS_LCKSCN_MBODY_WALLPAPERS"));

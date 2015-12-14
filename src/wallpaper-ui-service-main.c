@@ -17,6 +17,8 @@
 /**
  * @{
  */
+#define _GNU_SOURCE
+
 #include <app.h>
 #include <Elementary.h>
 #include <Evas.h>
@@ -89,10 +91,8 @@ struct scaledata {
 	Ecore_Idler *idler_handler;
 };
 
-static void _service_imageviewer_ug_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *data);
 static void _wallpaper_destroy(void *data);
 static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data);
-static void _edit_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info);
 static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h, int idx);
 static void _lockscreen_gallery_destroy_func();
 static void _wallpaper_show_focus_highlight(int selected_index) ;
@@ -300,20 +300,10 @@ static bool _get_media_info_cb(media_info_h pItem, void *pUserData)
 
 	if (pItem != NULL) {
 		media_info_clone(pAssignFolderItem, pItem);
-		media_info_get_display_name(*pAssignFolderItem, &pItem);
 	}
 
 	WALLPAPERUI_TRACE_END;
 	return FALSE;
-}
-
-static void _done_button_cb()
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	_done_to_set_wallpaper();
-
-	WALLPAPERUI_TRACE_END;
 }
 
 static media_content_orientation_e _lockscreen_gallery_get_orientation_by_path(const char *path)
@@ -663,7 +653,6 @@ static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h, int idx)
 		sd->to_h = to_h;
 		sd->curr_job = job_idx;
 		sd->next_job = job_idx+1;
-
 		sd->idler_handler = ecore_idler_add(_lockscreen_gallery_scale_job_handler, sd);
 	}
 
@@ -697,61 +686,6 @@ static void _main_done_button_cb(void *data, Evas_Object *obj, void *event_info)
 	WALLPAPERUI_TRACE_END;
 }
 
-static void _gallery_service_imageviewer_ug_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *data)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-	elm_object_disabled_set(ad->win, EINA_FALSE);
-	state_data.flag_edit_click = EINA_FALSE;
-
-	if (result == APP_CONTROL_RESULT_SUCCEEDED) {
-		char **path_array = NULL;
-		int array_length = 0;
-
-		int j = 0;
-		bool bresult = false;
-
-		if (app_control_get_extra_data_array(reply, "http://tizen.org/appcontrol/data/selected", &path_array, &array_length) == APP_CONTROL_ERROR_NONE) {
-
-		for (j = 0; j < array_length; j++) {
-			WALLPAPERUI_DBG("path_array[%d] = %s", j, path_array[j]);
-		}
-
-		if (!strstr(path_array[0], ".png")
-			&& !strstr(path_array[0], ".PNG")
-			&& !strstr(path_array[0], ".jpg")
-			&& !strstr(path_array[0], ".gif")) {
-			WALLPAPERUI_DBG("Do not edit the image!: path_array[0] = %s", path_array[0]);
-			return;
-		}
-
-		/*do not need go into preview_selection */
-		if ((array_length == 1) && path_array[0]) {
-			state_data.flag_changed = EINA_TRUE;
-			state_data.flag_image_from_gallery = EINA_TRUE;
-
-			vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, WALLPAPER_TYPE_GALLERY);
-			WALLPAPERUI_DBG("Set VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE = WALLPAPER_TYPE_GALLERY");
-
-			memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
-			strncpy(ad->saved_img_path[0], path_array[0], MAX_LENGTH_LINE - 1);
-			WALLPAPERUI_DBG("ad->saved_img_path[0] is %s", ad->saved_img_path[0]);
-
-			elm_image_file_set(ad->preview_image, ad->saved_img_path[0], NULL);
-		}
-
-		int i = 0;
-		for (i = 0; i < array_length; i++) {
-			if (path_array[i]) {
-				free(path_array[i]);
-				path_array[i] = NULL;
-			}
-		}
-		_done_button_cb();
-		}
-	}
-	WALLPAPERUI_TRACE_END;
-}
-
 static void _service_gallery_ug_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
@@ -759,7 +693,6 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 	char **path_array = NULL;
 	int array_length = 0;
 	Elm_Object_Item *object_item = NULL;
-	bool bresult = false;
 	int i = 0;
 	Thumbnail *item = NULL;
 
@@ -796,6 +729,7 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 				}
 			}
 		}
+
 
 		memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
 		strncpy(ad->saved_img_path[0], path_array[0], MAX_LENGTH_LINE - 1);
@@ -835,7 +769,6 @@ static void _gallery_clicked_cb(void *data, Evas_Object *obj, const char *emissi
 	Thumbnail *item = (Thumbnail *)data;
 	elm_gengrid_item_selected_set(item->item,  EINA_FALSE);
 	app_control_h svc_handle = NULL;
-	Evas_Object *win = NULL;
 
 	if (obj) {
 		elm_object_signal_emit(obj, "unpressed", "elm");
@@ -845,7 +778,6 @@ static void _gallery_clicked_cb(void *data, Evas_Object *obj, const char *emissi
 
 	if (!app_control_create(&svc_handle)) {
 		app_control_set_operation(svc_handle, APP_CONTROL_OPERATION_PICK);
-		win = (Evas_Object *)ug_get_window();
         app_control_set_launch_mode(svc_handle, APP_CONTROL_LAUNCH_MODE_GROUP);
 		app_control_set_app_id(svc_handle,  "ug-gallery-efl");
 		app_control_set_mime(svc_handle, "image/*");
@@ -1030,39 +962,10 @@ static void _set_wallpaper(char *path)
 	WALLPAPERUI_TRACE_END;
 }
 
-static void _set_home_wallpaper(char *path)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	if (ecore_file_exists(path) != EINA_TRUE) {
-		WALLPAPERUI_ERR("%s does not exist", path);
-		return;
-	}
-
-	if (system_settings_set_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, path) != SYSTEM_SETTINGS_ERROR_NONE) {
-		WALLPAPERUI_ERR("system_settings_set_value_string() failed");
-		elm_exit();
-		return;
-	}
-	WALLPAPERUI_TRACE_END;
-}
-
-static int _compare_cb(const void *d1, const void *d2)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	char *v1 = (char *)d1;
-	char *v2 = (char *)d2;
-
-	WALLPAPERUI_TRACE_END;
-	return strcmp(v1, v2);
-}
-
 static void _done_to_set_wallpaper()
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
-	char path[6][MAX_LENGTH_LINE] = {{0 } } ;
 	char *p = NULL;
 	char filepath[MAX_LENGTH_LINE] = {0};
 	char filename[MAX_LENGTH_LINE] = {0};
@@ -1070,12 +973,6 @@ static void _done_to_set_wallpaper()
 	int i = 0;
 	int index = 0;
 	char *temp_path[6] = {NULL};
-	bool flag = true;
-	int count = 0;
-	char *temp = NULL;
-	char string[MAX_LENGTH_LINE] = {0};
-	Eina_List *path_list = NULL;
-	Eina_List *file_list = NULL;
 
 	/*copy lock wallpaper */
 	while (i < MAX_MULTIPLE_SELECTION) {
@@ -1162,15 +1059,8 @@ static void _lockscreen_gallery_destroy_func()
 	WALLPAPERUI_TRACE_BEGIN;
 
 	/*delete unused files */
-	Eina_List *path_list = NULL;
-	int i = 0;
 	char path[6][MAX_LENGTH_LINE] = {{0 } };
-	char filepath[MAX_LENGTH_LINE] = {0};
-	int count = 0;
 	char *value = NULL;
-	char *temp = NULL;
-	char string[MAX_LENGTH_LINE] = {0};
-	Eina_List *file_list = NULL;
 
 	memset(path, 0, sizeof(path));
 
@@ -1275,22 +1165,6 @@ static void _wallpaper_db_update_cb(media_content_error_e error, int pid,
 }
 
 
-static void _main_preview_image_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	Evas_Object *navi_bar = (Evas_Object *)data;
-	if (navi_bar == NULL) {
-		WALLPAPERUI_DBG("navi_bar == NULL");
-		return;
-	}
-
-	feedback_play_type(FEEDBACK_TYPE_SOUND, FEEDBACK_PATTERN_TAP);
-	wallpaper_preview_main();
-
-	WALLPAPERUI_TRACE_END;
-}
-
 void wallpaper_preview_main()
 {
 	WALLPAPERUI_TRACE_BEGIN;
@@ -1311,22 +1185,35 @@ void wallpaper_preview_main()
     elm_image_fill_outside_set(preview_image, EINA_TRUE);
     elm_image_preload_disabled_set(preview_image, EINA_TRUE);
     elm_object_part_content_set(preveiw_main_layout, "preview", preview_image);
-    edje_object_signal_callback_add(_EDJ(preveiw_main_layout), "preview_clicked", "edj", _preview_clicked_cb, (void *)ad);
+    edje_object_signal_callback_add(_EDJ(preveiw_main_layout), "preview_clicked", "edj", (Edje_Signal_Cb)_preview_clicked_cb, (void *)ad);
     elm_object_part_content_unset(preveiw_main_layout, "thumblist");
     evas_object_show(preveiw_main_layout);
 
 	Elm_Object_Item *navi_item = elm_naviframe_item_push(ad->navi_bar, NULL, NULL, NULL, preveiw_main_layout, NULL);
-	elm_naviframe_item_title_visible_set(navi_item, EINA_FALSE);
-
+	elm_naviframe_item_title_enabled_set (navi_item, EINA_FALSE, EINA_FALSE);
 	WALLPAPERUI_TRACE_END;
 }
 
+static void _main_preview_image_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info)
+{
+	WALLPAPERUI_TRACE_BEGIN;
+
+	Evas_Object *navi_bar = (Evas_Object *)data;
+	if (navi_bar == NULL) {
+		WALLPAPERUI_DBG("navi_bar == NULL");
+		return;
+	}
+
+	feedback_play_type(FEEDBACK_TYPE_SOUND, FEEDBACK_PATTERN_TAP);
+	wallpaper_preview_main();
+
+	WALLPAPERUI_TRACE_END;
+}
 
 HAPI void wallpaper_main_create_view(void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 	char *value = NULL;
-	char *from = NULL;
 
 	state_data.flag_edit_click = EINA_FALSE;
 	state_data.flag_changed = EINA_FALSE;
@@ -1371,7 +1258,7 @@ HAPI void wallpaper_main_create_view(void *data)
 	elm_image_fill_outside_set(image, EINA_TRUE);
 	elm_image_preload_disabled_set(image, EINA_FALSE);
 	elm_object_part_content_set(preveiw_main_layout, "preview_image", image);
-    evas_object_smart_callback_add(image, "clicked", _main_preview_image_clicked_cb, ad->navi_bar);
+    evas_object_smart_callback_add(image, "clicked", (Evas_Smart_Cb)_main_preview_image_clicked_cb, ad->navi_bar);
 
 	ad->preview_image = image;
 
@@ -1525,7 +1412,6 @@ static void _wallpaper_show_focus_highlight(int selected_index)
 static void _wallpaper_on_item_selected(void *data, Evas_Object *obj, void *event_info)
 {
 	WALLPAPERUI_TRACE_BEGIN;
-	Thumbnail *temp_item = NULL;
 	Thumbnail *item = (Thumbnail *)data;
 
 	if (item == NULL) {
@@ -1582,7 +1468,32 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 	evas_object_size_hint_align_set(ad->gengrid, EVAS_HINT_FILL, EVAS_HINT_FILL);
 	elm_gengrid_align_set(ad->gengrid, 0.0, 1.0);
 	elm_gengrid_horizontal_set(ad->gengrid, EINA_TRUE);
-	elm_gengrid_bounce_set(ad->gengrid, EINA_FALSE, EINA_FALSE);
+	elm_scroller_bounce_set(ad->gengrid, EINA_FALSE, EINA_FALSE);
+	/**
+	 * Enable or disable bouncing effect for a given gengrid widget
+	 *
+	 * @param obj The gengrid object
+	 * @param h_bounce @c EINA_TRUE, to enable @b horizontal bouncing,
+	 * @c EINA_FALSE to disable it
+	 * @param v_bounce @c EINA_TRUE, to enable @b vertical bouncing,
+	 * @c EINA_FALSE to disable it
+	 *
+	 * The bouncing effect occurs whenever one reaches the gengrid's
+	 * edge's while panning it -- it will scroll past its limits a
+	 * little bit and return to the edge again, in a animated for,
+	 * automatically.
+	 *
+	 * @note By default, gengrids have bouncing enabled on both axis
+	 *
+	 * @deprecated Use elm_scroller_bounce_set() instead.
+	 *
+	 * @see elm_scroller_bounce_set()
+	 *
+	 * @ingroup Gengrid
+	 */
+
+
+
 	elm_gengrid_multi_select_set(ad->gengrid, EINA_FALSE);
 	elm_object_style_set(ad->gengrid, "no_effect");
 
@@ -1621,7 +1532,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 
 		s_item->type = WALLPAPER_TYPE_GALLERY;
 		s_item->index = index++;
-		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, _gallery_clicked_cb, s_item);
+		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, (Evas_Smart_Cb)_gallery_clicked_cb, s_item);
 		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
 	}
 	file_list = ecore_file_ls(DEFAULT_IMAGE_DIR);
@@ -1679,101 +1590,6 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 
 	WALLPAPERUI_TRACE_END;
 	return ad->gengrid;
-}
-
-static void _service_imageviewer_ug_result_cb(app_control_h request, app_control_h reply, app_control_result_e result, void *data)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-	if (result == APP_CONTROL_RESULT_SUCCEEDED) {
-		char **path_array = NULL;
-		int array_length = 0;
-		int j = 0;
-
-		if (app_control_get_extra_data_array(reply, "http://tizen.org/appcontrol/data/selected", &path_array, &array_length) == APP_CONTROL_ERROR_NONE) {
-		WALLPAPERUI_DBG("array_length = %d", array_length);
-
-		for (j = 0; j < array_length; j++) {
-			WALLPAPERUI_DBG("path_array[%d] = %s", j, path_array[j]);
-		}
-
-		if (!strstr(path_array[0], ".png") && !strstr(path_array[0], ".jpg")) {
-			WALLPAPERUI_DBG("Do not edit the image!");
-			return;
-		}
-
-		if (path_array[0]) {
-			memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
-			strcpy(ad->saved_img_path[0], path_array[0]);
-
-			elm_image_file_set(ad->preview_image, path_array[0], NULL);
-
-			/*set home icon in main */
-			state_data.flag_changed = EINA_TRUE;
-
-		} else if (path_array[0] && array_length > 1) {
-			memset(ad->saved_img_path[0], 0, sizeof(ad->saved_img_path[0]));
-			strcpy(ad->saved_img_path[0], path_array[0]);
-			WALLPAPERUI_DBG("ad->saved_img_path[%d] = %s", 0, ad->saved_img_path[0]);
-
-			state_data.flag_changed = EINA_TRUE;
-		}
-
-		int i = 0;
-		for (i = 0; i < array_length; i++) {
-			if (path_array[i]) {
-				free(path_array[i]);
-				path_array[i] = NULL;
-			}
-		}
-		_done_button_cb();
-		}
-	}
-
-	WALLPAPERUI_TRACE_END;
-}
-
-static void _edit_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	Thumbnail *item = NULL;
-	Elm_Object_Item *object_item = NULL;
-	Evas_Object *win = NULL;
-
-
-	feedback_play_type(FEEDBACK_TYPE_SOUND, FEEDBACK_PATTERN_TAP);
-
-	WALLPAPERUI_DBG("1 flag_edit_click=%d", state_data.flag_edit_click);
-
-	if (ad->preview_image_type == WALLPAPER_TYPE_DEFAULT || state_data.flag_edit_click == EINA_FALSE) {
-		WALLPAPERUI_DBG("DEFAULT TYPE NOT SUPPORT PREVIEW");
-		return;
-	}
-
-	app_control_h pService;
-	app_control_create(&pService);
-	app_control_set_operation(pService, "http://tizen.org/appcontrol/operation/image/crop");
-	app_control_set_app_id(pService, "image-viewer-efl");
-/*	app_control_set_uri(pService, lock_path[current_index]); */
-
-
-	object_item = elm_gengrid_first_item_get(ad->gengrid);
-	while (object_item) {
-		item = (Thumbnail *)elm_object_item_data_get(object_item);
-		if (item->path && item->bSelected) {
-			WALLPAPERUI_DBG("path=%s", item->path);
-			app_control_set_uri(pService, item->path);
-		}
-		object_item = elm_gengrid_item_next_get(object_item);
-	}
-
-	app_control_add_extra_data(pService, "http://tizen.org/appcontrol/data/image/crop_mode", "fit_to_screen");
-	win = (Evas_Object *)ug_get_window();
-    app_control_set_launch_mode(pService, APP_CONTROL_LAUNCH_MODE_GROUP);
-	app_control_send_launch_request(pService, _service_imageviewer_ug_result_cb, data);
-	app_control_destroy(pService);
-
-	WALLPAPERUI_TRACE_END;
 }
 
 static void _preview_clicked_cb(void *data, Evas *evas, Evas_Object *obj, void *event_info)
