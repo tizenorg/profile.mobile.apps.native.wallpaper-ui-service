@@ -37,8 +37,6 @@
 #define APP_STRING(str)			dgettext(PKGNAME, str)
 #define NOT_LOCALIZED(str)		(str)
 
-#define _(str)			gettext(str)
-
 #define _NOT_LOCALIZED(str) (str)
 
 #define GENGRID_ITEM_SIZE (126)
@@ -179,6 +177,8 @@ typedef struct _wallpaper_ui_service_appdata {
     char current_preview_img_path[MAX_LENGTH_LINE];
 	char saved_img_path[6][MAX_LENGTH_LINE];
 } wallpaper_ui_service_appdata;
+
+HAPI int wallpaper_ui_service_copy_wallpaper_file(const char *source, char *destination);
 
 #endif
 
