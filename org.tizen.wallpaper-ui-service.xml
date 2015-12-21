@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.wallpaper-ui-service" version="0.0.1-1" install-location="internal-only" api-version="2.3.1">
+<manifest xmlns="http://tizen.org/ns/packages" package="org.tizen.wallpaper-ui-service" version="0.0.1-1" install-location="internal-only" api-version="2.4">
 	<label>Wallpapers</label>
 	<author email="sung1103.park@samsung.com" href="www.samsung.com">Sung park</author>
 	<description>Wallpapers</description>
