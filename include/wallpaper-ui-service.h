@@ -27,7 +27,6 @@
 #include <Evas.h>
 #include "wallpaper-ui-service-debug.h"
 #include <E_DBus.h>
-#include <tzplatform_config.h>
 
 #define PKGNAME "wallpaper-ui-service"
 
@@ -49,14 +48,6 @@
 #define PACKAGEID "org.tizen.wallpaper-ui-service"
 #endif
 
-#if !defined(EDJDIR)
-#define EDJDIR tzplatform_mkpath(TZ_SYS_RO_APP, PKGNAME "/res/edje")
-#endif
-
-#if !defined(ICONDIR)
-#define ICONDIR tzplatform_mkpath(TZ_SYS_RO_ICONS, "wallpaper-ui-service.png")
-#endif
-
 #define EXTRA_KEY_FILE "file_path"
 #define EXTRA_KEY_POPUP_TYPE "popup_type"
 
@@ -65,8 +56,6 @@ typedef enum {
 	WALLPAPER_POPUP_TYPE_SELECTION,
 	WALLPAPER_POPUP_TYPE_THEME,
 } wallpaper_popup_type;
-
-
 
 #define EXTRA_KEY_WALLPAPER_TYPE "wallpaper_type"
 
@@ -180,6 +169,9 @@ typedef struct _wallpaper_ui_service_appdata {
 
 HAPI int wallpaper_ui_service_copy_wallpaper_file(const char *source, char *destination);
 
+const char *wallpaper_ui_service_get_icon_path(const char *fileName);
+const char *wallpaper_ui_service_get_edj_path(const char *fileName);
+const char *wallpaper_ui_service_get_settings_wallpapers_path();
 #endif
 
 

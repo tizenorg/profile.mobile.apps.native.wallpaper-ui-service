@@ -27,9 +27,11 @@
 #include <app_alarm.h>
 #include <media_content.h>
 #include <fcntl.h>
-//#include <dbus/dbus.h>
+
 #include <app_control_internal.h>
+#include <app_manager.h>
 #include <feedback.h>
+#include <stdio.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
@@ -40,8 +42,13 @@ static bool flag_view_exist = false;
 #define DBUS_HOME_RAISE_PATH "/Org/Tizen/Coreapps/home/raise"
 #define DBUS_HOME_RAISE_INTERFACE DBUS_HOME_BUS_NAME".raise"
 #define DBUS_HOME_RAISE_MEMBER "homeraise"
+#define SETTINGS_APP_ID "org.tizen.setting"
 
 static bool _g_is_system_init = false;
+
+static char *_g_iconPath = NULL;
+static char *_g_edjePath = NULL;
+static char *_g_wallpapersPath = NULL;
 
 /**
 * The event process when win object is destroyed
@@ -469,9 +476,9 @@ static void _app_terminate(void *data)
 
 	wallpaper_ui_service_appdata *ad = data;
 
+
 	_wallpaper_dbus_destroy(data);
 	_essential_system_db_destroy();
-
 	WALLPAPERUI_DBG("fingerprint_manager_terminate!");
 	_wallpaper_db_destroy();
 
@@ -486,6 +493,10 @@ static void _app_terminate(void *data)
 		evas_object_del(ad->win);
 		ad->win = NULL;
 	}
+
+	free(_g_iconPath);
+	free(_g_edjePath);
+	free(_g_wallpapersPath);
 	feedback_deinitialize();
 	elm_exit();
 
@@ -501,7 +512,6 @@ static bool _app_create(void *data)
 
 	elm_config_preferred_engine_set("opengl_x11");
 	elm_app_base_scale_set(2.4);
-
 	bindtextdomain(PKGNAME, "/usr/apps/org.tizen.wallpaper-ui-service/res/locale");
 
 	_essential_system_db_init();
@@ -589,7 +599,8 @@ static void _app_reset(app_control_h service, void *data)
     ad->evas = evas_object_evas_get(ad->win);
     ad->layout = _create_main_layout(ad->win, NULL, NULL);
 
-	elm_theme_extension_add(NULL, EDJDIR"/button_customized_theme.edj");
+    const char* edjPath = wallpaper_ui_service_get_edj_path("button_customized_theme.edj");
+	elm_theme_extension_add(NULL, edjPath);
 
 	if (ad->win && flag_view_exist && popup_type && ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
 		elm_win_activate(ad->win);
@@ -682,6 +693,42 @@ HAPI int main(int argc, char *argv[])
 
 	WALLPAPERUI_TRACE_END;
 	return 0;
+}
+
+const char * wallpaper_ui_service_get_icon_path(const char *fileName)
+{
+    if (!_g_iconPath)
+    {
+        char *resPath = app_get_resource_path();
+        _g_iconPath = (char *)calloc(1, MAX_LENGTH_STRING);
+        snprintf(_g_iconPath, MAX_LENGTH_STRING, "%sicons/%s", resPath, fileName);
+        WALLPAPERUI_DBG("_g_iconPath = %s", _g_iconPath);
+        free(resPath);
+    }
+    return _g_iconPath;
+}
+
+const char * wallpaper_ui_service_get_edj_path(const char *fileName)
+{
+    if (!_g_edjePath)
+    {
+        char *resPath = app_get_resource_path();
+        _g_edjePath = (char *)calloc(1, MAX_LENGTH_STRING);
+        snprintf(_g_edjePath, MAX_LENGTH_STRING, "%sedje/%s", resPath, fileName);
+        WALLPAPERUI_DBG("_g_edjePath = %s", _g_edjePath);
+        free(resPath);
+    }
+    return _g_edjePath;
+}
+
+const char *wallpaper_ui_service_get_settings_wallpapers_path()
+{
+    if (!_g_wallpapersPath)
+    {
+        _g_wallpapersPath = (char *)calloc(1, MAX_LENGTH_STRING);
+        app_manager_get_shared_resource_path(SETTINGS_APP_ID, &_g_wallpapersPath);
+    }
+    return _g_wallpapersPath;
 }
 
 /**

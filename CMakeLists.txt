@@ -9,19 +9,11 @@ SET(VENDOR "org.tizen")
 SET(PACKAGE ${PROJECT_NAME})
 SET(PKGNAME "${VENDOR}.${PACKAGE}")
 SET(PREFIX ${CMAKE_INSTALL_PREFIX})
-SET(PREFIXRW ${CMAKE_INSTALL_PREFIXRW})
 SET(BINDIR "${PREFIX}/bin")
 SET(RESDIR "${PREFIX}/res")
 SET(LOCALEDIR "${RESDIR}/locale")
 SET(ICONDIR "${RESDIR}/icons")
 SET(EDJDIR "${RESDIR}/edje")
-SET(DESKTOPDIR "/usr/share/applications")
-SET(MANIFESTXMLDIR "/usr/share/packages")
-
-#AUX_SOURCE_DIRECTORY(${CMAKE_CURRENT_SOURCE_DIR}/src MAIN_SRCS)
-
-#SET(SRCS ${MAIN_SRCS})
-
 
 SET(SRCS
 	${CMAKE_SOURCE_DIR}/src/wallpaper-ui-service-main.c
@@ -41,6 +33,7 @@ IF("${BRANCH}" STREQUAL "PRIVATE")
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED
 	capi-appfw-application
+	capi-appfw-app-manager
 	capi-system-system-settings
 	dlog
 	elementary
@@ -60,6 +53,7 @@ ELSE()
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED
 	capi-appfw-application
+	capi-appfw-app-manager
 	capi-system-system-settings
 	dlog
 	elementary

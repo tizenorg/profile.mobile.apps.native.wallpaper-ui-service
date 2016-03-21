@@ -1182,7 +1182,8 @@ static void _wallpaper_db_update_cb(media_content_error_e error, int pid,
 		free(last_image);
 		last_image = NULL;
 	} else {
-		elm_image_file_set(ad->preview_image, ICONDIR"/no_gallery_bg.png", NULL);
+	    const char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
+		elm_image_file_set(ad->preview_image, iconPath, NULL);
 	}
 	evas_object_show(ad->preview_image);
 
@@ -1518,7 +1519,8 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 			if (ad->last_preview_img_path != NULL) {
 				s_item->path = strdup(ad->last_preview_img_path);
 			} else {
-				s_item->path = strdup(ICONDIR"/no_gallery_bg.png");
+                const char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
+                s_item->path = strdup(iconPath);
 			}
 		} else {
 			s_item->path = setting_value;
@@ -1533,6 +1535,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, _gallery_clicked_cb, s_item);
 		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
 	}
+
 	file_list = ecore_file_ls(DEFAULT_IMAGE_DIR);
 	count = eina_list_count(file_list);
 	WALLPAPERUI_DBG("count = %d", count);

@@ -1,6 +1,5 @@
 %define PREFIX    %{TZ_SYS_RO_APP}/%{name}
 %define RESDIR    %{PREFIX}/res
-%define PREFIXRW  %{TZ_SYS_RO_APP}/%{name}
 
 Name:       org.tizen.wallpaper-ui-service
 Summary:    wallpaper-ui-service window
@@ -20,6 +19,7 @@ ExcludeArch: %{arm} %ix86 x86_64
 
 BuildRequires: pkgconfig(capi-appfw-application)
 BuildRequires: pkgconfig(capi-system-system-settings)
+BuildRequires: pkgconfig(capi-appfw-app-manager)
 BuildRequires: pkgconfig(dlog)
 BuildRequires: pkgconfig(elementary)
 BuildRequires: pkgconfig(vconf)
@@ -61,17 +61,13 @@ CFLAGS+=" -fvisibility=hidden -fvisibility-inlines-hidden"; export CFLAGS
 CXXFLAGS+=" -fvisibility=hidden -fvisibility-inlines-hidden"; export CXXFLAGS
 FFLAGS+=" -fvisibility=hidden -fvisibility-inlines-hidden"; export FFLAGS
 
-cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} -DBRANCH=%{BRANCH} -DCMAKE_INSTALL_PREFIXRW=%{PREFIXRW} \
+cmake . -DCMAKE_INSTALL_PREFIX=%{PREFIX} -DBRANCH=%{BRANCH}
 
 make %{?jobs:-j%jobs}
 
 %install
 rm -rf %{buildroot}
 %make_install
-
-mkdir -p %{buildroot}%{TZ_SYS_SHARE}/license
-cp -f LICENSE %{buildroot}%{TZ_SYS_SHARE}/license/%{name}
-
 
 %clean
 rm -rf %{buildroot}
@@ -83,9 +79,6 @@ rm -rf %{buildroot}
 %files
 %manifest %{name}.manifest
 %defattr(-,root,root,-)
-%{PREFIX}/bin/*
-%{PREFIX}/res/locale/*
-%{RESDIR}/icons/*
-%{RESDIR}/edje/*
-%{TZ_SYS_RO_PACKAGES}/%{name}.xml
-%{TZ_SYS_SHARE}/license/%{name}
+%{PREFIX}/*
+%{TZ_SYS_RO_PACKAGES}/*
+%license LICENSE
