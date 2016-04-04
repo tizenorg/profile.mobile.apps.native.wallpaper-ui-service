@@ -23,5 +23,8 @@
 		<label xml:lang="ur-pk">وال پیپرز</label>
 	</ui-application>
 	<privileges>
-	</privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage</privilege>
+    </privileges>
 </manifest>
