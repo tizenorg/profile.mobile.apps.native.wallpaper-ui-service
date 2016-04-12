@@ -46,15 +46,13 @@ static bool flag_view_exist = false;
 
 static bool _g_is_system_init = false;
 
-static char *_g_iconPath = NULL;
-static char *_g_edjePath = NULL;
 static char *_g_wallpapersPath = NULL;
 
 /**
 * The event process when win object is destroyed
 */
 
-static char *_str_error_db(int error)
+static const char *_str_error_db(int error)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
@@ -65,14 +63,12 @@ static char *_str_error_db(int error)
 		return "Out of memory";
 	case MEDIA_CONTENT_ERROR_DB_FAILED:
 		return "DB operation failed";
-	default:
-		{
-			static char buf[40];
-			snprintf(buf, sizeof(buf), "Error Code=%d", error);
-			return buf;
-		}
 	}
+
+	static char buf[40];
+	snprintf(buf, sizeof(buf), "Error Code=%d", error);
     WALLPAPERUI_TRACE_END;
+    return buf;
 }
 static void _essential_system_db_init(void)
 {
@@ -148,8 +144,8 @@ static Evas_Object *_create_win(const char *name, bool transparent)
 	WALLPAPERUI_TRACE_BEGIN;
 	Evas_Object *eo;
 	int w, h;
-
-	eo = elm_win_add(NULL, name, ELM_WIN_BASIC);
+	WALLPAPERUI_DBG("transparent = %d", transparent);
+	eo =  elm_win_add(NULL, name, ELM_WIN_BASIC);
 
 	if (eo) {
 		elm_win_title_set(eo, name);
@@ -157,18 +153,12 @@ static Evas_Object *_create_win(const char *name, bool transparent)
 
 		if (transparent) {
 			elm_win_alpha_set(eo, EINA_TRUE);
-
-/*			unsigned int opaqueVal = 1; */
-/*			Ecore_X_Atom opaqueAtom = ecore_x_atom_get("_E_ILLUME_WINDOW_REGION_OPAQUE"); */
-/*			Ecore_X_Window xwin = elm_win_xwindow_get(eo); */
-/*			ecore_x_window_prop_card32_set(xwin, opaqueAtom, &opaqueVal, 1); */
 		}
 
 		evas_object_smart_callback_add(eo, "delete,request", _del_win, NULL);
-
 		elm_win_screen_size_get(eo, NULL, NULL, &w, &h);
-
 		evas_object_resize(eo, w, h);
+		WALLPAPERUI_DBG("w = %d, h = %d", w, h);
 
 		if (transparent) {
 			elm_win_indicator_mode_set(eo, ELM_WIN_INDICATOR_HIDE);
@@ -184,45 +174,42 @@ static Evas_Object *_create_win(const char *name, bool transparent)
 	return eo;
 }
 
-static void _create_conformant(Evas_Object *win, Evas_Object *layout)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-	ret_if(!win);
-
-	Evas_Object *conform = elm_conformant_add(win);
-	evas_object_size_hint_weight_set(conform, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
-	evas_object_size_hint_align_set(conform, EVAS_HINT_FILL, EVAS_HINT_FILL);
-	elm_win_resize_object_add(win, conform);
-	elm_object_content_set(conform, layout);
-	evas_object_show(conform);
-	elm_win_conformant_set(win, EINA_TRUE);
-
-	/*indicator bg */
-	Evas_Object *indicator_bg = elm_bg_add(conform);
-	elm_object_style_set(indicator_bg, "indicator/headerbg");
-	elm_object_part_content_set(conform, "elm.swallow.indicator_bg", indicator_bg);
-	evas_object_show(indicator_bg);
-
-	WALLPAPERUI_TRACE_END;
-}
-
 static Evas_Object *_create_main_layout(Evas_Object *win, const char *edj_path, const char *group)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 	retv_if(!win, NULL);
 
-	Evas_Object *layout = NULL;
+    Evas_Object *conform = elm_conformant_add(win);
+    evas_object_size_hint_weight_set(conform, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+    evas_object_size_hint_align_set(conform, EVAS_HINT_FILL, EVAS_HINT_FILL);
+    elm_win_resize_object_add(win, conform);
+    elm_win_conformant_set(win, EINA_TRUE);
 
-	layout = elm_layout_add(win);
-	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
+    /*indicator bg */
+//    Evas_Object *indicator_bg = elm_bg_add(conform);
+//    elm_object_style_set(indicator_bg, "indicator/headerbg");
+//    elm_object_part_content_set(conform, "elm.swallow.indicator_bg", indicator_bg);
+//    evas_object_show(indicator_bg);
 
-	if (edj_path) {
-		elm_layout_file_set(layout, edj_path, group);
-	} else {
-		elm_layout_theme_set(layout, "layout", "application", "default");
-	}
+    Evas_Object *layout = elm_layout_add(conform);
+    evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
-	_create_conformant(win, layout);
+    if (edj_path) {
+        elm_layout_file_set(layout, edj_path, group);
+    } else {
+        elm_layout_theme_set(layout, "layout", "application", "default");
+    }
+
+    elm_object_content_set(conform, layout);
+    evas_object_show(conform);
+    evas_object_show(layout);
+
+    int h=0, w=0;
+    elm_win_screen_size_get(layout, NULL, NULL, &w, &h);
+    WALLPAPERUI_DBG("layout w = %d, layout h = %d", w, h);
+
+    elm_win_screen_size_get(conform, NULL, NULL, &w, &h);
+    WALLPAPERUI_DBG("conform w = %d, conform h = %d", w, h);
 
 	WALLPAPERUI_TRACE_END;
 	return layout;
@@ -427,8 +414,6 @@ void *_register_view(app_control_h service, void *data)
 
 	if (ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
 		ad->sel_popup_data.win_main = ad->win;
-
-		/*popup_wallpaper_main_create_view(data); */
 		wallpaper_main_create_view(data);
 	} else if (ad->popup_type == WALLPAPER_POPUP_TYPE_THEME) {
 /*		WALLPAPERUI_ERR("EXTRA_FROM_KEY(%s) failed", from); */
@@ -494,8 +479,6 @@ static void _app_terminate(void *data)
 		ad->win = NULL;
 	}
 
-	free(_g_iconPath);
-	free(_g_edjePath);
 	free(_g_wallpapersPath);
 	feedback_deinitialize();
 	elm_exit();
@@ -512,7 +495,8 @@ static bool _app_create(void *data)
 
 	elm_config_preferred_engine_set("opengl_x11");
 	elm_app_base_scale_set(2.4);
-	bindtextdomain(PKGNAME, "/usr/apps/org.tizen.wallpaper-ui-service/res/locale");
+	bindtextdomain(PACKAGEID, PACKAGEID"/res/locale");
+	textdomain(PACKAGEID);
 
 	_essential_system_db_init();
 
@@ -560,7 +544,7 @@ static void _app_resume(void *data)
 	WALLPAPERUI_TRACE_END;
 }
 
-static void _app_reset(app_control_h service, void *data)
+static void _app_control(app_control_h service, void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 	ret_if(!data);
@@ -588,7 +572,7 @@ static void _app_reset(app_control_h service, void *data)
 	}
 
     /* create window */
-    ad->win = _create_win("org.tizen.setting.wallpaper-ui-service", bTransparent);
+    ad->win = _create_win(PKGNAME, bTransparent);
     if (ad->win == NULL) {
         WALLPAPERUI_DBG("Can't create window");
         return;
@@ -599,8 +583,9 @@ static void _app_reset(app_control_h service, void *data)
     ad->evas = evas_object_evas_get(ad->win);
     ad->layout = _create_main_layout(ad->win, NULL, NULL);
 
-    const char* edjPath = wallpaper_ui_service_get_edj_path("button_customized_theme.edj");
+    char* edjPath = wallpaper_ui_service_get_edj_path("button_customized_theme.edj");
 	elm_theme_extension_add(NULL, edjPath);
+	free(edjPath);
 
 	if (ad->win && flag_view_exist && popup_type && ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
 		elm_win_activate(ad->win);
@@ -676,7 +661,7 @@ HAPI int main(int argc, char *argv[])
 		.terminate = _app_terminate,
 		.pause = _app_pause,
 		.resume = _app_resume,
-		.app_control = _app_reset,
+		.app_control = _app_control,
 	};
 
 	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED], APP_EVENT_LANGUAGE_CHANGED, _app_lang_changed, NULL);
@@ -695,38 +680,36 @@ HAPI int main(int argc, char *argv[])
 	return 0;
 }
 
-const char * wallpaper_ui_service_get_icon_path(const char *fileName)
+char * wallpaper_ui_service_get_icon_path(const char *fileName)
 {
-    if (!_g_iconPath)
-    {
-        char *resPath = app_get_resource_path();
-        _g_iconPath = (char *)calloc(1, MAX_LENGTH_STRING);
-        snprintf(_g_iconPath, MAX_LENGTH_STRING, "%sicons/%s", resPath, fileName);
-        WALLPAPERUI_DBG("_g_iconPath = %s", _g_iconPath);
-        free(resPath);
-    }
-    return _g_iconPath;
+    char *resPath = app_get_resource_path();
+    char *path = (char *)calloc(1, MAX_LENGTH_STRING);
+    snprintf(path, MAX_LENGTH_STRING, "%sicons/%s", resPath, fileName);
+    WALLPAPERUI_DBG("iconPath = %s", path);
+    free(resPath);
+    return path;
 }
 
-const char * wallpaper_ui_service_get_edj_path(const char *fileName)
+char * wallpaper_ui_service_get_edj_path(const char *fileName)
 {
-    if (!_g_edjePath)
-    {
-        char *resPath = app_get_resource_path();
-        _g_edjePath = (char *)calloc(1, MAX_LENGTH_STRING);
-        snprintf(_g_edjePath, MAX_LENGTH_STRING, "%sedje/%s", resPath, fileName);
-        WALLPAPERUI_DBG("_g_edjePath = %s", _g_edjePath);
-        free(resPath);
-    }
-    return _g_edjePath;
+    char *resPath = app_get_resource_path();
+    char *path = (char *)calloc(1, MAX_LENGTH_STRING);
+    snprintf(path, MAX_LENGTH_STRING, "%sedje/%s", resPath, fileName);
+    free(resPath);
+    WALLPAPERUI_DBG("edjePath = %s", path);
+    return path;
 }
 
 const char *wallpaper_ui_service_get_settings_wallpapers_path()
 {
     if (!_g_wallpapersPath)
     {
+        char *sharedRes = NULL;
         _g_wallpapersPath = (char *)calloc(1, MAX_LENGTH_STRING);
-        app_manager_get_shared_resource_path(SETTINGS_APP_ID, &_g_wallpapersPath);
+        app_manager_get_shared_resource_path(SETTINGS_APP_ID, &sharedRes);
+        snprintf(_g_wallpapersPath, MAX_LENGTH_STRING, "%ssettings/Wallpapers/", sharedRes);
+        free(sharedRes);
+        WALLPAPERUI_DBG("wallpapersPath = %s", _g_wallpapersPath);
     }
     return _g_wallpapersPath;
 }

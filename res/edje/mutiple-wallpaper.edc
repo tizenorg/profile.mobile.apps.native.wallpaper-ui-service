@@ -17,8 +17,27 @@
 #define NAVIFRAME_TOOLBAR_HEIGHT_INC 0 //28
 #define NAVIFRAME_LANDSCAPE_TOOLBAR_HEIGHT_INC  0 //85
 
+#define LOCK_TEXT_STYLE		"TIZEN_SHADOW"
+#define LOCK_TEXT_COLOR		255 255 255 255
+#define LOCK_TEXT_COLOR2	0 0 0 0
+#define LOCK_TEXT_COLOR3	0 0 0 178
+
+#define LOCK_TEXT_COLOR_DIM	230 230 230 230
+#define LOCK_TEXT_COLOR2_DIM	0 0 0 0
+#define LOCK_TEXT_COLOR3_DIM	0 0 0 178
+
+collections {
+  base_scale: 2.4;
 group{
 	name: "wallpaper.preview";
+	
+	sounds {
+	  sample {
+	    name: "touch_sound" AS_IS;
+	    source: "Tizen_touch.wav";
+	  }
+	}
+	
 	parts{
 		part {
 			name: "bg";
@@ -624,4 +643,5 @@ group{
 		}
 	}
 
+}
 }

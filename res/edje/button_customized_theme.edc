@@ -351,7 +351,7 @@ collections {
          set {
             name: "core_icon_back";
             image {
-               image: "icons/core_icon_back.png" COMP;
+               image: "core_icon_back.png" COMP;
             }
          }
       }

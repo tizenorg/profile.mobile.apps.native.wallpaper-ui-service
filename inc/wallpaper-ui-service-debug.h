@@ -34,6 +34,7 @@
 #define LOG_TAG "WALLPAPER"
 #endif
 #include <dlog.h>
+#include <dlog-internal.h>
 
 #define HAPI __attribute__ ((visibility ("hidden")))
 

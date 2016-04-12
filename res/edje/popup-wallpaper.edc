@@ -15,21 +15,13 @@
  *
  */
 
+#include "color_classes.edc"
+#include "popup-wallpaper-macro.edc"
+#include "popup-wallpaper-main-view.edc"
+#include "mutiple-wallpaper.edc"
+#include "gengrid_customized_theme.edc"
+
+
 collections {
   base_scale: 2.4;
-
-  #define LOCK_TEXT_STYLE		"TIZEN_SHADOW"
-  #define LOCK_TEXT_COLOR		255 255 255 255
-  #define LOCK_TEXT_COLOR2		0 0 0 0
-  #define LOCK_TEXT_COLOR3		0 0 0 178
-
-  #define LOCK_TEXT_COLOR_DIM		230 230 230 230
-  #define LOCK_TEXT_COLOR2_DIM		0 0 0 0
-  #define LOCK_TEXT_COLOR3_DIM		0 0 0 178
-
-  #include "color_classes.edc"
-  #include "popup-wallpaper-macro.edc"
-  #include "popup-wallpaper-main-view.edc"
-  #include "mutiple-wallpaper.edc"
-  #include "gengrid_customized_theme.edc"
 }

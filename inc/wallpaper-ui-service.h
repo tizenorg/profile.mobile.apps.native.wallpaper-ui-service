@@ -169,8 +169,8 @@ typedef struct _wallpaper_ui_service_appdata {
 
 HAPI int wallpaper_ui_service_copy_wallpaper_file(const char *source, char *destination);
 
-const char *wallpaper_ui_service_get_icon_path(const char *fileName);
-const char *wallpaper_ui_service_get_edj_path(const char *fileName);
+char *wallpaper_ui_service_get_icon_path(const char *fileName);
+char *wallpaper_ui_service_get_edj_path(const char *fileName);
 const char *wallpaper_ui_service_get_settings_wallpapers_path();
 #endif
 

@@ -52,6 +52,9 @@
 #define BUTTON_NAVIFRAME_DRAWERS_IMAGE_SIZE_INC 55 72
 #define BUTTON_NAVIFRAME_BACK_BUTTON_SIZE_INC 80 80
 
+collections {
+  base_scale: 2.4;
+
 styles{
 	style {
 		name: "style_txt";
@@ -843,4 +846,5 @@ group {
 			after: "change_to_portrait";
 		}
 	}
+}
 }

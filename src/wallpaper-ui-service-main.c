@@ -26,13 +26,12 @@
 #include <media_content.h>
 #include <feedback.h>
 #include <app_control_internal.h>
-#include <tzplatform_config.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
 
-#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers")
-#define DEFAULT_IMAGE_DIR_TEMPLATE tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers/%s")
+//#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers")
+//#define DEFAULT_IMAGE_DIR_TEMPLATE tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers/%s")
 
 static Elm_Gengrid_Item_Class *gic_for_main = NULL;
 static wallpaper_ui_service_appdata *ad = NULL;
@@ -377,7 +376,7 @@ static void _rotate_image(Evas_Object *image, const char *path)
 	media_content_orientation_e orientation = _lockscreen_gallery_get_orientation_by_path(path);
 	WALLPAPERUI_DBG("orientation == %d", orientation);
 
-	ret_if(orientation == -1);
+	ret_if(orientation == MEDIA_CONTENT_ORIENTATION_NOT_AVAILABLE);
 
 	switch (orientation) {
 		case MEDIA_CONTENT_ORIENTATION_ROT_180:
@@ -1014,7 +1013,8 @@ static void _done_to_set_wallpaper()
 						*q = '\0';
 					}
 				}
-				WALLPAPERUI_DBG("filepath = %s", filepath);
+
+                WALLPAPERUI_DBG("filepath = %s", filepath);
 				if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
 					wallpaper_ui_service_copy_wallpaper_file(ad->saved_img_path[i], filepath);
 				}
@@ -1119,7 +1119,9 @@ static void _wallpaper_destroy(void *data)
 		ad->win = NULL;
 	}
 
-	elm_theme_extension_del(NULL, EDJDIR"/button_customized_theme.edj");
+	char *edj = wallpaper_ui_service_get_edj_path("button_customized_theme.edj");
+	elm_theme_extension_del(NULL, edj);
+	free(edj);
 
 	elm_exit();
 
@@ -1182,8 +1184,9 @@ static void _wallpaper_db_update_cb(media_content_error_e error, int pid,
 		free(last_image);
 		last_image = NULL;
 	} else {
-	    const char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
+	    char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
 		elm_image_file_set(ad->preview_image, iconPath, NULL);
+		free(iconPath);
 	}
 	evas_object_show(ad->preview_image);
 
@@ -1214,7 +1217,9 @@ static void _wallpaper_preview_main()
     Evas_Object *preview_image = NULL;
 
     preveiw_main_layout = elm_layout_add(ad->navi_bar);
-    elm_layout_file_set(preveiw_main_layout, EDJDIR"/popup-wallpaper.edj", "wallpaper.preview");
+    char *edj = wallpaper_ui_service_get_edj_path("popup-wallpaper.edj");
+    elm_layout_file_set(preveiw_main_layout, edj, "wallpaper.preview");
+    free(edj);
     evas_object_size_hint_weight_set(preveiw_main_layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 
     preview_image = elm_image_add(preveiw_main_layout);
@@ -1258,6 +1263,10 @@ HAPI void wallpaper_main_create_view(void *data)
 		WALLPAPERUI_DBG("Set db updated cb failed!");
 	}
 
+	int w=0, h=0;
+	evas_object_geometry_get(ad->layout, NULL, NULL, &w, &h);
+    WALLPAPERUI_DBG("ad->layout w = %d, ad->layout h = %d", w, h);
+
 	/* Naviframe */
 	Evas_Object *navi_bar = elm_naviframe_add(ad->layout);
 	elm_object_part_content_set(ad->layout, "elm.swallow.content", navi_bar);
@@ -1266,7 +1275,9 @@ HAPI void wallpaper_main_create_view(void *data)
 
 	/* layout */
 	Evas_Object *preveiw_main_layout = elm_layout_add(ad->navi_bar);
-	elm_layout_file_set(preveiw_main_layout, EDJDIR"/popup-wallpaper.edj", "main_page_layout");
+	char *edj = wallpaper_ui_service_get_edj_path("popup-wallpaper.edj");
+	elm_layout_file_set(preveiw_main_layout, edj, "main_page_layout");
+	free(edj);
 	evas_object_size_hint_weight_set(preveiw_main_layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_show(preveiw_main_layout);
 	ad->main_layout = preveiw_main_layout;
@@ -1325,6 +1336,9 @@ HAPI void wallpaper_main_create_view(void *data)
 	evas_object_show(done_btn);
 	elm_object_signal_emit(preveiw_main_layout, "elm,state,title_right_btn,show", "elm");
 
+	evas_object_geometry_get(preveiw_main_layout, NULL, NULL, &w, &h);
+	WALLPAPERUI_DBG("preveiw_main_layout w = %d, preveiw_main_layout h = %d", w, h);
+
 	WALLPAPERUI_TRACE_END;
 }
 
@@ -1335,10 +1349,13 @@ static Evas_Object *_preview_create_edje_content(Evas_Object *parent, const char
 	Evas_Object *layout;
 
 	layout = elm_layout_add(parent);
-	if (elm_layout_file_set(layout, EDJDIR"/popup-wallpaper.edj", "preview_gengrid.item") == EINA_FALSE) {
+	char *edj = wallpaper_ui_service_get_edj_path("popup-wallpaper.edj");
+	if (elm_layout_file_set(layout, edj, "preview_gengrid.item") == EINA_FALSE) {
 		WALLPAPERUI_DBG("Cannot load mutiple-wallpaper edj");
+		free(edj);
 		return NULL;
 	}
+	free(edj);
 
 	evas_object_size_hint_weight_set(layout, EVAS_HINT_EXPAND, EVAS_HINT_EXPAND);
 	evas_object_size_hint_align_set(layout, EVAS_HINT_FILL, EVAS_HINT_FILL);
@@ -1472,7 +1489,6 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 	Thumbnail *s_item = NULL;
 	int index = 0;
 	char *setting_value = NULL;
-	char string[MAX_LENGTH_LINE] = {0};
 	int setting_type = 0;
 	Eina_List *file_list = NULL;
 	char *temp = NULL;
@@ -1519,8 +1535,9 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 			if (ad->last_preview_img_path != NULL) {
 				s_item->path = strdup(ad->last_preview_img_path);
 			} else {
-                const char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
+                char *iconPath = wallpaper_ui_service_get_icon_path("no_gallery_bg.png");
                 s_item->path = strdup(iconPath);
+                free(iconPath);
 			}
 		} else {
 			s_item->path = setting_value;
@@ -1536,25 +1553,28 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
 	}
 
-	file_list = ecore_file_ls(DEFAULT_IMAGE_DIR);
+	const char* defaultImageDir = wallpaper_ui_service_get_settings_wallpapers_path();
+	file_list = ecore_file_ls(defaultImageDir);//ecore_file_ls(DEFAULT_IMAGE_DIR);
 	count = eina_list_count(file_list);
 	WALLPAPERUI_DBG("count = %d", count);
 
+    char picturePath[MAX_LENGTH_LINE] = {0};
 	/* default directory */
 	if (count > 0) {
 		for (i = 0; i < count; i++) {
 			temp = (char *)eina_list_nth(file_list, i);
 			WALLPAPERUI_DBG("temp = %s", temp);
-			snprintf(string, sizeof(string), DEFAULT_IMAGE_DIR_TEMPLATE, temp);
 
+			strncpy(picturePath, defaultImageDir, MAX_LENGTH_LINE);
+			strncat(picturePath, temp, MAX_LENGTH_LINE);
 			s_item = (Thumbnail *)calloc(1, sizeof(Thumbnail));
 			if (s_item) {
-				s_item->path = strdup(string);
+				s_item->path = strdup(picturePath);
 				s_item->type = WALLPAPER_TYPE_DEFAULT;
 				s_item->title = strdup(temp);
+				WALLPAPERUI_DBG("picturePath = %s", picturePath);
 
 				s_item->index = index++;
-	/*			s_item->data = data; */
 
 				if (s_item->path && strcmp(s_item->path, setting_value) == 0) {
 					s_item->bSelected = EINA_TRUE;

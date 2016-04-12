@@ -14,12 +14,7 @@
  * limitations under the License.
  *
  */
-sounds {
- sample {
-	 name: "touch_sound" AS_IS;
-	 source: "Tizen_touch.wav";
- }
-}
+
 #define PROG_PART_HIDE_SHOW_POPUP(part_name)\
 		program{\
 			name: "hide,"part_name;\

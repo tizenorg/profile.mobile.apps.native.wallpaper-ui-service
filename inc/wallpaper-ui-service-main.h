@@ -29,7 +29,6 @@
 #include <Elementary.h>
 #include <Eina.h>
 #include <Evas.h>
-#include <tzplatform_config.h>
 
 #include "wallpaper-ui-service-debug.h"
 

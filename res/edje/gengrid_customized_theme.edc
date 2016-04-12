@@ -105,6 +105,9 @@
             TARGET \
          } \
 
+collections {
+  base_scale: 2.4;
+  
   group { name: "elm/gengrid/item/default/default";
   alias: "elm/gengrid/item/default_grid/default";
   data.item: "contents" "elm.swallow.icon elm.swallow.end elm.swallow.video";
@@ -558,6 +561,7 @@ group { name: "elm/gengrid/item/gallery/default";
         target: "item_bg_bottom_1pxl_inner_padding";
      )
  }
+}
 }
 /*
    group { name: "elm/gengrid/item/customized_default_style/default";
