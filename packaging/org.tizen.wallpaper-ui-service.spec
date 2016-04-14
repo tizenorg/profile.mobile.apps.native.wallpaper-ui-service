@@ -34,7 +34,6 @@ BuildRequires: cmake
 BuildRequires: edje-tools
 BuildRequires: gettext-tools
 BuildRequires: hash-signer
-BuildRequires: pkgconfig(libtzplatform-config)
 
 Requires(post): /usr/bin/vconftool
 

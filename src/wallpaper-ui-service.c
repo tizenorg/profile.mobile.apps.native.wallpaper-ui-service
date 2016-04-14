@@ -32,6 +32,7 @@
 #include <app_manager.h>
 #include <feedback.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
@@ -704,12 +705,12 @@ const char *wallpaper_ui_service_get_settings_wallpapers_path()
 {
     if (!_g_wallpapersPath)
     {
-        char *sharedRes = NULL;
+        char* path = NULL;
+        system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &path);
         _g_wallpapersPath = (char *)calloc(1, MAX_LENGTH_STRING);
-        app_manager_get_shared_resource_path(SETTINGS_APP_ID, &sharedRes);
-        snprintf(_g_wallpapersPath, MAX_LENGTH_STRING, "%ssettings/Wallpapers/", sharedRes);
-        free(sharedRes);
-        WALLPAPERUI_DBG("wallpapersPath = %s", _g_wallpapersPath);
+        char* dir_name = dirname(path);
+        snprintf(_g_wallpapersPath, MAX_LENGTH_STRING, "%s/", dir_name);
+        WALLPAPERUI_DBG("_g_wallpapersPath = %s", _g_wallpapersPath);
     }
     return _g_wallpapersPath;
 }

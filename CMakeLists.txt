@@ -22,13 +22,12 @@ SET(SRCS
 INCLUDE_DIRECTORIES(
 		${CMAKE_CURRENT_SOURCE_DIR}/src
 		${CMAKE_CURRENT_SOURCE_DIR}/res
-		${CMAKE_CURRENT_SOURCE_DIR}/include
+		${CMAKE_CURRENT_SOURCE_DIR}/inc
 		)
 
 SET(CMAKE_SKIP_BUILD_RPATH TRUE)
 
 MESSAGE("BRANCH : ${BRANCH}")
-
 IF("${BRANCH}" STREQUAL "PRIVATE")
 INCLUDE(FindPkgConfig)
 pkg_check_modules(pkgs REQUIRED
@@ -47,7 +46,6 @@ pkg_check_modules(pkgs REQUIRED
 	wallpaper-service
 	core-samsung-log-client
 	edbus
-	libtzplatform-config
 )
 ELSE()
 INCLUDE(FindPkgConfig)
@@ -64,7 +62,6 @@ pkg_check_modules(pkgs REQUIRED
 	notification
 	capi-content-media-content
 	edbus
-	libtzplatform-config
 )
 ENDIF()
 
@@ -77,14 +74,6 @@ SET(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS}")
 SET(CMAKE_C_FLAGS_DEBUG "-O0 -g")
 SET(CMAKE_C_FLAGS_RELEASE "-O2")
 
-#SET(EXTRA_CFLAGS "${EXTRA_CFLAGS} -finstrument-functions -g")
-
-#SET(CMAKE_C_COMPILER "/scratchbox/devkits/sbwrap")
-#SET(CMAKE_C_COMPILER_ARG1 "/home/serena/working/wallpaper-ui-service.trace /scratchbox/compilers/bin/gcc gcc")
-
-
-#SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${EXTRA_CFLAGS} -Wall -g -O2")
-
 ADD_DEFINITIONS("-DVENDOR=\"${VENDOR}\"")
 ADD_DEFINITIONS("-DPACKAGE=\"${PACKAGE}\"")
 ADD_DEFINITIONS("-DPACKAGE_NAME=\"${PKGNAME}\"")
@@ -94,7 +83,6 @@ ADD_DEFINITIONS("-DLOCALEDIR=\"${LOCALEDIR}\"")
 ADD_DEFINITIONS("-DICONDIR=\"${ICONDIR}\"")
 ADD_DEFINITIONS("-DEDJDIR=\"${EDJDIR}\"")
 ADD_DEFINITIONS("-DHOME_KEY_EMULATION")
-#ADD_DEFINITIONS("-DFILE_DEBUG")
 ADD_DEFINITIONS("-D_DLOG_USED")
 
 SET(CMAKE_EXE_LINKER_FLAGS "-Wl,--as-needed -pie")
@@ -106,9 +94,5 @@ INSTALL(FILES ${CMAKE_SOURCE_DIR}/org.tizen.wallpaper-ui-service.xml DESTINATION
 
 INSTALL(TARGETS ${PROJECT_NAME} DESTINATION ${BINDIR})
 
-ADD_SUBDIRECTORY(res)
-IF("${BRANCH}" STREQUAL "PRIVATE")
 ADD_SUBDIRECTORY(po)
-ELSE()
-ADD_SUBDIRECTORY(po_sdk)
-ENDIF()
+ADD_SUBDIRECTORY(res)
