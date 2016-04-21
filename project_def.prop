@@ -1,11 +1,73 @@
+
+# Project Name
 APPNAME = wallpaper-ui-service
 
+# Project Type
 type = app
+
+# Project Profile
 profile = mobile-3.0
 
-USER_SRCS = src/wallpaper-ui-service.c
-USER_DEFS =
-USER_INC_DIRS = inc
-USER_OBJS =
-USER_LIBS =
-USER_EDCS =
+# C Sources
+USER_SRCS = src/wallpaper-ui-service.c src/wallpaper-ui-service-main.c 
+
+# EDC Sources
+USER_EDCS =  
+
+# PO Sources
+USER_POS = res/po_sdk/en_US.po res/po_sdk/kk.po res/po_sdk/hi.po res/po_sdk/az.po res/po_sdk/pt_PT.po res/po_sdk/pt_BR.po res/po_sdk/ar.po res/po_sdk/ro.po res/po_sdk/hr.po res/po_sdk/ca.po res/po_sdk/ka.po res/po_sdk/sv.po res/po_sdk/is.po res/po_sdk/bg.po res/po_sdk/mk.po res/po_sdk/zh_TW.po res/po_sdk/fr.po res/po_sdk/lt.po res/po_sdk/en.po res/po_sdk/ru_RU.po res/po_sdk/uk.po res/po_sdk/hu.po res/po_sdk/gl.po res/po_sdk/nb.po res/po_sdk/it_IT.po res/po_sdk/en_PH.po res/po_sdk/fr_CA.po res/po_sdk/sr.po res/po_sdk/zh_HK.po res/po_sdk/el_GR.po res/po_sdk/ja_JP.po res/po_sdk/hy.po res/po_sdk/tr_TR.po res/po_sdk/de.po res/po_sdk/sl.po res/po_sdk/nl.po res/po_sdk/zh_CN.po res/po_sdk/da.po res/po_sdk/sk.po res/po_sdk/lv.po res/po_sdk/pl.po res/po_sdk/ga.po res/po_sdk/es_US.po res/po_sdk/ko_KR.po res/po_sdk/uz.po res/po_sdk/fi.po res/po_sdk/et.po res/po_sdk/es_ES.po res/po_sdk/cs.po res/po_sdk/eu.po 
+
+# User Defines
+USER_DEFS = 
+USER_CPP_DEFS = 
+
+# User Undefines
+USER_UNDEFS = 
+USER_CPP_UNDEFS = 
+
+# User Libraries
+USER_LIBS = 
+
+# User Objects
+USER_OBJS = 
+USER_OBJS_ABS = 
+
+# User Includes
+## C Compiler
+USER_INC_DIRS = inc 
+USER_INC_DIRS_ABS = 
+USER_INC_FILES = 
+USER_INC_FILES_ABS = 
+## C++ Compiler
+USER_CPP_INC_DIRS = 
+USER_CPP_INC_DIRS_ABS = 
+USER_CPP_INC_FILES = 
+USER_CPP_INC_FILES_ABS = 
+
+# User Library Path
+USER_LIB_DIRS = 
+USER_LIB_DIRS_ABS = 
+
+# EDC Resource Path
+USER_EDCS_IMAGE_DIRS = edje/images 
+USER_EDCS_IMAGE_DIRS_ABS = 
+USER_EDCS_SOUND_DIRS = edje/sounds 
+USER_EDCS_SOUND_DIRS_ABS = 
+USER_EDCS_FONT_DIRS = edje/fonts 
+USER_EDCS_FONT_DIRS_ABS = 
+
+# EDC Flags
+USER_EXT_EDC_KEYS = EDC0 
+
+USER_EXT_EDC0_EDCS = res/edje/popup-wallpaper-macro.edc res/edje/button_customized_theme.edc res/edje/popup-wallpaper.edc res/edje/popup-wallpaper-main-view.edc res/edje/mutiple-wallpaper.edc res/edje/gengrid_customized_theme.edc res/edje/color_classes.edc 
+USER_EXT_EDC0_EDCS_IMAGE_DIRS = edje/images 
+USER_EXT_EDC0_EDCS_IMAGE_DIRS_ABS = 
+USER_EXT_EDC0_EDCS_SOUND_DIRS = edje/sounds 
+USER_EXT_EDC0_EDCS_SOUND_DIRS_ABS = 
+USER_EXT_EDC0_EDCS_FONT_DIRS = edje/fonts 
+USER_EXT_EDC0_EDCS_FONT_DIRS_ABS = 
+
+# Resource Filter
+USER_RES_INCLUDE = 
+USER_RES_EXCLUDE = 
+
