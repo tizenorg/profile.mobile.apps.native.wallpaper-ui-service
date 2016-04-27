@@ -48,6 +48,7 @@ static bool flag_view_exist = false;
 static bool _g_is_system_init = false;
 
 static char *_g_wallpapersPath = NULL;
+static char *_g_sharedPath = NULL;
 
 /**
 * The event process when win object is destroyed
@@ -224,6 +225,9 @@ HAPI int wallpaper_ui_service_copy_wallpaper_file(const char *source, char *dest
 		WALLPAPERUI_ERR("file error");
 		return 0;
 	}
+
+	WALLPAPERUI_DBG("source = %s", source);
+	WALLPAPERUI_DBG("destination = %s", destination);
 
 	if (ecore_file_exists(source) == EINA_FALSE) {
 		WALLPAPERUI_ERR("source error %s", source);
@@ -481,6 +485,7 @@ static void _app_terminate(void *data)
 	}
 
 	free(_g_wallpapersPath);
+	free(_g_sharedPath);
 	feedback_deinitialize();
 	elm_exit();
 
@@ -713,6 +718,16 @@ const char *wallpaper_ui_service_get_settings_wallpapers_path()
         WALLPAPERUI_DBG("_g_wallpapersPath = %s", _g_wallpapersPath);
     }
     return _g_wallpapersPath;
+}
+
+
+const char *wallpaper_ui_service_get_shared_wallpapers_path()
+{
+	if (!_g_sharedPath)
+	{
+		_g_sharedPath = app_get_shared_resource_path();
+	}
+	return _g_sharedPath;
 }
 
 /**

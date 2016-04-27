@@ -1012,6 +1012,17 @@ static void _done_to_set_wallpaper()
 					if (q) {
 						*q = '\0';
 					}
+					const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
+					WALLPAPERUI_DBG("filename = %s", filename);
+					snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
+
+				} else {
+					WALLPAPERUI_DBG("other image");
+					WALLPAPERUI_DBG("filename = %s", p);
+					if(*p)
+						++p;  /*skip slash */
+					const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
+					snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
 				}
 
                 WALLPAPERUI_DBG("filepath = %s", filepath);
