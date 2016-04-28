@@ -1005,6 +1005,7 @@ static void _done_to_set_wallpaper()
 			p = strrchr(ad->saved_img_path[i], '/');
 			if (p) {
 				q = strrchr(p, '.');
+                const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
 				if (q && ((strcmp(q, ".gif") == 0) || (strcmp(q, ".wbmp") == 0) || (strcmp(q, ".bmp") == 0))) {
 					WALLPAPERUI_DBG(".gif||.wbmp||.bmp image");
 					strncpy(filename, p, MAX_LENGTH_LINE-1);
@@ -1012,7 +1013,6 @@ static void _done_to_set_wallpaper()
 					if (q) {
 						*q = '\0';
 					}
-					const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
 					WALLPAPERUI_DBG("filename = %s", filename);
 					snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
 
@@ -1021,7 +1021,7 @@ static void _done_to_set_wallpaper()
 					WALLPAPERUI_DBG("filename = %s", p);
 					if(*p)
 						++p;  /*skip slash */
-					const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
+
 					snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
 				}
 
@@ -1584,10 +1584,8 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 				s_item->type = WALLPAPER_TYPE_DEFAULT;
 				s_item->title = strdup(temp);
 				WALLPAPERUI_DBG("picturePath = %s", picturePath);
-
 				s_item->index = index++;
-
-				if (s_item->path && strcmp(s_item->path, setting_value) == 0) {
+				if (s_item->path && setting_value && strcmp(s_item->path, setting_value) == 0) {
 					s_item->bSelected = EINA_TRUE;
 					WALLPAPERUI_DBG("selected item = %d", s_item->index);
 				} else {
@@ -1598,7 +1596,6 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 			}
 
 		}
-
 	}
 
 	if (file_list != NULL) {
