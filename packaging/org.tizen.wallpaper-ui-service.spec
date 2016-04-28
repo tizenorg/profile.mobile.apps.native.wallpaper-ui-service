@@ -1,6 +1,6 @@
 Name:       org.tizen.wallpaper-ui-service
-#VCS_FROM:   profile/mobile/apps/native/wallpaper-ui-service#b6e51621fce7a5a7a962f1264b32e810b5d50b56
-#RS_Ver:    20160426_2 
+#VCS_FROM:   profile/mobile/apps/native/wallpaper-ui-service#c7547a6401201c2e55fc5cc0704aa984c6aff6b2
+#RS_Ver:    20160428_3 
 Summary:    wallpaper-ui-service window
 Version:    1.0.0
 Release:    1
