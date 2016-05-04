@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <manifest xmlns="http://tizen.org/ns/packages" api-version="3.0" package="org.tizen.wallpaper-ui-service" version="1.0.0">
     <profile name="mobile"/>
-    <ui-application appid="org.tizen.wallpaper-ui-service" exec="wallpaper-ui-service" launch_mode="single" multiple="false" nodisplay="true" taskmanage="true" type="capp">
+    <ui-application appid="org.tizen.wallpaper-ui-service" exec="wallpaper-ui-service" launch_mode="single" multiple="false" nodisplay="true" taskmanage="false" type="capp">
         <label>Wallpapers</label>
         <label xml:lang="as-in">ৱালপেপাৰসমূহ</label>
         <label xml:lang="bn-in">ওয়ালপেপারগুলি</label>
@@ -26,5 +26,6 @@
         <privilege>http://tizen.org/privilege/mediastorage</privilege>
         <privilege>http://tizen.org/privilege/appmanager.launch</privilege>
         <privilege>http://tizen.org/privilege/externalstorage</privilege>
+        <privilege>http://tizen.org/privilege/systemsettings.admin</privilege>
     </privileges>
 </manifest>
