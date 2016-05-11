@@ -366,7 +366,7 @@ void *_register_view(app_control_h service, void *data)
 	WALLPAPERUI_ERR("from %s", from);
 
 	if (from != NULL) {
-		if (strcmp(from, "Homescreen") == 0) {
+		if (strcmp(from, "Homescreen-efl") == 0) {
 			ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_HOME_SCREEN;
 		} else if (strcmp(from, "Setting") == 0) {
 			ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_SETTING;
@@ -670,7 +670,7 @@ HAPI int main(int argc, char *argv[])
 		.app_control = _app_control,
 	};
 
-	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED], APP_EVENT_LANGUAGE_CHANGED, _app_lang_changed, NULL);
+	ui_app_add_event_handler(&handlers[APP_EVENT_LANGUAGE_CHANGED], APP_EVENT_LANGUAGE_CHANGED, _app_lang_changed, &ad);
 
 	memset(&ad, 0x00, sizeof(wallpaper_ui_service_appdata));
 

@@ -1310,7 +1310,7 @@ HAPI void wallpaper_main_create_view(void *data)
 	ad->preview_image = image;
 
 	/* preview text */
-	elm_object_translatable_part_text_set(preveiw_main_layout, "text_tap", APP_STRING("IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW"));
+	elm_object_domain_translatable_part_text_set(preveiw_main_layout, "text_tap", PKGNAME, "IDS_LCKSCN_NPBODY_TAP_TO_PREVIEW");
 /*	elm_object_signal_emit(preveiw_main_layout, "hide_preview", "preview_image"); */
 
 	/* gallery last image */
@@ -1326,8 +1326,7 @@ HAPI void wallpaper_main_create_view(void *data)
 
 	eext_object_event_callback_add(navi_bar, EEXT_CALLBACK_BACK, _wallpaper_back_key_cb, (void *)ad);
 	nf_it = elm_naviframe_item_push(navi_bar, APP_STRING("IDS_LCKSCN_MBODY_WALLPAPERS"), NULL , NULL, preveiw_main_layout, NULL);
-
-	elm_object_translatable_part_text_set(preveiw_main_layout, "elm.text.title", APP_STRING("IDS_LCKSCN_MBODY_WALLPAPERS"));
+	elm_object_domain_translatable_part_text_set(preveiw_main_layout, "elm.text.title", PKGNAME, "IDS_LCKSCN_MBODY_WALLPAPERS");
 	elm_object_signal_emit(navi_bar, "elm,state,title,hide", "elm");
 
 	/* Title Cancel Button */
@@ -1342,7 +1341,7 @@ HAPI void wallpaper_main_create_view(void *data)
 	Evas_Object *done_btn = elm_button_add(preveiw_main_layout);
 	elm_object_style_set(done_btn, "naviframe/title_right_custom");
 	evas_object_smart_callback_add(done_btn, "clicked", _main_done_button_cb, NULL);
-	elm_object_translatable_part_text_set(done_btn, "elm.text", APP_STRING("IDS_TPLATFORM_ACBUTTON_DONE_ABB"));
+	elm_object_domain_translatable_part_text_set(done_btn, "elm.text", PKGNAME, "IDS_TPLATFORM_ACBUTTON_DONE_ABB");
 	elm_object_part_content_set(preveiw_main_layout, "title_right_btn", done_btn);
 	evas_object_show(done_btn);
 	elm_object_signal_emit(preveiw_main_layout, "elm,state,title_right_btn,show", "elm");
@@ -1382,7 +1381,7 @@ static Evas_Object *_preview_create_edje_content(Evas_Object *parent, const char
 	evas_object_show(image);
 
 	if (thm->title) {
-		elm_object_translatable_part_text_set(layout, "text", thm->title);
+	    elm_object_domain_translatable_part_text_set(layout, "text", PKGNAME, thm->title);
 	}
 
 	WALLPAPERUI_TRACE_END;
@@ -1561,7 +1560,7 @@ static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data)
 		s_item->type = WALLPAPER_TYPE_GALLERY;
 		s_item->index = index++;
 		s_item->item = elm_gengrid_item_append(ad->gengrid, gic_for_main, s_item, _gallery_clicked_cb, s_item);
-		s_item->title = strdup(APP_STRING("IDS_LCKSCN_BODY_GALLERY"));
+		s_item->title = strdup("IDS_LCKSCN_BODY_GALLERY");
 	}
 
 	const char* defaultImageDir = wallpaper_ui_service_get_settings_wallpapers_path();
