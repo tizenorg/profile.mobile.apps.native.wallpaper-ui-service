@@ -3,7 +3,7 @@
 	<label>Wallpapers</label>
 	<author email="sung1103.park@samsung.com" href="www.samsung.com">Sung park</author>
 	<description>Wallpapers</description>
-	<ui-application appid="org.tizen.wallpaper-ui-service" exec="/usr/apps/org.tizen.wallpaper-ui-service/bin/wallpaper-ui-service" launch_mode="group" nodisplay="true" multiple="false" type="capp" taskmanage="false" process-pool="true">
+	<ui-application appid="org.tizen.wallpaper-ui-service" exec="/usr/apps/org.tizen.wallpaper-ui-service/bin/wallpaper-ui-service" launch_mode="group" nodisplay="true" multiple="false" type="capp" taskmanage="false" process-pool="true" hw-acceleration="on">
 		<label>Wallpapers</label>
 		<label xml:lang="as-in">ৱালপেপাৰসমূহ</label>
 		<label xml:lang="bn-in">ওয়ালপেপারগুলি</label>
