@@ -46,6 +46,7 @@ pkg_check_modules(pkgs REQUIRED
 	wallpaper-service
 	core-samsung-log-client
 	edbus
+	storage
 )
 ELSE()
 INCLUDE(FindPkgConfig)
@@ -62,6 +63,7 @@ pkg_check_modules(pkgs REQUIRED
 	notification
 	capi-content-media-content
 	edbus
+	storage
 )
 ENDIF()
 
