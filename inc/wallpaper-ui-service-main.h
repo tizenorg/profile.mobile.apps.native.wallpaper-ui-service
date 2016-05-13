@@ -54,6 +54,7 @@ typedef struct {
 #endif
 
 HAPI void wallpaper_main_create_view(void *data);
+void _set_wallpaper(char *path);
 
 #endif
 

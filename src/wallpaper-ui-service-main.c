@@ -32,6 +32,7 @@
 
 //#define DEFAULT_IMAGE_DIR tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers")
 //#define DEFAULT_IMAGE_DIR_TEMPLATE tzplatform_mkpath(TZ_SYS_RO_APP, "org.tizen.setting/shared/res/settings/Wallpapers/%s")
+#define CUSTOM_WALLPAPER_FILE_NAME "custom_wallpaper.jpg"
 
 static Elm_Gengrid_Item_Class *gic_for_main = NULL;
 static wallpaper_ui_service_appdata *ad = NULL;
@@ -423,6 +424,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 
 	if (state_data.from[sd->img_idx]) {
 		WALLPAPERUI_DBG("from[%s]", state_data.from[sd->img_idx]);
+		WALLPAPERUI_DBG("to[%s]", state_data.to[sd->img_idx]);
 	}
 	evas_object_image_file_set(sd->img, state_data.from[sd->img_idx], NULL);
 	err = evas_object_image_load_error_get(sd->img);
@@ -549,6 +551,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_5(void *data)
 		WALLPAPERUI_DBG("evas_object_image_save to %s fail!", state_data.to[sd->img_idx]);
 	}
 
+	_set_wallpaper(state_data.to[sd->img_idx]);
 	sd->next_job = job_idx+1;
 
 	WALLPAPERUI_TRACE_END;
@@ -676,10 +679,6 @@ static void _main_done_button_cb(void *data, Evas_Object *obj, void *event_info)
 			object_item = elm_gengrid_item_next_get(object_item);
 		}
 	}
-
-	elm_naviframe_item_pop(ad->navi_bar);
-
-	_wallpaper_destroy(ad);
 
 	WALLPAPERUI_TRACE_END;
 }
@@ -953,11 +952,13 @@ static void _main_cancel_button_cb(void *data, Evas_Object *obj, void *event_inf
 	WALLPAPERUI_TRACE_END;
 }
 
-static void _set_wallpaper(char *path)
+void _set_wallpaper(char *path)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
-	WALLPAPERUI_ERR("set wallpaper : %s", path);
+	WALLPAPERUI_DBG("set wallpaper : %s", path);
+	WALLPAPERUI_DBG("preview_image_type : %i", ad->preview_image_type);
+
 	if (ecore_file_exists(path) != EINA_TRUE) {
 		WALLPAPERUI_ERR("%s does not exist", path);
 		return;
@@ -1004,31 +1005,35 @@ static void _done_to_set_wallpaper()
 			WALLPAPERUI_DBG("saved_img_path[%d] = %s", i, ad->saved_img_path[i]);
 			p = strrchr(ad->saved_img_path[i], '/');
 			if (p) {
-				q = strrchr(p, '.');
-                const char *wallpapers_path = wallpaper_ui_service_get_shared_wallpapers_path();
-				if (q && ((strcmp(q, ".gif") == 0) || (strcmp(q, ".wbmp") == 0) || (strcmp(q, ".bmp") == 0))) {
-					WALLPAPERUI_DBG(".gif||.wbmp||.bmp image");
-					strncpy(filename, p, MAX_LENGTH_LINE-1);
-					q = strrchr(filename, '.');
-					if (q) {
-						*q = '\0';
+				if (ad->preview_image_type != WALLPAPER_TYPE_GALLERY) {
+					q = strrchr(p, '.');
+					const char *wallpapers_path = wallpaper_ui_service_get_settings_wallpapers_path();
+					if (q && ((strcmp(q, ".gif") == 0) || (strcmp(q, ".wbmp") == 0) || (strcmp(q, ".bmp") == 0))) {
+						WALLPAPERUI_DBG(".gif||.wbmp||.bmp image");
+						strncpy(filename, p, MAX_LENGTH_LINE-1);
+						q = strrchr(filename, '.');
+						if (q) {
+							*q = '\0';
+						}
+						WALLPAPERUI_DBG("filename = %s", filename);
+						snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
+
+					} else {
+						WALLPAPERUI_DBG("other image");
+						WALLPAPERUI_DBG("filename = %s", p);
+						if(*p)
+							++p;  /*skip slash */
+
+						if (ad->preview_image_type != WALLPAPER_TYPE_GALLERY)
+						snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
 					}
-					WALLPAPERUI_DBG("filename = %s", filename);
-					snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
-
 				} else {
-					WALLPAPERUI_DBG("other image");
-					WALLPAPERUI_DBG("filename = %s", p);
-					if(*p)
-						++p;  /*skip slash */
-
-					snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
-				}
-
-                WALLPAPERUI_DBG("filepath = %s", filepath);
-				if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
+					const char *res_path = get_working_dir();
+					snprintf(filepath, sizeof(filepath), "%s/%s", res_path, CUSTOM_WALLPAPER_FILE_NAME);
 					wallpaper_ui_service_copy_wallpaper_file(ad->saved_img_path[i], filepath);
 				}
+
+				WALLPAPERUI_DBG("filepath = %s", filepath);
 				if (state_data.from[index] != NULL) {
 					free(state_data.from[index]);
 					state_data.from[index] = NULL;
@@ -1078,13 +1083,16 @@ static void _done_to_set_wallpaper()
 
 	if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
 		WALLPAPERUI_DBG("SCALE start!");
-
+		elm_win_lower(ad->win);
 		_lockscreen_gallery_scale_job_maker(480, 800, 0);
+	} else {
+		_lockscreen_gallery_destroy_func();
 	}
 
 	state_data.flag_changed = EINA_FALSE;
 
 	sync();
+
 	WALLPAPERUI_DBG("done_to_set_wallpaper end");
 
 	WALLPAPERUI_TRACE_END;
@@ -1094,18 +1102,13 @@ static void _lockscreen_gallery_destroy_func()
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
-	/*delete unused files */
-	char path[6][MAX_LENGTH_LINE] = {{0 } };
 	char *value = NULL;
-
-	memset(path, 0, sizeof(path));
-
 	if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &value) != SYSTEM_SETTINGS_ERROR_NONE) {
 		WALLPAPERUI_ERR("system_settings_get_value_string() failed");
 	}
 	WALLPAPERUI_DBG("value = %s", value);
 
-	/*_wallpaper_destroy(ad); */
+	_wallpaper_destroy(ad);
 
 	sync();
 	scale_resize_state = 0;
