@@ -27,12 +27,12 @@
 #include <app_alarm.h>
 #include <media_content.h>
 #include <fcntl.h>
-
 #include <app_control_internal.h>
 #include <app_manager.h>
 #include <feedback.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <storage.h>
 
 #include "wallpaper-ui-service.h"
 #include "wallpaper-ui-service-main.h"
@@ -44,11 +44,12 @@ static bool flag_view_exist = false;
 #define DBUS_HOME_RAISE_INTERFACE DBUS_HOME_BUS_NAME".raise"
 #define DBUS_HOME_RAISE_MEMBER "homeraise"
 #define SETTINGS_APP_ID "org.tizen.setting"
+#define DEF_WALLPAPERS_PATH "/opt/share/settings/Wallpapers/"
 
 static bool _g_is_system_init = false;
 
 static char *_g_wallpapersPath = NULL;
-static char *_g_sharedPath = NULL;
+static char *_g_workingDirPath = NULL;
 
 /**
 * The event process when win object is destroyed
@@ -485,7 +486,7 @@ static void _app_terminate(void *data)
 	}
 
 	free(_g_wallpapersPath);
-	free(_g_sharedPath);
+	free(_g_workingDirPath);
 	feedback_deinitialize();
 	elm_exit();
 
@@ -498,6 +499,9 @@ static void _app_terminate(void *data)
 static bool _app_create(void *data)
 {
 	WALLPAPERUI_TRACE_BEGIN;
+
+	const char *working_dir = get_working_dir();
+	WALLPAPERUI_DBG("working_dir = %s", working_dir);
 
 	elm_config_preferred_engine_set("opengl_x11");
 	elm_app_base_scale_set(2.4);
@@ -708,26 +712,30 @@ char * wallpaper_ui_service_get_edj_path(const char *fileName)
 
 const char *wallpaper_ui_service_get_settings_wallpapers_path()
 {
-    if (!_g_wallpapersPath)
-    {
-        char* path = NULL;
-        system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &path);
-        _g_wallpapersPath = (char *)calloc(1, MAX_LENGTH_STRING);
-        char* dir_name = dirname(path);
-        snprintf(_g_wallpapersPath, MAX_LENGTH_STRING, "%s/", dir_name);
-        WALLPAPERUI_DBG("_g_wallpapersPath = %s", _g_wallpapersPath);
-    }
-    return _g_wallpapersPath;
+	return DEF_WALLPAPERS_PATH;
 }
 
-
-const char *wallpaper_ui_service_get_shared_wallpapers_path()
+static bool _storage_device_supported_cb(int storage_id, storage_type_e type,
+		storage_state_e state, const char *path, void *user_data)
 {
-	if (!_g_sharedPath)
+	if (type == STORAGE_TYPE_INTERNAL)
 	{
-		_g_sharedPath = app_get_shared_resource_path();
+		int *id = (int *)user_data;
+		*id = storage_id;
+		return false;
 	}
-	return _g_sharedPath;
+	return true;
+}
+
+const char *get_working_dir()
+{
+	if (!_g_workingDirPath)
+	{
+		int storage_id = -1;
+		storage_foreach_device_supported(_storage_device_supported_cb, &storage_id);
+		storage_get_directory(storage_id, STORAGE_DIRECTORY_IMAGES, &_g_workingDirPath);
+	}
+	return _g_workingDirPath;
 }
 
 /**

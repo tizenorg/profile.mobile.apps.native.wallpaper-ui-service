@@ -30,6 +30,7 @@ BuildRequires: pkgconfig(ui-gadget-1)
 BuildRequires: pkgconfig(notification)
 BuildRequires: pkgconfig(capi-content-media-content)
 BuildRequires: pkgconfig(edbus)
+BuildRequires: pkgconfig(storage)
 BuildRequires: cmake
 BuildRequires: edje-tools
 BuildRequires: gettext-tools
