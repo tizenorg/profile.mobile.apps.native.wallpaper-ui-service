@@ -798,8 +798,6 @@ static void _gallery_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 		elm_object_signal_emit(obj, "unpressed", "elm");
 	}
 
-	feedback_play_type(FEEDBACK_TYPE_SOUND, FEEDBACK_PATTERN_TAP);
-
 	if (!app_control_create(&svc_handle)) {
 		app_control_set_operation(svc_handle, APP_CONTROL_OPERATION_PICK);
         app_control_set_launch_mode(svc_handle, APP_CONTROL_LAUNCH_MODE_GROUP);
