@@ -1,6 +1,6 @@
 Name:       org.tizen.wallpaper-ui-service
-#VCS_FROM:   profile/mobile/apps/native/wallpaper-ui-service#e1973145f1eef1e8dc765cdc8a2d21b9602e43fd
-#RS_Ver:    20160512_2 
+#VCS_FROM:   profile/mobile/apps/native/wallpaper-ui-service#4efd538e06e71d2a3168f29c455da90735b59fae
+#RS_Ver:    20160517_3 
 Summary:    wallpaper-ui-service window
 Version:    1.0.0
 Release:    1
@@ -25,7 +25,7 @@ Requires(post):  /usr/bin/tpk-backend
 %endif
 
 %description
-profile/mobile/apps/native/wallpaper-ui-service#e1973145f1eef1e8dc765cdc8a2d21b9602e43fd
+profile/mobile/apps/native/wallpaper-ui-service#4efd538e06e71d2a3168f29c455da90735b59fae
 This is a container package which have preload TPK files
 
 %prep
