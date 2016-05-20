@@ -425,38 +425,39 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 	if (state_data.from[sd->img_idx]) {
 		WALLPAPERUI_DBG("from[%s]", state_data.from[sd->img_idx]);
 		WALLPAPERUI_DBG("to[%s]", state_data.to[sd->img_idx]);
+
+		evas_object_image_file_set(sd->img, state_data.from[sd->img_idx], NULL);
+		err = evas_object_image_load_error_get(sd->img);
+		if (err != EVAS_LOAD_ERROR_NONE) {
+			WALLPAPERUI_ERR("evas_object_image_file_set() failed");
+			WALLPAPERUI_ERR("file(%s) err(%s)", state_data.from[sd->img_idx], evas_load_error_str(err));
+			sd->next_job = SCALE_JOB_ERR;
+			return ECORE_CALLBACK_CANCEL;
+		}
+
+		WALLPAPERUI_DBG("from[i]:%s", state_data.from[sd->img_idx]);
+		if (!strstr(state_data.from[sd->img_idx], "wallpaper_list")) {
+			WALLPAPERUI_DBG("need rotateRight:%s", state_data.from[sd->img_idx]);
+			_rotate_image(sd->img, state_data.from[sd->img_idx]);
+		}
+
+		evas_object_image_alpha_set(sd->img, EINA_FALSE);
+		evas_object_image_size_get(sd->img, &sd->img_w, &sd->img_h);
+
+		if ((sd->img_w == sd->to_w && sd->img_h >= sd->to_h) ||
+			(sd->img_h == sd->to_h && sd->img_w >= sd->to_w)) {
+			WALLPAPERUI_DBG("No need to be scaled. cp(%s, %s)", state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
+			_lockscreen_gallery_file_cb(state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
+			WALLPAPERUI_DBG("cp end");
+			sd->next_job = SCALE_JOB_END;
+			return ECORE_CALLBACK_CANCEL;
+		}
+
+		evas_object_move(sd->img, 0, 0);
+		evas_object_image_fill_set(sd->img, 0, 0, sd->img_w, sd->img_h);
+
+		sd->next_job = job_idx+1;
 	}
-	evas_object_image_file_set(sd->img, state_data.from[sd->img_idx], NULL);
-	err = evas_object_image_load_error_get(sd->img);
-	if (err != EVAS_LOAD_ERROR_NONE) {
-		WALLPAPERUI_ERR("evas_object_image_file_set() failed");
-		WALLPAPERUI_ERR("file(%s) err(%s)", state_data.from[sd->img_idx], evas_load_error_str(err));
-		sd->next_job = SCALE_JOB_ERR;
-		return ECORE_CALLBACK_CANCEL;
-	}
-
-	WALLPAPERUI_DBG("from[i]:%s", state_data.from[sd->img_idx]);
-	if (!strstr(state_data.from[sd->img_idx], "wallpaper_list")) {
-		WALLPAPERUI_DBG("need rotateRight:%s", state_data.from[sd->img_idx]);
-		_rotate_image(sd->img, state_data.from[sd->img_idx]);
-	}
-
-	evas_object_image_alpha_set(sd->img, EINA_FALSE);
-	evas_object_image_size_get(sd->img, &sd->img_w, &sd->img_h);
-
-	if ((sd->img_w == sd->to_w && sd->img_h >= sd->to_h) ||
-		(sd->img_h == sd->to_h && sd->img_w >= sd->to_w)) {
-		WALLPAPERUI_DBG("No need to be scaled. cp(%s, %s)", state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
-		_lockscreen_gallery_file_cb(state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
-		WALLPAPERUI_DBG("cp end");
-		sd->next_job = SCALE_JOB_END;
-		return ECORE_CALLBACK_CANCEL;
-	}
-
-	evas_object_move(sd->img, 0, 0);
-	evas_object_image_fill_set(sd->img, 0, 0, sd->img_w, sd->img_h);
-
-	sd->next_job = job_idx+1;
 
 	WALLPAPERUI_TRACE_END;
 	return ECORE_CALLBACK_CANCEL;
@@ -621,16 +622,16 @@ static Eina_Bool _lockscreen_gallery_scale_job_handler(void *data)
 		case SCALE_JOB_5_SAVE_IMAGE:
 			_lockscreen_gallery_scale_job_5(sd);
 			break;
-		case SCALE_JOB_ERR:
-			WALLPAPERUI_ERR("ERROR");
-		case SCALE_JOB_END:
-			if (sd->idler_handler) {
-				ecore_idler_del(sd->idler_handler);
-				sd->idler_handler = NULL;
-			}
-			_lockscreen_gallery_scale_job_end(sd);
-			return ECORE_CALLBACK_CANCEL;
-			break;
+	}
+
+	if(sd->curr_job == SCALE_JOB_ERR || sd->curr_job == SCALE_JOB_END) {
+		if (sd->idler_handler) {
+			ecore_idler_del(sd->idler_handler);
+			sd->idler_handler = NULL;
+		}
+
+		_lockscreen_gallery_scale_job_end(sd);
+		return ECORE_CALLBACK_CANCEL;
 	}
 
 	WALLPAPERUI_DBG("job(%d) finished : next job(%d)", sd->curr_job, sd->next_job);
