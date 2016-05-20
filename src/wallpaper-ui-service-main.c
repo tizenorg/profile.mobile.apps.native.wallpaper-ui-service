@@ -621,16 +621,16 @@ static Eina_Bool _lockscreen_gallery_scale_job_handler(void *data)
 		case SCALE_JOB_5_SAVE_IMAGE:
 			_lockscreen_gallery_scale_job_5(sd);
 			break;
-		case SCALE_JOB_ERR:
-			WALLPAPERUI_ERR("ERROR");
-		case SCALE_JOB_END:
-			if (sd->idler_handler) {
-				ecore_idler_del(sd->idler_handler);
-				sd->idler_handler = NULL;
-			}
-			_lockscreen_gallery_scale_job_end(sd);
-			return ECORE_CALLBACK_CANCEL;
-			break;
+	}
+
+	if(sd->curr_job == SCALE_JOB_ERR || sd->curr_job == SCALE_JOB_END) {
+		if (sd->idler_handler) {
+			ecore_idler_del(sd->idler_handler);
+			sd->idler_handler = NULL;
+		}
+
+		_lockscreen_gallery_scale_job_end(sd);
+		return ECORE_CALLBACK_CANCEL;
 	}
 
 	WALLPAPERUI_DBG("job(%d) finished : next job(%d)", sd->curr_job, sd->next_job);
