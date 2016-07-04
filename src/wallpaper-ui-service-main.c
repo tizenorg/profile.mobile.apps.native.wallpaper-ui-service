@@ -766,7 +766,7 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 
 		item = (Thumbnail *)elm_object_item_data_get(object_item);
 		item->bSelected = EINA_TRUE;
-		item->path = ad->saved_img_path[0];
+		item->path = strdup(ad->saved_img_path[0]);
 		item->type = WALLPAPER_TYPE_GALLERY;
 		ad->preview_image_type = WALLPAPER_TYPE_GALLERY;
 
