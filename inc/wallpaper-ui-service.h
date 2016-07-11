@@ -173,6 +173,7 @@ char *wallpaper_ui_service_get_icon_path(const char *fileName);
 char *wallpaper_ui_service_get_edj_path(const char *fileName);
 const char *wallpaper_ui_service_get_settings_wallpapers_path();
 const char *get_working_dir();
+int get_max_prescale_img_size(wallpaper_ui_service_appdata *app);
 #endif
 
 

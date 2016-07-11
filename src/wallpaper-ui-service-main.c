@@ -972,14 +972,12 @@ void _set_wallpaper(char *path)
 	/* lockscreen */
 	if (system_settings_set_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, path) != SYSTEM_SETTINGS_ERROR_NONE) {
 		WALLPAPERUI_ERR("Lockscreen set Error : %s", path);
-		elm_exit();
 		return;
 	}
 
 	/* homescreen */
 	if (system_settings_set_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, path) != SYSTEM_SETTINGS_ERROR_NONE) {
 		WALLPAPERUI_ERR("Homescreen set Error : %s", path);
-		elm_exit();
 		return;
 	}
 
@@ -1082,7 +1080,6 @@ static void _done_to_set_wallpaper()
 
 	if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
 		WALLPAPERUI_DBG("SCALE start!");
-		elm_win_lower(ad->win);
 		_lockscreen_gallery_scale_job_maker(480, 800, 0);
 	} else {
 		_lockscreen_gallery_destroy_func();
@@ -1126,6 +1123,7 @@ static void _wallpaper_destroy(void *data)
 	if (ad->last_preview_img_path != NULL) {
 		WALLPAPERUI_ERR("free last_preview_img_path");
 		free(ad->last_preview_img_path);
+		ad->last_preview_img_path = NULL;
 	}
 	if (ad->win) {
 		evas_object_del(ad->win);
@@ -1135,8 +1133,7 @@ static void _wallpaper_destroy(void *data)
 	char *edj = wallpaper_ui_service_get_edj_path("button_customized_theme.edj");
 	elm_theme_extension_del(NULL, edj);
 	free(edj);
-
-	elm_exit();
+	ui_app_exit();
 
 	WALLPAPERUI_TRACE_END
 }
@@ -1239,6 +1236,8 @@ static void _wallpaper_preview_main()
 
 	WALLPAPERUI_DBG("current_preview_img_path = %s", ad->current_preview_img_path);
 
+	int prescale_size = get_max_prescale_img_size(ad);
+	elm_image_prescale_set(preview_image, prescale_size);
     elm_image_file_set(preview_image, ad->current_preview_img_path, NULL);
     elm_image_aspect_fixed_set(preview_image, EINA_TRUE);
     elm_image_fill_outside_set(preview_image, EINA_TRUE);
@@ -1302,6 +1301,8 @@ HAPI void wallpaper_main_create_view(void *data)
 
 	/* preview image */
 	Evas_Object *image = elm_image_add(preveiw_main_layout);
+	int prescale_size = get_max_prescale_img_size(ad);
+	elm_image_prescale_set(image, prescale_size);
 	elm_image_file_set(image, value, NULL);
 	elm_image_aspect_fixed_set(image,	EINA_TRUE);
 	elm_image_fill_outside_set(image, EINA_TRUE);
@@ -1374,6 +1375,8 @@ static Evas_Object *_preview_create_edje_content(Evas_Object *parent, const char
 	evas_object_show(layout);
 
 	Evas_Object *image = elm_image_add(layout);
+	int prescale_size = get_max_prescale_img_size(ad);
+	elm_image_prescale_set(image, prescale_size);
 	elm_object_part_content_set(layout, "item", image);
 	elm_image_file_set(image, path, NULL);
 

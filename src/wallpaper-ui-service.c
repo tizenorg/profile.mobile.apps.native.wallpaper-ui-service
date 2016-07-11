@@ -138,7 +138,6 @@ static bool _wallpaper_db_destroy(void)
 static void _del_win(void *data, Evas_Object *obj, void *event)
 {
 	WALLPAPERUI_TRACE_BEGIN;
-
 	ui_app_exit();
 }
 
@@ -311,7 +310,7 @@ static void _home_button_clicked_cb(void *data, DBusMessage *msg)
 			return;
 		}
 		WALLPAPERUI_ERR("Destroy wallpaper");
-		elm_exit();
+		ui_app_exit();
 	}
 
 	WALLPAPERUI_TRACE_END;
@@ -440,7 +439,7 @@ void *_register_view(app_control_h service, void *data)
 
 			if (file_name == NULL) {
 				WALLPAPERUI_ERR("CIRITICAL ERROR : wallpaper file is NULL");
-				elm_exit();
+				ui_app_exit();
 				return NULL;
 			}
 		}
@@ -448,7 +447,6 @@ void *_register_view(app_control_h service, void *data)
 		free(file_name);
 		if (ad->color_popup_data.file_path == NULL) {
 			WALLPAPERUI_ERR("CIRITICAL ERROR : strdup() failed");
-/*			elm_exit(); */
 		}
 
 	}
@@ -488,7 +486,6 @@ static void _app_terminate(void *data)
 	free(_g_wallpapersPath);
 	free(_g_workingDirPath);
 	feedback_deinitialize();
-	elm_exit();
 
 	WALLPAPERUI_TRACE_END;
 }
@@ -736,6 +733,14 @@ const char *get_working_dir()
 		storage_get_directory(storage_id, STORAGE_DIRECTORY_IMAGES, &_g_workingDirPath);
 	}
 	return _g_workingDirPath;
+}
+
+int get_max_prescale_img_size(wallpaper_ui_service_appdata *app)
+{
+	int w = 0;
+	int h = 0;
+	evas_object_geometry_get(app->win, NULL, NULL, &w, &h);
+	return MAX(w, h);
 }
 
 /**
