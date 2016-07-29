@@ -43,7 +43,6 @@ static bool flag_view_exist = false;
 #define DBUS_HOME_RAISE_PATH "/Org/Tizen/Coreapps/home/raise"
 #define DBUS_HOME_RAISE_INTERFACE DBUS_HOME_BUS_NAME".raise"
 #define DBUS_HOME_RAISE_MEMBER "homeraise"
-#define SETTINGS_APP_ID "org.tizen.setting"
 #define DEF_WALLPAPERS_PATH "/opt/share/settings/Wallpapers/"
 
 static bool _g_is_system_init = false;
@@ -303,15 +302,12 @@ static void _home_button_clicked_cb(void *data, DBusMessage *msg)
 	wallpaper_ui_service_appdata *ad = (wallpaper_ui_service_appdata *)data;
 	ret_if(ad == NULL);
 
-	if (ad->sel_popup_data.launch_from == WALLPAPER_POPUP_FROM_HOME_SCREEN
-		&& ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
-		if (scale_resize_state == 1) {
-			WALLPAPERUI_ERR("Destroy wallpaper cancel");
-			return;
-		}
-		WALLPAPERUI_ERR("Destroy wallpaper");
-		ui_app_exit();
+	if (scale_resize_state == 1) {
+		WALLPAPERUI_ERR("Destroy wallpaper cancel");
+		return;
 	}
+	WALLPAPERUI_ERR("Destroy wallpaper");
+	ui_app_exit();
 
 	WALLPAPERUI_TRACE_END;
 }
@@ -346,110 +342,7 @@ void *_register_view(app_control_h service, void *data)
 	wallpaper_ui_service_appdata *ad = (wallpaper_ui_service_appdata *)data;
 	retv_if(!ad, NULL);
 
-	char *from = NULL;
-	char *popup_type = NULL;
-	char *setas = NULL;
-	app_control_get_extra_data(service, EXTRA_KEY_POPUP_TYPE, &popup_type);
-
-	if (popup_type != NULL) {
-		WALLPAPERUI_ERR("popup_type %s", popup_type);
-	}
-
-	if (popup_type != NULL) {
-		ad->popup_type = WALLPAPER_POPUP_TYPE_SELECTION;
-
-		free(popup_type);
-	} else {
-		ad->popup_type = WALLPAPER_POPUP_TYPE_SELECTION;
-	}
-	app_control_get_extra_data(service, EXTRA_FROM_KEY, &from);
-	WALLPAPERUI_ERR("from %s", from);
-
-	if (from != NULL) {
-		if (strcmp(from, "Homescreen-efl") == 0) {
-			ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_HOME_SCREEN;
-		} else if (strcmp(from, "Setting") == 0) {
-			ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_SETTING;
-		} else {
-			ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_LOCK_SCREEN;
-		}
-		free(from);
-	} else {
-		ad->sel_popup_data.launch_from = WALLPAPER_POPUP_FROM_GALLERY;
-	}
-
-	app_control_get_extra_data(service, EXTRA_KEY_SETAS, &setas);
-
-	if (setas == NULL) {
-		WALLPAPERUI_ERR("setas (%s) failed", setas);
-	}
-
-	if (setas != NULL) {
-		WALLPAPERUI_DBG("setas is (%s)", setas);
-		if (strcmp(setas, EXTRA_DATA_HOMESCREEN) == 0) {
-			ad->sel_popup_data.setas_type = WALLPAPER_POPUP_SETAS_HOMESCREEN;
-		} else if (strcmp(setas, EXTRA_DATA_LOCKSCREEN) == 0) {
-			char *wallpaper_type = NULL;
-			ad->sel_popup_data.setas_type = WALLPAPER_POPUP_SETAS_LOCKSCREEN;
-
-			app_control_get_extra_data(service, EXTRA_KEY_WALLPAPER_TYPE, &wallpaper_type);
-
-			if (wallpaper_type != NULL) {
-				WALLPAPERUI_ERR("wallpaper_type (%s) failed", wallpaper_type);
-				if (strcmp(wallpaper_type, EXTRA_DATA_WP_DEFAULT) == 0) {
-					ad->lock_wallpaper_type = WALLPAPER_TYPE_DEFAULT;
-				} else if (strcmp(wallpaper_type, EXTRA_DATA_WP_MULTI) == 0) {
-					ad->lock_wallpaper_type = WALLPAPER_TYPE_MULTIPLE;
-				} else {
-					ad->lock_wallpaper_type = WALLPAPER_TYPE_GALLERY;
-				}
-				free(wallpaper_type);
-			} else {
-				ad->lock_wallpaper_type = WALLPAPER_TYPE_GALLERY;
-			}
-		} else {
-			ad->sel_popup_data.setas_type = WALLPAPER_POPUP_SETAS_HOME_N_LOCKSCREEN;
-		}
-		free(setas);
-	} else {
-		WALLPAPERUI_ERR("app_control_get_extra_data(%s) failed", EXTRA_KEY_SETAS);
-		ad->sel_popup_data.setas_type = WALLPAPER_POPUP_SETAS_LOCKSCREEN;
-	}
-
-
-	if (ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
-		ad->sel_popup_data.win_main = ad->win;
-		wallpaper_main_create_view(data);
-	} else if (ad->popup_type == WALLPAPER_POPUP_TYPE_THEME) {
-/*		WALLPAPERUI_ERR("EXTRA_FROM_KEY(%s) failed", from); */
-
-		char *file_name = NULL;
-		app_control_get_extra_data(service, EXTRA_KEY_FILE, &file_name);
-		if (file_name == NULL) {
-			WALLPAPERUI_ERR("app_control_get_extra_data(%s) failed", EXTRA_KEY_FILE);
-			if (ad->sel_popup_data.setas_type == WALLPAPER_POPUP_SETAS_LOCKSCREEN) {
-				if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_LOCK_SCREEN, &file_name) != SYSTEM_SETTINGS_ERROR_NONE) {
-					WALLPAPERUI_ERR("system_settings_get_value_string() failed");
-				}
-			} else {
-				if (system_settings_get_value_string(SYSTEM_SETTINGS_KEY_WALLPAPER_HOME_SCREEN, &file_name) != SYSTEM_SETTINGS_ERROR_NONE) {
-					WALLPAPERUI_ERR("system_settings_get_value_string() failed");
-				}
-			}
-
-			if (file_name == NULL) {
-				WALLPAPERUI_ERR("CIRITICAL ERROR : wallpaper file is NULL");
-				ui_app_exit();
-				return NULL;
-			}
-		}
-		ad->color_popup_data.file_path = strdup(file_name);
-		free(file_name);
-		if (ad->color_popup_data.file_path == NULL) {
-			WALLPAPERUI_ERR("CIRITICAL ERROR : strdup() failed");
-		}
-
-	}
+	wallpaper_main_create_view(data);
 
 	WALLPAPERUI_TRACE_END;
 	return NULL;
@@ -472,11 +365,6 @@ static void _app_terminate(void *data)
 	_wallpaper_db_destroy();
 
 	flag_view_exist = false;
-
-	if (ad->pd) {
-		free(ad->pd);
-		ad->pd = NULL;
-	}
 
 	if (ad->win) {
 		evas_object_del(ad->win);
@@ -544,10 +432,6 @@ static void _app_resume(void *data)
 	}
 	WALLPAPERUI_DBG("value = %s", value);
 
-	evas_object_geometry_get(ad->main_layout, NULL, NULL, &w, &h);
-
-	WALLPAPERUI_DBG("main_layout W = %d, H = %d", w, h);
-
 	WALLPAPERUI_TRACE_END;
 }
 
@@ -557,26 +441,16 @@ static void _app_control(app_control_h service, void *data)
 	ret_if(!data);
 	int bTransparent = 0;
 	wallpaper_ui_service_appdata *ad = data;
-	char *popup_type = NULL;
-	app_control_get_extra_data(service, EXTRA_KEY_POPUP_TYPE, &popup_type);
 
 	feedback_initialize();
 
-	/* clone service */
-	app_control_clone(&(ad->service), service);
-
-	ad->popup_type = WALLPAPER_POPUP_TYPE_SELECTION;
-
-	if (ad->win != NULL && ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
+	if (ad->win != NULL) {
 		WALLPAPERUI_DBG("ALREADY EXIST");
 		return;
 /*		evas_object_del(ad->win); */
 /*		ad->win = NULL; */
 	}
 
-	if (ad->popup_type == WALLPAPER_POPUP_TYPE_THEME) {
-		bTransparent = 1;
-	}
 
     /* create window */
     ad->win = _create_win(PKGNAME, bTransparent);
@@ -594,7 +468,7 @@ static void _app_control(app_control_h service, void *data)
 	elm_theme_extension_add(NULL, edjPath);
 	free(edjPath);
 
-	if (ad->win && flag_view_exist && popup_type && ad->popup_type == WALLPAPER_POPUP_TYPE_SELECTION) {
+	if (ad->win && flag_view_exist) {
 		elm_win_activate(ad->win);
 	} else {
 		_register_view(service, ad);
@@ -604,32 +478,6 @@ static void _app_control(app_control_h service, void *data)
 	_wallpaper_dbus_init();
 	_wallpaper_set_dbus_handler(ad);
 	_wallpaper_register_home_button_cb(ad);
-
-	if (popup_type) {
-		free(popup_type);
-	}
-
-	WALLPAPERUI_TRACE_END;
-}
-
-static void update_text(void *data)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	wallpaper_ui_service_appdata *ad = (wallpaper_ui_service_appdata *) data;
-	ret_if(ad == NULL);
-
-	if (ad->main_nf_it) {
-		elm_object_item_text_set(ad->main_nf_it, APP_STRING("IDS_LCKSCN_MBODY_WALLPAPERS"));
-		Evas_Object *cancel_button = elm_object_item_part_content_get(ad->main_nf_it, "title_left_text_btn");
-		if (cancel_button) {
-			elm_object_text_set(cancel_button, APP_STRING("IDS_TPLATFORM_ACBUTTON_CANCEL_ABB"));
-		}
-		Evas_Object *done_button = elm_object_item_part_content_get(ad->main_nf_it, "title_right_text_btn");
-		if (done_button) {
-			elm_object_text_set(done_button, APP_STRING("IDS_TPLATFORM_ACBUTTON_DONE_ABB"));
-		}
-	}
 
 	WALLPAPERUI_TRACE_END;
 }
@@ -648,8 +496,6 @@ static void _app_lang_changed(app_event_info_h event_info, void *data)
 		elm_language_set((const char *)lang);
 		FREE(lang);
 	}
-
-	update_text(data);
 
 	WALLPAPERUI_TRACE_END;
 }
