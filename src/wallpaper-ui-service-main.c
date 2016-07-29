@@ -42,14 +42,14 @@ static struct _wallpaper_ui_service_state_data {
     Eina_Bool flag_changed;
     Eina_Bool flag_edit_click;
     Eina_Bool flag_image_from_gallery;
-	char *from[MAX_LENGTH_LINE];
-	char *to[MAX_LENGTH_LINE];
+	char *from;
+	char *to;
 } state_data = {
     .flag_changed = EINA_FALSE,
     .flag_edit_click = EINA_FALSE,
     .flag_image_from_gallery = EINA_FALSE,
-	.from = { NULL, },
-	.to = { NULL, },
+	.from = NULL,
+	.to = NULL,
 };
 
 
@@ -69,7 +69,6 @@ enum {
 };
 
 struct scaledata {
-	int img_idx;
 	int to_w;
 	int to_h;
 
@@ -91,47 +90,13 @@ struct scaledata {
 
 static void _wallpaper_destroy(void *data);
 static Evas_Object *main_gengrid_add(Evas_Object *parent, void *data);
-static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h, int idx);
+static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h);
 static void _lockscreen_gallery_destroy_func();
 static void _wallpaper_show_focus_highlight(int selected_index) ;
 static void _done_to_set_wallpaper();
 static void _wallpaper_back_key_cb(void *data, Evas_Object *obj, void *event_info);
 static void _preview_clicked_cb(void *data, Evas_Object *obj, const char *emission, const char *source);
 static void _wallpaper_preview_main();
-
-static int _lockscreen_gallery_file_cb(const char *src, const char *dst)
-{
-	WALLPAPERUI_TRACE_BEGIN;
-
-	FILE *f1, *f2;
-	char buf[16384];
-	size_t num;
-	int ret = 1;
-
-	f1 = fopen(src, "rb");
-	if (!f1) {
-		return 0;
-	}
-
-	f2 = fopen(dst, "wb");
-	if (!f2) {
-		fclose(f1);
-		return 0;
-	}
-
-	while ((num = fread(buf, 1, sizeof(buf), f1)) > 0) {
-		if (fwrite(buf, 1, num, f2) != num) {
-			ret = 0;
-
-		}
-	}
-
-	fclose(f1);
-	fclose(f2);
-
-	WALLPAPERUI_TRACE_END;
-	return ret;
-}
 
 static void _rotate_right(Evas_Object *image)
 {
@@ -204,7 +169,7 @@ static void _rotate_right(Evas_Object *image)
 	evas_object_image_data_set(image, data1);
 	evas_object_image_data_update_add(image, 0, 0, iw, ih);
 
-	WALLPAPERUI_TRACE_BEGIN;
+	WALLPAPERUI_TRACE_END;
 }
 
 static void _rotate_left(Evas_Object *image)
@@ -422,23 +387,22 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 		return ECORE_CALLBACK_CANCEL;
 	}
 
-	if (state_data.from[sd->img_idx]) {
-		WALLPAPERUI_DBG("from[%s]", state_data.from[sd->img_idx]);
-		WALLPAPERUI_DBG("to[%s]", state_data.to[sd->img_idx]);
+	if (state_data.from) {
+		WALLPAPERUI_DBG("from[%s]", state_data.from);
+		WALLPAPERUI_DBG("to[%s]", state_data.to);
 
-		evas_object_image_file_set(sd->img, state_data.from[sd->img_idx], NULL);
+		evas_object_image_file_set(sd->img, state_data.from, NULL);
 		err = evas_object_image_load_error_get(sd->img);
 		if (err != EVAS_LOAD_ERROR_NONE) {
 			WALLPAPERUI_ERR("evas_object_image_file_set() failed");
-			WALLPAPERUI_ERR("file(%s) err(%s)", state_data.from[sd->img_idx], evas_load_error_str(err));
+			WALLPAPERUI_ERR("file(%s) err(%s)", state_data.from, evas_load_error_str(err));
 			sd->next_job = SCALE_JOB_ERR;
 			return ECORE_CALLBACK_CANCEL;
 		}
 
-		WALLPAPERUI_DBG("from[i]:%s", state_data.from[sd->img_idx]);
-		if (!strstr(state_data.from[sd->img_idx], "wallpaper_list")) {
-			WALLPAPERUI_DBG("need rotateRight:%s", state_data.from[sd->img_idx]);
-			_rotate_image(sd->img, state_data.from[sd->img_idx]);
+		if (!strstr(state_data.from, "wallpaper_list")) {
+			WALLPAPERUI_DBG("need rotateRight:%s", state_data.from);
+			_rotate_image(sd->img, state_data.from);
 		}
 
 		evas_object_image_alpha_set(sd->img, EINA_FALSE);
@@ -446,8 +410,8 @@ static Eina_Bool _lockscreen_gallery_scale_job_0(void *data)
 
 		if ((sd->img_w == sd->to_w && sd->img_h >= sd->to_h) ||
 			(sd->img_h == sd->to_h && sd->img_w >= sd->to_w)) {
-			WALLPAPERUI_DBG("No need to be scaled. cp(%s, %s)", state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
-			_lockscreen_gallery_file_cb(state_data.from[sd->img_idx], state_data.to[sd->img_idx]);
+			WALLPAPERUI_DBG("No need to be scaled. cp(%s, %s)", state_data.from, state_data.to);
+			wallpaper_ui_service_copy_wallpaper_file(state_data.from, state_data.to);
 			WALLPAPERUI_DBG("cp end");
 			sd->next_job = SCALE_JOB_END;
 			return ECORE_CALLBACK_CANCEL;
@@ -473,7 +437,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_1(void *data)
 
 	sd->to_w = (float)sd->img_w / sd->img_h * sd->to_h;
 
-	WALLPAPERUI_DBG("idx(%d) img_w(%d) img_h(%d)", sd->img_idx, sd->img_w, sd->img_h);
+	WALLPAPERUI_DBG("img_w(%d) img_h(%d)", sd->img_w, sd->img_h);
 	WALLPAPERUI_DBG(" -> to_w(%d) to_h(%d)", sd->to_w, sd->to_h);
 	ecore_evas_resize(sd->ee, sd->to_w, sd->to_h);
 	evas_object_resize(sd->img, sd->to_w, sd->to_h);
@@ -547,12 +511,12 @@ static Eina_Bool _lockscreen_gallery_scale_job_5(void *data)
 	struct scaledata *sd = data;
 	WALLPAPERUI_DBG("DBG 5 : save image");
 
-	Eina_Bool b = evas_object_image_save(sd->o, state_data.to[sd->img_idx], NULL, "quality=100 compress=4");
+	Eina_Bool b = evas_object_image_save(sd->o, state_data.to, NULL, "quality=100 compress=4");
 	if (b == EINA_FALSE) {
-		WALLPAPERUI_DBG("evas_object_image_save to %s fail!", state_data.to[sd->img_idx]);
+		WALLPAPERUI_DBG("evas_object_image_save to %s fail!", state_data.to);
 	}
 
-	_set_wallpaper(state_data.to[sd->img_idx]);
+	_set_wallpaper(state_data.to);
 	sd->next_job = job_idx+1;
 
 	WALLPAPERUI_TRACE_END;
@@ -564,30 +528,15 @@ static Eina_Bool _lockscreen_gallery_scale_job_end(void *data)
 	WALLPAPERUI_TRACE_BEGIN;
 
 	struct scaledata *sd = data;
-	int idx = 0;
 
 	if (sd->ee) {
 		ecore_evas_free(sd->ee);
 	}
 
-	if (state_data.from[sd->img_idx+1] == NULL) {
-		WALLPAPERUI_ERR("There is no image to process : ALL job end");
-		free(sd);
-		_lockscreen_gallery_destroy_func();
-		return ECORE_CALLBACK_CANCEL;
-	}
-
-	idx = sd->img_idx;
-
-	free(sd);
-
-	if (_lockscreen_gallery_scale_job_maker(480, 800, idx+1) != 0) {
-		WALLPAPERUI_DBG("All job end");
-		_lockscreen_gallery_destroy_func();
-	}
-
-	WALLPAPERUI_TRACE_END;
-	return ECORE_CALLBACK_CANCEL;
+    free(sd);
+    _lockscreen_gallery_destroy_func();
+    WALLPAPERUI_TRACE_END;
+    return ECORE_CALLBACK_CANCEL;
 }
 
 static Eina_Bool _lockscreen_gallery_scale_job_handler(void *data)
@@ -596,7 +545,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_handler(void *data)
 
 	struct scaledata *sd = data;
 
-	WALLPAPERUI_DBG("idx(%d) curr(%d) next(%d)", sd->img_idx, sd->curr_job, sd->next_job);
+	WALLPAPERUI_DBG("curr(%d) next(%d)", sd->curr_job, sd->next_job);
 	sd->curr_job = sd->next_job;
 
 	switch (sd->curr_job) {
@@ -640,7 +589,7 @@ static Eina_Bool _lockscreen_gallery_scale_job_handler(void *data)
 	return ECORE_CALLBACK_RENEW;
 }
 
-static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h, int idx)
+static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h)
 {
 	WALLPAPERUI_TRACE_BEGIN;
 
@@ -648,9 +597,8 @@ static int _lockscreen_gallery_scale_job_maker(int to_w, int to_h, int idx)
 	struct scaledata *sd = calloc(1, sizeof(struct scaledata));
 	scale_resize_state = 1;
 
-	WALLPAPERUI_DBG("make scale log(%d)", idx);
+	WALLPAPERUI_DBG("make scale log");
 	if (sd != NULL) {
-		sd->img_idx = idx;
 		sd->to_w = to_w;
 		sd->to_h = to_h;
 		sd->curr_job = job_idx;
@@ -674,7 +622,7 @@ static void _main_done_button_cb(void *data, Evas_Object *obj, void *event_info)
 			s_item = (Thumbnail *)elm_object_item_data_get(object_item);
 			if (s_item && s_item->path && s_item->bSelected) {
 				WALLPAPERUI_DBG("Done button Selected path=%s %d", s_item->path, s_item->index);
-				strncpy(ad->saved_img_path[0], s_item->path, MAX_LENGTH_LINE - 1);
+				strncpy(ad->saved_img_path, s_item->path, MAX_LENGTH_LINE - 1);
 				_done_to_set_wallpaper();
 			}
 			object_item = elm_gengrid_item_next_get(object_item);
@@ -730,25 +678,25 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 					WALLPAPERUI_DBG("invalid image path: path_array[%d] = %d", i, path_array[i]);
 					return;
 				}
-				if (!strcmp(file_ext, ".PNG")
-					&& !strcmp(file_ext, ".BMP")
-					&& !strcmp(file_ext, ".WBMP")
-					&& !strcmp(file_ext, ".PCX")
-					&& !strcmp(file_ext, ".TIFF")
-					&& !strcmp(file_ext, ".JPEG")
-					&& !strcmp(file_ext, ".TGA")
-					&& !strcmp(file_ext, ".EXIF")
-					&& !strcmp(file_ext, ".FPX")
-					&& !strcmp(file_ext, ".SVG")
-					&& !strcmp(file_ext, ".PSD")
-					&& !strcmp(file_ext, ".CDR")
-					&& !strcmp(file_ext, ".PCD")
-					&& !strcmp(file_ext, ".DXF")
-					&& !strcmp(file_ext, ".UFO")
-					&& !strcmp(file_ext, ".EPS")
-					&& !strcmp(file_ext, ".JPG")
-					&& !strcmp(file_ext, ".GIF")) {
-					WALLPAPERUI_DBG("invalid image path: path_array[%d] = %d", i, path_array[i]);
+				if (!(!strcmp(file_ext, ".PNG")
+					|| !strcmp(file_ext, ".BMP")
+					|| !strcmp(file_ext, ".WBMP")
+					|| !strcmp(file_ext, ".PCX")
+					|| !strcmp(file_ext, ".TIFF")
+					|| !strcmp(file_ext, ".JPEG")
+					|| !strcmp(file_ext, ".TGA")
+					|| !strcmp(file_ext, ".EXIF")
+					|| !strcmp(file_ext, ".FPX")
+					|| !strcmp(file_ext, ".SVG")
+					|| !strcmp(file_ext, ".PSD")
+					|| !strcmp(file_ext, ".CDR")
+					|| !strcmp(file_ext, ".PCD")
+					|| !strcmp(file_ext, ".DXF")
+					|| !strcmp(file_ext, ".UFO")
+					|| !strcmp(file_ext, ".EPS")
+					|| !strcmp(file_ext, ".JPG")
+					|| !strcmp(file_ext, ".GIF"))) {
+					WALLPAPERUI_DBG("invalid image path: path_array[%d] = %s", i, path_array[i]);
 					return;
 				} else {
 					WALLPAPERUI_DBG("path_array[%d] = %s", i, path_array[i]);
@@ -756,17 +704,21 @@ static void _service_gallery_ug_result_cb(app_control_h request, app_control_h r
 			}
 		}
 		memset(ad->saved_img_path, 0, sizeof(ad->saved_img_path));
-		strncpy(ad->saved_img_path[0], path_array[0], MAX_LENGTH_LINE - 1);
-		WALLPAPERUI_DBG("saved_img_path is %s", ad->saved_img_path[0]);
+		strncpy(ad->saved_img_path, path_array[0], MAX_LENGTH_LINE - 1);
+		WALLPAPERUI_DBG("saved_img_path is %s", ad->saved_img_path);
+		for(i = 0; i < array_length; i++) {
+		    free(path_array[i]);
+		}
+		free(path_array);
 
-		elm_image_file_set(ad->preview_image, ad->saved_img_path[0], NULL);
+		elm_image_file_set(ad->preview_image, ad->saved_img_path, NULL);
 		evas_object_show(ad->preview_image);
 
 		object_item = elm_gengrid_first_item_get(ad->gengrid);
 
 		item = (Thumbnail *)elm_object_item_data_get(object_item);
 		item->bSelected = EINA_TRUE;
-		item->path = strdup(ad->saved_img_path[0]);
+		item->path = strdup(ad->saved_img_path);
 		item->type = WALLPAPER_TYPE_GALLERY;
 		ad->preview_image_type = WALLPAPER_TYPE_GALLERY;
 
@@ -804,18 +756,13 @@ static void _gallery_clicked_cb(void *data, Evas_Object *obj, void *event_info)
 		app_control_set_app_id(svc_handle,  "org.tizen.ug-gallery-efl");
 		app_control_set_mime(svc_handle, "image/*");
 
-		if (!DISABLE_MULTISELECTION) {
-			app_control_add_extra_data(svc_handle, "max-count", "6");
-			app_control_add_extra_data(svc_handle, "launch-type", "select-multiple");
-		} else {
-		   app_control_add_extra_data(svc_handle, "launch-type", "select-setas");
-		   app_control_add_extra_data(svc_handle, "setas-type", "crop");
-		   app_control_add_extra_data(svc_handle, "View Mode", "SETAS");
-		   app_control_add_extra_data(svc_handle, "Setas type", "Crop");
-		   app_control_add_extra_data(svc_handle, "Fixed ratio", "TRUE");
-		   /*app_control_add_extra_data(svc_handle, "Area Size", "100"); */
-		   app_control_add_extra_data(svc_handle, "Resolution", "480x800");
-		}
+        app_control_add_extra_data(svc_handle, "launch-type", "select-setas");
+        app_control_add_extra_data(svc_handle, "setas-type", "crop");
+        app_control_add_extra_data(svc_handle, "View Mode", "SETAS");
+        app_control_add_extra_data(svc_handle, "Setas type", "Crop");
+        app_control_add_extra_data(svc_handle, "Fixed ratio", "TRUE");
+        /*app_control_add_extra_data(svc_handle, "Area Size", "100"); */
+		app_control_add_extra_data(svc_handle, "Resolution", "480x800");
 		app_control_add_extra_data(svc_handle, "file-type", "image");
 		app_control_add_extra_data(svc_handle, "hide-personal", "true");
 		app_control_send_launch_request(svc_handle, _service_gallery_ug_result_cb, data);
@@ -992,81 +939,68 @@ static void _done_to_set_wallpaper()
 	char filepath[MAX_LENGTH_LINE] = {0};
 	char filename[MAX_LENGTH_LINE] = {0};
 	char *q = NULL;
-	int i = 0;
-	int index = 0;
-	char *temp_path[6] = {NULL};
+	char *temp_path = NULL;
 
 	/*copy lock wallpaper */
-	while (i < MAX_MULTIPLE_SELECTION) {
-		if (strlen(ad->saved_img_path[i]) > 1) {
-			WALLPAPERUI_DBG("saved_img_path[%d] = %s", i, ad->saved_img_path[i]);
-			p = strrchr(ad->saved_img_path[i], '/');
-			if (p) {
-				if (ad->preview_image_type != WALLPAPER_TYPE_GALLERY) {
-					q = strrchr(p, '.');
-					const char *wallpapers_path = wallpaper_ui_service_get_settings_wallpapers_path();
-					if (q && ((strcmp(q, ".gif") == 0) || (strcmp(q, ".wbmp") == 0) || (strcmp(q, ".bmp") == 0))) {
-						WALLPAPERUI_DBG(".gif||.wbmp||.bmp image");
-						strncpy(filename, p, MAX_LENGTH_LINE-1);
-						q = strrchr(filename, '.');
-						if (q) {
-							*q = '\0';
-						}
-						WALLPAPERUI_DBG("filename = %s", filename);
-						snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
+    if (strlen(ad->saved_img_path) > 1) {
+        WALLPAPERUI_DBG("saved_img_path = %s", ad->saved_img_path);
+        p = strrchr(ad->saved_img_path, '/');
+        if (p) {
+            if (ad->preview_image_type != WALLPAPER_TYPE_GALLERY) {
+                q = strrchr(p, '.');
+                const char *wallpapers_path = wallpaper_ui_service_get_settings_wallpapers_path();
+                if (q && ((strcmp(q, ".gif") == 0) || (strcmp(q, ".wbmp") == 0) || (strcmp(q, ".bmp") == 0))) {
+                    WALLPAPERUI_DBG(".gif||.wbmp||.bmp image");
+                    strncpy(filename, p, MAX_LENGTH_LINE-1);
+                    q = strrchr(filename, '.');
+                    if (q) {
+                        *q = '\0';
+                    }
+                    WALLPAPERUI_DBG("filename = %s", filename);
+                    snprintf(filepath, sizeof(filepath), "%s%s.jpg", wallpapers_path, &filename[1]);  /*skip slash */
 
-					} else {
-						WALLPAPERUI_DBG("other image");
-						WALLPAPERUI_DBG("filename = %s", p);
-						if(*p)
-							++p;  /*skip slash */
+                } else {
+                    WALLPAPERUI_DBG("other image");
+                    WALLPAPERUI_DBG("filename = %s", p);
+                    if(*p)
+                        ++p;  /*skip slash */
 
-						if (ad->preview_image_type != WALLPAPER_TYPE_GALLERY)
-						snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
-					}
-				} else {
-					const char *res_path = get_working_dir();
-					snprintf(filepath, sizeof(filepath), "%s/%s", res_path, CUSTOM_WALLPAPER_FILE_NAME);
-					wallpaper_ui_service_copy_wallpaper_file(ad->saved_img_path[i], filepath);
-				}
+                    snprintf(filepath, sizeof(filepath), "%s%s", wallpapers_path, p);
+                }
+            } else {
+                const char *res_path = get_working_dir();
+                snprintf(filepath, sizeof(filepath), "%s/%s", res_path, CUSTOM_WALLPAPER_FILE_NAME);
+                wallpaper_ui_service_copy_wallpaper_file(ad->saved_img_path, filepath);
+            }
 
-				WALLPAPERUI_DBG("filepath = %s", filepath);
-				if (state_data.from[index] != NULL) {
-					free(state_data.from[index]);
-					state_data.from[index] = NULL;
-				}
-				state_data.from[index] = strdup(ad->saved_img_path[i]);
+            WALLPAPERUI_DBG("filepath = %s", filepath);
+            if (state_data.from != NULL) {
+                free(state_data.from);
+                state_data.from = NULL;
+            }
+            state_data.from = strdup(ad->saved_img_path);
 
-				if (state_data.to[index] != NULL) {
-					free(state_data.to[index]);
-					state_data.to[index] = NULL;
-				}
-				state_data.to[index] = strdup(filepath);
-				index++;
+            if (state_data.to != NULL) {
+                free(state_data.to);
+                state_data.to = NULL;
+            }
+            state_data.to = strdup(filepath);
 
-				if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
-					WALLPAPERUI_DBG("Gallery image");
-					temp_path[i] = strdup(filepath);
-				} else {
-					WALLPAPERUI_DBG("Default image");
-					temp_path[i] = strdup(ad->saved_img_path[i]);
-				}
-				_set_wallpaper(temp_path[i]);
+            if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
+                WALLPAPERUI_DBG("Gallery image");
+                temp_path = strdup(filepath);
+            } else {
+                WALLPAPERUI_DBG("Default image");
+                temp_path = strdup(ad->saved_img_path);
+            }
+            _set_wallpaper(temp_path);
 
-				strncpy(ad->current_preview_img_path, temp_path[0], MAX_LENGTH_LINE-1);
-				WALLPAPERUI_DBG("current_preview_img_path %s", ad->current_preview_img_path);
-			}
-		}
-		i++;
-	}
+            strncpy(ad->current_preview_img_path, temp_path, MAX_LENGTH_LINE-1);
+            WALLPAPERUI_DBG("current_preview_img_path %s", ad->current_preview_img_path);
+        }
+    }
 
-	i--;
-	while (i >= 0 && temp_path[i]) {
-		free(temp_path[i]);
-		i--;
-	}
-
-	vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_COUNT, index);
+    free(temp_path);
 
 	if (state_data.flag_image_from_gallery) {
 		vconf_set_int(VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE, WALLPAPER_TYPE_GALLERY);
@@ -1076,11 +1010,11 @@ static void _done_to_set_wallpaper()
 		WALLPAPERUI_DBG("Set VCONFKEY_LOCKSCREEN_WALLPAPER_TYPE = WALLPAPER_TYPE_DEFAULT");
 	}
 
-	WALLPAPERUI_DBG("from[%d] : %s", 0, state_data.from[0]);
+	WALLPAPERUI_DBG("from[%d] : %s", 0, state_data.from);
 
 	if (ad->preview_image_type == WALLPAPER_TYPE_GALLERY) {
 		WALLPAPERUI_DBG("SCALE start!");
-		_lockscreen_gallery_scale_job_maker(480, 800, 0);
+		_lockscreen_gallery_scale_job_maker(480, 800);
 	} else {
 		_lockscreen_gallery_destroy_func();
 	}
